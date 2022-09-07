@@ -17,10 +17,15 @@ output :
 using namespace std;
 
 int main(){
+
+//   initialize 
+  
     char name[60];
     string month;
     int date,year;
     long int phone;
+
+//   input 
 
     cin >> name;
     cin >> month;
@@ -28,6 +33,7 @@ int main(){
     cin>>year;
     cin >> phone;
 
+// output 
 
     cout<<"********************"<<endl;
     cout << "Name : "<<name<<endl;
