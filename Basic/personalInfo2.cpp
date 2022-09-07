@@ -29,10 +29,10 @@ int main(){
     cin >> phone;
 
 
-
+    cout<<"********************"<<endl;
     cout << "Name : "<<name<<endl;
-    cout << "DOB    : August 03, 1994"<<endl;
-    cout << "Mobile : 01816910886"<<endl;
+    cout << "DOB    : "<<month<<" "<<date<<" "<<year<<endl;
+    cout << "Mobile : "<<phone<<endl;
 
 return 0;
 }

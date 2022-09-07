@@ -1,7 +1,7 @@
 /*
 problem Name : Print your name, date of birth, and mobile number
 
-input : 
+input : yes 
 
 output :
         Name   : Alexandra Abramov  
@@ -11,15 +11,28 @@ output :
 */
 
 
-// Solution 1: simple print function 
+// Solution 1: simple print function with input 
 
 #include<bits/stdc++.h>
 using namespace std;
 
 int main(){
-    cout << "Name : Golam Hakkani Mim"<<endl;
-    cout << "DOB    : August 03, 1994"<<endl;
-    cout << "Mobile : 01816910886"<<endl;
+    char name[60];
+    string month;
+    int date,year;
+    long int phone;
+
+    cin >> name;
+    cin >> month;
+    cin >> date;
+    cin>>year;
+    cin >> phone;
+
+
+
+    cout << "Name : "<<name<<endl;
+    cout << "DOB    : "<<month<<" "<<date<<" "<<year<<endl;
+    cout << "Mobile : "<<phone<<endl;
 
 return 0;
 }
