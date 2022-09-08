@@ -1,3 +1,16 @@
+/*
+problem Name : Print your name, date of birth, and mobile number
+
+input : 
+
+output :
+        Name   : Alexandra Abramov  
+        DOB    : July 14, 1975  
+        Mobile : 99-9999999999
+
+*/
+
+
 #include<iostream>
 using namespace std;
 struct personalinfo
@@ -35,7 +48,8 @@ int main(){
  cout<<"DOB :"<< pInfo.month<<" "<<pInfo.date<<" "<<pInfo.year<<endl;
  cout<<"Phone :"<<pInfo.phone<<endl;
 
-cout<<endl;
+cout<<endl;  // show the data in the another input line 
+
  // print the personal informations 2 
  cout<<"Name :"<<pInfo2.name<<endl;
  cout<<"DOB :"<< pInfo2.month<<" "<<pInfo2.date<<" "<<pInfo2.year<<endl;
