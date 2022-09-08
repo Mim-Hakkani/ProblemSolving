@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<iostream>
 // Create a structure called myStructure
 struct myStructure {
   int myNum;
