@@ -4,17 +4,21 @@ using namespace std;
 
 int main(){
 
-//   initialize 
+//   initialize
+char char1 ='L';
+char char2 ="M";
+char char3 ="S";
 
-cout<<"L"<<" "<<"M"<<" "<<"S"<<endl;
-cout<<"S"<<" "<<"M"<<" "<<"L"<<endl;
+
+
 
 //   input 
 
 
 
 // output 
-
+cout<<char1<<" "<<char2<<" "<<char3<<endl;
+cout<<char3<<" "<<char2<<" "<<char1<<endl;
    
 return 0;
 }
