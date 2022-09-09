@@ -17,16 +17,18 @@ int main(){
  float area , perimeter ;
  int radius;
 
-//  const float PI = 3.14156;
+ const float PI = 3.14156;
 
  cout<<"Enter the radious :: ";
-//  cin>>radius;
+ cin>>radius;
 
-//  area = (4/3)*PI*radius*radius;
-//  cout<<"Area Of Circle is :: "<<area;
+ area = PI*radius*radius;
+ cout<<"Area Of Circle is :: "<<area<<endl;;
+
+ perimeter = 2 * PI * radius;
+
+ cout << "perimer of Circle is :: "<<perimeter<<endl;;
 
 
-cin >> radius;
-cout<<radius;
 
 }
