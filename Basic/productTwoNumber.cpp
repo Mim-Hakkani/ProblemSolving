@@ -24,7 +24,7 @@ int main(){
  
     // output shows 
 
-    cout<<"Sum of the above two integers = "<<num1*num2<<endl;
+    cout<<"product of the above two integers = "<<num1*num2<<endl;
 
     return 0;
 }
