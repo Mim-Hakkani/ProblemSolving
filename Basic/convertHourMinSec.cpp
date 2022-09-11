@@ -29,7 +29,7 @@ int main(){
    remaing = sec-(3600*hour);
    min = remaing/60;
    remaing = sec - (min*60) - (3600*hour);
-   cout<<"Hour : "<<hour<<endl<<"Minutes : "<<min<<endl<<"Seconds :"<<remaing;
+   cout<<"Hour : "<<hour<<endl<<"Minutes : "<<min<<endl<<"Seconds :"<<remaing<<endl;
 
 
 //    cout<<a1<<endl<<remaing;

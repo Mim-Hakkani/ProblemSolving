@@ -22,14 +22,13 @@ There are:
 using namespace std;
 int main(){
     
-   int time,hour,min,sec,remaing;
-   cin>>sec;
- //    cout<<sec<<endl;
-   hour = sec/3600;
-   remaing = sec-(3600*hour);
-   min = remaing/60;
-   remaing = sec - (min*60) - (3600*hour);
-   cout<<"Hour : "<<hour<<endl<<"Minutes : "<<min<<endl<<"Seconds :"<<remaing;
+   int amount,a1,a2,remaing;
+   cin>>amount;
+   a1 = amount/100; // 3
+   remaing = amount%100;  // 75
+    a2 = remaing /50; //1
+    cout<<a2;
+   remaing =amount -(a2*remaing);
 
 
 //    cout<<a1<<endl<<remaing;
