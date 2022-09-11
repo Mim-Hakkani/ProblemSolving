@@ -24,10 +24,6 @@ int main(){
 
    cout<<year<<"Years(s)"<<endl<<month<<"Month(s)"<<endl<<remaing<<"Days"<<endl;
 
-
-
-//    cout<<a1<<endl<<remaing;
-
      return 0;
 
 }

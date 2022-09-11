@@ -1,19 +1,11 @@
 /*
 problem name : 
- Write a C program to read an amount (integer value) and break the amount into smallest possible number of bank notes.
-
+  Write a C program to convert a given integer (in seconds) to hours, minutes and seconds. Go to the editor
 Test Data :
-Input the amount: 375
-
+Input seconds: 25300
 Expected Output:
 There are:
-3 Note(s) of 100.00
-1 Note(s) of 50.00
-1 Note(s) of 20.00
-0 Note(s) of 10.00
-1 Note(s) of 5.00
-0 Note(s) of 2.00
-0 Note(s) of 1.00
+H:M:S - 7:1:40
 
 */
 
