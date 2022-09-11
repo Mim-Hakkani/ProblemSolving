@@ -26,18 +26,33 @@ Sum of all odd values: 46
 using namespace std;
 int main(){
     
-   int num[5];
+   int num[5] = {1, 2 ,3, 4, 5};
    int sum =0;
-   cout<<"Enter The Number ::";
+  //  cout<<"Enter The Number ::";
   
    
-   for(int i =0 ;i<5 ;i++){
-     cin>>num[i];
+  //  for(int i =0 ;i<5 ;i++){
+  //    cin>>num[i];
 
-     if(num[i]&1==1){
-      sum += num[i];
+     
+  //  }
+
+  if(num[0]&1==1){
+      sum += num[0];
      }
-   }
+
+     if(num[1]&1==1){
+      sum += num[1];
+     }
+     if(num[2]&1==1){
+      sum += num[2];
+     }
+     if(num[3]&1==1){
+      sum += num[3];
+     }
+     if(num[4]&1==1){
+      sum += num[4];
+     }
    
    cout<<"Summation of Total Odd Number is :: "<<sum<<endl;
 
