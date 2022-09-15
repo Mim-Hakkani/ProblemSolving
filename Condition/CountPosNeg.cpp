@@ -22,7 +22,8 @@ int main(){
       else oddcount++;
  }
 
- cout<<"Even Count "<<evencount<<endl<<"Odd Count "<<oddcount<<endl;
+ cout<<"Positive Count "<<evencount<<endl<<"Negative Count "<<oddcount<<endl;
 
+return 0;
     
 }
