@@ -17,6 +17,6 @@ int main(){
   cout<<"Second Number :";
   cin>>number2;
 
-  if(number2%number==0) cout<<"Multiplied !!";
-  else cout<<"Not Multiplied!";
+  if(number2%number==0) cout<<"Multiplied !!"<<endl;
+  else cout<<"Not Multiplied!"<<endl;;
 }

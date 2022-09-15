@@ -1,3 +1,13 @@
+/*
+ Write a C program that reads an integer and check the specified range where it belongs. Print an error message if the number is negative and greater than 80.
+
+Test Data :
+Input an integer: 15
+Expected Output:
+Range [0, 20]
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
