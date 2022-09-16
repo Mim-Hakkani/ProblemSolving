@@ -27,7 +27,7 @@ int main(){
     
  }
 
- cout<<"Positive Count "<<evencount<<endl<<"Summation is :"<<sum<<endl;
+ cout<<"Positive Count "<<evencount<<endl<<"Summation is done:"<<sum<<endl;
  avg = (float) sum/evencount;
  printf("Average is : %0.2lf\n",avg);
 
