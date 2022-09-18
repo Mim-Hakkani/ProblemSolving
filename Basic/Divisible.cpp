@@ -20,7 +20,7 @@ int main(){
 
 if(b!=0){
     c= (float) a/  (float) b;
-    cout<<c<<endl;
+    
     if(c) cout<<"Division possible : "<<c<<endl;
     else cout<<"Division Not possible"<<endl;
 }
