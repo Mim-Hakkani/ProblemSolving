@@ -17,8 +17,7 @@ int main(){
     cout<<"Number of line ";
     cin>>number;
 
-    for(int i=1;i<=number*3;i++){
-        
+    for(int i=1;i<=number*3;i++){  
         cout<<i<<" ";
         if(i%3==0) cout<<endl;
     }
