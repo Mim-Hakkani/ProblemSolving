@@ -27,7 +27,7 @@ int main(){
         }
         }
    float avg = (float) sum / (float) count;
-    printf("Average Markes : %0.2lf",avg);
+    printf("Average Markes : %0.2lf\n",avg);
 
     }
 
