@@ -15,7 +15,7 @@ correctpassWord = 1234;
  
    else {
     cout<<"Wrong Password"<<endl;
-    // cin>>pass;
+    cin>>pass;
    }
  }
     // return 0;
