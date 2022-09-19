@@ -24,6 +24,7 @@ using namespace std;
 
 int main(){
 int a[5],j;
+cout<<"Input the 5 members of the array:";
 for (int i = 0; i < 5; i++)
 {
  cin>>a[i];

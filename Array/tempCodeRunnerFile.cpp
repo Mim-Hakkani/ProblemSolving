@@ -24,17 +24,16 @@ using namespace std;
 
 int main(){
 int a[5],j;
+cout<<"Input the 5 members of the array:";
 for (int i = 0; i < 5; i++)
 {
-    cin>>a[i];
+ cin>>a[i];
 }
  
-
  for (int i = 4; i >=0; i--)
 {
     cout<<"n["<<i<<"]"<<a[i]<<"\n";
 }
-
 
 return 0;
 }
