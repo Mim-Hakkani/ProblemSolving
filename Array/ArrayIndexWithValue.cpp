@@ -17,7 +17,6 @@ n[3] = 65
 n[4] = 15
 */
 
-
 #include<iostream>
 using namespace std ;
 int main(){
@@ -39,6 +38,5 @@ int main(){
             cout<<"n["<<count++<<"] = "<<elements[i] <<"\n";
         }
     }
-    
     
 }
