@@ -15,7 +15,7 @@ int main(){
     for(int i = 3;i<=7;i+=2){
           j = j*2; 
          sum += (float) i/j ;
-          cout<<i << " " << j <<endl;
+        //   cout<<i << " " << j <<endl;
           
 
     }
