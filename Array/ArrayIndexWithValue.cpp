@@ -18,7 +18,7 @@ n[4] = 15
 */
 
 #include<iostream>
-using namespace std ;
+using namespace std;
 int main(){
     int n,elements[7],count=0;
     
