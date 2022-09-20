@@ -1,3 +1,5 @@
+   // fibonacci Series is :: 0 1  1 2 3 5 8 13 21 ...
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -6,7 +8,6 @@ int main(){
   cout<<"Enter num range :";
   cin>>range;
   
-   // 0 1  1 2 3 5 8 
  cout<<first<<" "<<second<<" ";
    for(int i=3;i<=range;i++){
     total = first + second ; 
