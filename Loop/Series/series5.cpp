@@ -16,7 +16,7 @@ int main(){
     }
 
 
-    cout<<"Series is : 1.2+2.4+3.6+.....+ "<<i-1<<"."<<j-1<<endl;
-    // cout<<"Summation is : 1.2+2.3+3.4+.....+ ="<<sum<<endl;
+    cout<<"Series is : 1.2+2.4+3.6+.....+ "<<i-1<<"."<<j-2<<endl;
+    cout<<"Summation is : 1.2+2.4+3.6+.....+ ="<<sum<<endl;
     return 0;
 }
