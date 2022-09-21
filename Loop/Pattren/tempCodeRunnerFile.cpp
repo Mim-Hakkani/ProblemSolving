@@ -29,7 +29,7 @@ for(i=1;i<=n;i++){
     // for show star 
     for(int k = 1;k<=i;k++)
     {
-        cout<<"*" ;
+        cout<<" *" ;
     }
 
     cout<<"\n";
