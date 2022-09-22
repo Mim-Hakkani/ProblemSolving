@@ -31,13 +31,8 @@ for(i=1;i<=n;i++){
     for(int k=i-1;k>=1;k--){
         cout<<k;
     }
-
     cout<<"\n";
-
 }
-
-
-
 
 cout<<"\n";
 }
