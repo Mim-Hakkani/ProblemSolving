@@ -29,10 +29,7 @@ int main(){
         if(avg[i+1]>max){
             max = avg[i+1];
         }
-         if(avg[i+1]<min){
-            min = avg[i+1];
-            cout<<"Lase Position Marks is : "<<min<<"\n";
-         }
+    
         cout<<i+1<<".Average Result is : "<<avg[i]<<"\n";
 
         
