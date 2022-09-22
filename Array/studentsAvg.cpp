@@ -31,12 +31,9 @@ int main(){
         }
     
         cout<<i+1<<".Average Result is : "<<avg[i]<<"\n";
-
         
     }
 
 cout<<"First Position Marks is : "<<max<<"\n";
-
-
 
 }
