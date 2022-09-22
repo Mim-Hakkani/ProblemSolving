@@ -25,8 +25,7 @@ for(i=1;i<=n;i++){
     // for show number 
     for(int k=1;k<=i;k++)
     {
-       cout<<k;
-          
+      cout<<k;         
     }
     for(int k=i-1;k>=1;k--){
         cout<<k;
