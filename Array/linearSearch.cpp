@@ -6,7 +6,7 @@
 using namespace std ;
 
 int main(){
-int number,a[5];
+int number,a[5],i;
 cout<<"Enter numbers of list  : ";
 for(int i=0;i<5;i++){
     cin>>a[i];
@@ -14,11 +14,15 @@ for(int i=0;i<5;i++){
 
 cout<<"Searching Numbers : ";
 cin>>number;
+int pos=-1;
 
-for(int i = 0;i<5;i++)
+for( i = 0;i<5;i++){
+   pos++;
   if(a[i] == number){
-    cout<<"Yes ! Find The Numbers " << number <<endl;
+    cout<<"Yes ! Find The Numbers " << number <<"in Position"<<" "<<pos<<endl;
     break;
   } 
+
+}
 
 }
