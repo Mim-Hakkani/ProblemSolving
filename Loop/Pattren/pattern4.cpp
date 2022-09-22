@@ -2,8 +2,8 @@
 
 Pattern Series :   
 1
-1 2 
-1 2 3  
+2 2 
+3 3 3  
 
 
 */
@@ -22,7 +22,7 @@ for(i=1;i<=n;i++){
     // for show number 
     for(int k = 1;k<=i;k++)
     {
-        cout<<k<<" ";
+        cout<<i<<" ";
     }
 
     cout<<"\n";
