@@ -1,10 +1,11 @@
 /*
 
 Pattern Series :   
-1
-2 4
-3 6 9
-4 8 12 16 
+ * * * * 
+ *     *
+ *     *
+ * * * *
+
 
 */
 
@@ -20,12 +21,16 @@ cin>>n;
 for(i=1;i<=n;i++){
 
 
-
     // for show number 
-    for(int k=1;k<=i;k++)
+    for(int k=1;k<=n;k++)
     {
-
-        printf("%d ",k*i);
+       if(i==k || i+k == n+1){
+        printf("* ");
+       }
+       else{
+        cout<<" ";
+       }
+        
     }
 
     cout<<"\n";
