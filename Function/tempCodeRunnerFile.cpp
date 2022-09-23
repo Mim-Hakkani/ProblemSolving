@@ -1,36 +1,37 @@
 /*
-problem Name : Print your name, date of birth, and mobile number
-
-input : 
-
-output :
-        Name   : Alexandra Abramov  
-        DOB    : July 14, 1975  
-        Mobile : 99-9999999999
+44. Write a C program to calculate the average marks of mathematics of some students. Input 0 (excluding to calculate the average) or negative value to terminate the input process. Go to the editor
+Test Data :
+Input Mathematics marks (0 to terminate): 10
+15
+20
+25
+0
+Expected Output:
+Average marks in Mathematics: 17.50
 
 */
 
-
 #include<iostream>
+#include<stdio.h>
 using namespace std;
-
-void personalInfo(string name , string month, int date ,int year, long int phone){
-
- // print the personal informations 2 
- cout<<"Name :"<<name<<endl;
- cout<<"DOB :"<<month<<" "<<date<<" "<<year<<endl;
- cout<<"Phone :"<<phone<<endl;
-
- cout<<endl;
-}
 int main(){
+    int number,sum=0,count=0,num;
+
+        while(1){
+            cin>>number;
+            if(number== 0 || number <0) break;
+
+        else{
+            count++;
+            sum = sum + number; 
+        }
+        }
+   float avg = (float) sum / (float) count;
+    printf("Average Markes : %0.2lf",avg);
+
+    }
 
 
-personalInfo("Ariful islam","January",25,2005,910886);
+    
 
-personalInfo("Hakkani Mim","february",12,1987,5967886);
 
-personalInfo("Najmul","March",11,1917,187582);
-
- 
-}

@@ -17,7 +17,7 @@ Position: 5
 using namespace std;
 int main()
 {
-    int numbers[5],pos;
+    int numbers[5],pos=0;
     for(int i=0;i<=4;i++){
         cin>>numbers[i];   
     }
@@ -25,12 +25,15 @@ int main()
     int max = numbers[0];
 
     for(int i=1;i<=4;i++){
+       pos++;
          if(max<numbers[i]){
           max = numbers[i];
          }  
     }
-    cout<<"Maximum Number is : "<<max;
+    cout<<"Maximum Number is : "<<max<<endl;
+    cout<<"Position of maximum number is : "<<pos<<endl;
     cout<<endl;
+    
 
 
 }
