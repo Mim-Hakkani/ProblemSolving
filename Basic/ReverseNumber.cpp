@@ -22,7 +22,7 @@ int main (){
        num = value;
        
        
-      cout<<reminder<<endl ;
+      cout<<reminder;
        if(num<=0){
          break;
        }

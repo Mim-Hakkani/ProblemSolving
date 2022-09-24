@@ -20,8 +20,7 @@ int main (){
        value =  num/10 ;
        reminder =num%10;
        num = value;
-       count++;
-       
+    
        cout<<reminder;
        if(num<=0){
          break;
