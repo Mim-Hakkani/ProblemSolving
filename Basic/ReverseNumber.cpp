@@ -11,7 +11,7 @@ The reverse of the said number = 432
 #include<bits/stdc++.h>
 using namespace std;
 int main (){
-    int num,temp,reminder,value;
+    int num,count=0,reminder,value;
     cout<<"Main Number : ";
     cin>>num;
 
@@ -20,6 +20,7 @@ int main (){
        value =  num/10 ;
        reminder =num%10;
        num = value;
+       
        
       cout<<reminder<<endl ;
        if(num<=0){
