@@ -14,7 +14,6 @@ int main(){
     // find the maximum 
 
      max = a[0];
-     cout<<"max"<<a[0]<<endl;
     for( i =1;i<4;i++){
         if(max<a[i]){
             max = a[i];
@@ -28,7 +27,6 @@ int main(){
    
 
      min=a[0];
-     cout<<"min"<<min<<endl;
      for(int i =1;i<4;i++){
         if(a[i]<min){
             min = a[i];
