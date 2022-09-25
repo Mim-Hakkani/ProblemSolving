@@ -11,22 +11,17 @@ The reverse of the said number = 432
 #include<bits/stdc++.h>
 using namespace std;
 int main (){
-    int num,count=0,reminder,value,reverse;
+    int num,reminder=0,value,reverse;
     cout<<"Main Number : ";
-    cin>>num;
+    cin>>num; // 155
 
-    while(1){
-
-       value =  num/10 ;
-       reminder =num%10;
-       num = value;
-    
-       cout<<reminder;
-       if(num<=0){
-         break;
-       }
-
+    while(num>=1){
        
+       value =num%10;  // 5  5 1
+       reminder = reminder*10+value;  // 5 55 551
+       num = num/10 ; // 15 1 0
+
+       cout<<"value"<< value << "reminder" << reminder << "Number" <<num<<endl;
        }
 
        
