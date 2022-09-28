@@ -13,7 +13,7 @@ int main(){
     int a,b;
     cout<<"Enter Two numbers : ";
     cin>>a>>b;
-    if(a==b) cout<<"Two Numbers are equal";
-    else cout<<"They are Not Equal";
+    if(a==b) cout<<"Two Numbers are equal"<<endl;
+    else cout<<"They are Not Equal"<<endl;
     return 0;
 }
