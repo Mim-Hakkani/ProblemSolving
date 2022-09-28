@@ -19,9 +19,5 @@ int main(){
     if( centimeter<150){ cout<<"He is a Drawf Person"<<"\n";}
     else if(centimeter>150 || centimeter<250) {cout<<"He is a Taller Person"<<"\n";}
     else {cout<<"He is invalid Person"<<"\n";}
-
-
-
-
     return 0;
 }
