@@ -25,7 +25,7 @@ int main (){
 
     // triangle condition check
 
-   if(a+b+c<180 && (a+b>c || b+c >a || c+a>b)){
+   if(a+b+c<180 && (a+b>c && b+c >a && c+a>b)){
 
     if(a!=b && b!=c && a!=c) cout<<"Scalene triangle"<<"\n";
 
