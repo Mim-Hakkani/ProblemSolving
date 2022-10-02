@@ -1,11 +1,9 @@
 /*
- Write a program in C to read any day number in integer and display day name in the word. ]
-
+ Write a program in C to read any digit, display in the word. 
 Test Data :
 4
-
 Expected Output :
-Thursday
+Four
 
 
 */
