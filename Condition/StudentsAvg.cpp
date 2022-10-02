@@ -44,8 +44,21 @@ int main(){
     total = phy +chem+math;
     avg = total/3;
 
+    // personal information 
+
+    cout<<"Name : "<<name<<endl;
+    cout<<"Roll : "<<roll<<endl;
+
+    // subject wise marks 
+    cout<<"Physics : "<<phy<<endl;
+    cout<<"Chemistry : "<<chem<<endl;
+    cout<<"Math : "<<math<<endl;
+    
+    // total and average calculation 
+
     cout<<"Total Marks is : "<<total<<"\n";
     cout<<"Average Marks is : "<<avg<<"\n";
+
     // grade 
 
     if(phy>=33 && chem>=33 && math >=33){
@@ -60,5 +73,5 @@ int main(){
 
     else cout<<"You are Fail ...."<<"\n";
 
-    
+    return 0;
 }
