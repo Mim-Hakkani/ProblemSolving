@@ -13,9 +13,9 @@ int main (){
     char letter ;
     cout<<"Enter The Letter ";
     cin>>letter;
-    if(letter=="h")
+    if(letter=='a' || letter=='e' || letter =='i' || letter=='o' || letter=='u'|| letter=='A' || letter=='E' || letter =='I' || letter=='O' || letter=='U' )
     {
-      cout<<"Vowel letter "<<"\n";
+   cout<<"Vowel letter "<<"\n";
     }
  
 
