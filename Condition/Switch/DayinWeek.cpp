@@ -22,44 +22,33 @@ int main (){
    switch (day)
    {
    case 1:
-    cout<<"one"<<"\n";
+    cout<<"Saterday"<<"\n";
     break;
 
     case 2:
-    cout<<"two"<<"\n";
+    cout<<"Sunday"<<"\n";
     break;
 
     case 3:
-    cout<<"Three"<<"\n";
+    cout<<"Monday"<<"\n";
     break;
 
     case 4:
-    cout<<"Four"<<"\n";
+    cout<<"Tuesday"<<"\n";
     break;
 
     case 5:
-    cout<<"five"<<"\n";
+    cout<<"Wednesday"<<"\n";
     break;
 
     case 6:
-    cout<<"Six"<<"\n";
+    cout<<"Thusday"<<"\n";
     break;
 
 
     case 7:
-    cout<<"seven"<<"\n";
+    cout<<"Friday"<<"\n";
     break;
-
-    case 8:
-    cout<<"eight"<<"\n";
-    break;
-
-    case 9:
-    cout<<"Nine"<<"\n";
-    break;
-
-    
-
    
    default:
    cout<<"Invalid Input";
