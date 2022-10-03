@@ -18,14 +18,14 @@ The Average is : 5.500000
 #include<bits/stdc++.h>
 using namespace std;
 int main (){
-    int sum=0,i;
+    int sum=0,i,a[10];
     float avg;
      // read 10 number of input 
 
    for(i=1;i<=10;i++){
       cout<<"Number"<<i<<" : ";
-        cin>>i;
-        sum = sum+i;
+        cin>>a[i];
+        sum = sum+a[i];
        
     }
 
