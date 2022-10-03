@@ -21,6 +21,6 @@ int main (){
         sum  =sum+i;
     }
 
-    cout<<endl<<"The Sum of Natural Number upto "<<n<< "terms :  "<<sum<<"\n";
+    cout<<endl<<"The Sum of Natural Number upto "<<n<< "terms : "<<sum<<"\n";
     return 0;
 }
