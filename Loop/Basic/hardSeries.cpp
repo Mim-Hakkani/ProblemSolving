@@ -29,10 +29,11 @@ int main(){
       
       if(i%2==0){
         sumEven = sumEven + pow(x,2*i-1) ;
-        cout<<sumEven;
+        cout<<-pow(x,2*i-1)<<"\n";
       }
       else{
         sum = sum+pow(x,2*i-1);
+        cout<<pow(x,2*i-1)<<"\n";
       }
        
        total = sum - sumEven;
