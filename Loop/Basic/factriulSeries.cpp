@@ -28,7 +28,7 @@ int main(){
       
     }
 
-    cout<<"Summation is : "<<sum<<"\n";
+    cout<<"Summation is : "<<sum+1<<"\n";
  
  return 0;
 
