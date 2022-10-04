@@ -11,6 +11,7 @@ The values of the series:
 -128
 512
 The sum = 410
+
 */
 
 #include<bits/stdc++.h>
