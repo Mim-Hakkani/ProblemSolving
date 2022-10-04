@@ -13,17 +13,18 @@ The sum of the saries = 111105
 using namespace std ;
 
 int main(){
-    int i,j,n;
+    int i,j,n,sum=0,t=9,total=0;
 
     cout<<"Enter The Ranges : ";
     cin>>n;
 
     for(int i=1;i<=n;i++){
-        for(j=1;j<=i;j++){
-            cout<<9;
-        }
-
-        cout<<" ";
+       sum = sum +t;
+       cout<<sum<<" ";
+       total = total +sum;
+       sum = 10*sum;
     }
+
+    cout<<"Sum of The Series is : "<<total<<"\n";
 
 }
