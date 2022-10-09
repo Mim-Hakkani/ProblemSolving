@@ -136,16 +136,60 @@ step 3 :
 
 step 4 :  See The another solution 
 
-   i) squre root of number
-   ii) then floor the number 
+   i)  squre root of number
+   ii)  then floor the number 
    iii) check the reminder from 2 to n where  n = floor(sqrt(number))
-   iv)
-
-
+   iv)  then calculate the divisor 
 
 
   72 divisor is  :  1 2 3 4 6 8 9 12 18 24 36 72 
 
   132 divisor is :1 2 3 4 6 11 12 22 33 44 66 132
+
+*/
+
+/*
+Build a sieve of Eratosthenes to determine if 19 is a prime number. Show the state of the table at each step.
+
+answer : we khonw that 19 is the prime number because it is divisible by 19 and 1 .
+
+table :
+
+ step 1 : draw a table from 2 to 19
+ step 2:  2 is the number and  delete its Multiple such as 4 6 8 10 12 14 16 18 
+ step 3 : same calculation in 3 the  remaining number is 9 15 deleted 
+
+ step 4 : the remaing prime number is : 2,3,5,7,11,13,17,19
+ step 5:  by calculating Eratosthenes laws we get 19 is the prime number 
+
+************************************
+
+ prime number ranges from 50 to 100:
+
+ A prime number is a whole number greater than 1 with only two factors – themselves and 1.A prime number cannot be divided by any other positive integers without leaving a remainder, decimal or fraction.
+
+ ranges from 50-100 is :
+ 
+ P =  53, 59, 61, 67, 71, 73, 79, 83, 89, 97  
+
+
+
+ ****************************
+ 
+ binary Number is the number that represents the 0 or 1. it's base is 2 . 
+
+ let p = (1010)2 is the binary number 
+
+ if convert the binary number to Deciamal number then : 
+
+ 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 8 + 0 + 2 +0  = 10 is the decimal number 
+
+ if convert decimal to binary then : 
+  10/2 = 5 - 0
+  5/2  = 2 - 1 
+  2/2  = 1 - 0 
+  1/2  = 0 - 1
+
+  then go to the LSB to MSB  ,, in this case we get (1010)2 
 
 */

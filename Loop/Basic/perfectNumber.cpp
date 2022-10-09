@@ -41,7 +41,7 @@ cout<<"Divisor Number is : ";
     cout<<"Not Perfect"<<"\n";
    }
      
-     
+ z
  return 0;
 
 }

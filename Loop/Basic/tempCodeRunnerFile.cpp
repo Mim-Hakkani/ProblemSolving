@@ -1,33 +1,49 @@
 /*
-47. Write a C program that reads an integer and find all its divisor. Go to the editor
-Test Data:
-Input an integer: 45
-Expected Output:
-All the divisor of 45 are:
-1
-3
-5
-9
-15
-45
+Write a c program to check whether a given number is a perfect number or not. 
+Test Data :
+Input the number : 56
+Expected Output :
+The positive divisor : 1 2 4 7 8 14 28
+The sum of the divisor is : 64
+So, the number is not perfect.
+
 */
 
-#include<iostream>
-#include<math.h>
+
+#include<bits/stdc++.h>
 using namespace std ;
+
 int main(){
-    int n;
-    cout<<"Enter The Number " ;
-    cin>>n;
+    int  x,n,sum=0,total;
 
-  cout<<sqrt(n)<<endl;
-  
-cout<<"All the divisor of 45 are: ";
-    for(int i = 2 ;i<=n/2; i++){
-        if(n%i==0){
-            cout<<i<<" ";
+    cout<<"Input number of Values x : ";
+    cin>>x;
+
+cout<<"Divisor Number is : ";
+    for(int i=1;i<=x;i++){
+      
+     if(x%i==0){
+        // cout<<i<<" ";
+        sum = sum+i;
+     }
+       if(x==sum){
+            cout<<"aa : "<<i<<endl;
         }
-    }
 
-    cout<<"\n";
+    }
+    cout<<endl;
+    // cout<<"Sum of Divisor is : "<<sum<<"\n";
+  
+   // check perfect 
+
+   if(sum == x){
+    // cout<<"Perfect Number "<<"\n";
+   }
+   else{
+    // cout<<"Not Perfect"<<"\n";
+   }
+     
+     
+ return 0;
+
 }
