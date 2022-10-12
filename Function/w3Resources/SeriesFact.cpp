@@ -13,7 +13,7 @@ using namespace std ;
 // function declaration 
 
 int FactSeries(int number){
-  // cout<<"Number is : "<<number is the number;
+  // cout<<"Number is : "<<number is the vai ;
   int fact=1 ;
   int sum = 0;
 
