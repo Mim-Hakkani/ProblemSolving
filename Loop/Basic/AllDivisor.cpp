@@ -13,18 +13,21 @@ All the divisor of 45 are:
 */
 
 #include<iostream>
+#include<math.h>
 using namespace std ;
 int main(){
     int n;
     cout<<"Enter The Number " ;
     cin>>n;
 
+  cout<<sqrt(n)<<endl;
+
 cout<<"All the divisor of 45 are: ";
-    for(int i = 1 ;i<=n; i++){
+    for(int i = 2 ;i<=n/2; i++){
         if(n%i==0){
             cout<<i<<" ";
         }
     }
-
+redoy404
     cout<<"\n";
 }

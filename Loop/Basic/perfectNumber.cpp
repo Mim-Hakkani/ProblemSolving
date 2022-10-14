@@ -20,30 +20,28 @@ int main(){
     cin>>x;
 
 cout<<"Divisor Number is : ";
-    for(int i=1;i<=x;i++){
+    for(int i=1;i<=x/2;i++){
       
      if(x%i==0){
-        // cout<<i<<" ";
+        cout<<i<<" ";
         sum = sum+i;
+
      }
-       if(x==sum){
-            cout<<"aa : "<<i<<endl;
-        }
 
     }
     cout<<endl;
-    // cout<<"Sum of Divisor is : "<<sum<<"\n";
+    cout<<"Sum of Divisor is : "<<sum<<"\n";
   
    // check perfect 
 
    if(sum == x){
-    // cout<<"Perfect Number "<<"\n";
+    cout<<"Perfect Number "<<"\n";
    }
    else{
-    // cout<<"Not Perfect"<<"\n";
+    cout<<"Not Perfect"<<"\n";
    }
      
-     
+ z
  return 0;
 
 }

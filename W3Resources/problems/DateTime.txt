@@ -74,6 +74,9 @@ Expected Output :
 
 Sun Jan 01 00:00:00 1900
 
+some changes 
+
+
 
 10. Write a program in C to show the start of the epoch. 
 Note : epoch means the beginning of a period in the history of someone.
