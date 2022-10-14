@@ -1,5 +1,5 @@
 /*
-23. Write a C program that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the said values are valid. Go to the editor
+23. Write a C program that reads three floating values and check if it is possible to make a triangle with them. Also calculate the perimeter of the triangle if the said values are valid. 
 Test Data :
 Input the first number: 25
 Input the second number: 15

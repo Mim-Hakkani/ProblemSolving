@@ -1,5 +1,5 @@
 /*
-39. Write a C program to calculate the sum of all number not divisible by 17 between two given integer numbers. Go to the editor
+39. Write a C program to calculate the sum of all number not divisible by 17 between two given integer numbers. 
 Test Data :
 Input the first integer: 50 Input the second integer: 99
 Expected Output:

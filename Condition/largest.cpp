@@ -1,5 +1,5 @@
 /*
-8. Write a C program to find the largest of three numbers. Go to the editor
+8. Write a C program to find the largest of three numbers. 
 Test Data : 12 25 52
 Expected Output :
 1st Number = 12,        2nd Number = 25,        3rd Number = 52

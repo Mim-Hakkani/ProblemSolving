@@ -1,5 +1,5 @@
 /*
-42. Write a C program to print a number, it’s square and cube in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user. Go to the editor
+42. Write a C program to print a number, it’s square and cube in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user. 
 Test Data :
 Input number of lines: 5
 Expected Output:

@@ -1,7 +1,7 @@
 
 /*
 
-problem Name : Write a C program to get the C version you are using. Go to the editor
+problem Name : Write a C program to get the C version you are using. 
 
 input : 
 

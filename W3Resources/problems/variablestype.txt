@@ -1,4 +1,4 @@
-1. Write a C program which will invoke the command processor to execute a command. Go to the editor
+1. Write a C program which will invoke the command processor to execute a command. 
 
 Expected Output :
 
@@ -13,31 +13,31 @@ file.txt
 logging_example.out                                                     
 test.txt                                                                
 Returned value is: 0.
-Click me to see the solution
 
-2. Write a C program to convert a string to an unsigned long integer. Go to the editor
+
+2. Write a C program to convert a string to an unsigned long integer. 
 
 Test Data and Expected Output :
 
 Input an unsigned number: 25                                            
 Output: 25
-Click me to see the solution
 
-3. Write a C program to convert a string to a long integer. Go to the editor
+
+3. Write a C program to convert a string to a long integer. 
 
 Expected Output :
 
 In decimals: 2016, 4235440, -3624422, 5947391.
-Click me to see the solution
 
-4. Write a C program to convert a string to a double. Go to the editor
+
+4. Write a C program to convert a string to a double. 
 
 Expected Output :
 
 Output= 4.00
-Click me to see the solution
 
-5. Write a C program to generate a random number. Go to the editor
+
+5. Write a C program to generate a random number. 
 
 Test Data and Expected Output :
 
@@ -46,9 +46,9 @@ The number is higher
                                                                         
 Guess the number (1 to 10): 7                                           
 That is correct!              
-Click me to see the solution
 
-6. Write a C program to sort the elements of an array. Go to the editor
+
+6. Write a C program to sort the elements of an array. 
 
 Test Data and Expected Output :
 
@@ -66,18 +66,18 @@ After sorting the array are :
 35                                                                      
 42                                                                      
 82                    
-Click me to see the solution
 
-7. Write a C program to integral quotient and remainder of a division. Go to the editor
+
+7. Write a C program to integral quotient and remainder of a division. 
 
 Test Data and Expected Output :
 
 Input numerator : 2500                                                 
  Input denominator : 235                                                
  quotient =  10, remainder = 150                                                                  
-Click me to see the solution
 
-8. Write a C program to return the absolute value of a long integer. Go to the editor
+
+8. Write a C program to return the absolute value of a long integer. 
 
 Test Data and Expected Output :
 
@@ -85,26 +85,26 @@ Input 1st number (positive or negative) : 25
  Input 2nd number (positive or negative) : -125                         
  The absolute value of 1st number is : 25                                           
  The absolute value of 2nd number is : 125           
-Click me to see the solution
 
-9. Write a C program to get the environment string. Go to the editor
+
+9. Write a C program to get the environment string. 
 
 Expected Output :
 
 The set path is: /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 :/bin:/usr/games:/usr/local/games           
-Click me to see the solution
 
-10. Write a C program to return the quotient and remainder of a division. Go to the editor
+
+10. Write a C program to return the quotient and remainder of a division. 
 
 Test Data and Expected Output :
 
 Input numerator : 2000                                                 
  Input denominator : 235                                                
  quotient =  8, remainder = 120.          
-Click me to see the solution
 
-11. Write a C program to allocate a block of memory for an array. Go to the editor
+
+11. Write a C program to allocate a block of memory for an array. 
 
 Test Data and Expected Output :
 
@@ -117,9 +117,9 @@ Input 5 elements in the array :
  element 5 : 40                                                         
  Values entered in the array are :                                      
  25  30  35  20  40           
-Click me to see the solution
 
-12. Write a C program to perform a binary search in an array. Go to the editor
+
+12. Write a C program to perform a binary search in an array. 
 
 Test Data and Expected Output :
 
@@ -132,52 +132,52 @@ element - 4 : 13
 element - 5 : 15                                                        
  Input a value to search : 18                                           
 18 is found in the array.          
-Click me to see the solution
 
-13. Write a C program to convert a string to an integer. Go to the editor
+
+13. Write a C program to convert a string to an integer. 
 
 Test Data and Expected Output :
 
 Input a number : 1972                                                   
 The value Input is 1972.
-Click me to see the solution
 
-14. Write a C program to convert a string to a double. Go to the editor
+
+14. Write a C program to convert a string to a double. 
 
 Test Data and Expected Output :
 
 Input a number : 25                                                                                          
  The original number is : 25.000000                                                                           
  After division by 2 the number is : 12.500000 
-Click me to see the solution
 
-15. Write a C program to set a function that will be executed on termination of a program. Go to the editor
+
+15. Write a C program to set a function that will be executed on termination of a program. 
 
 Expected Output :
 
 This is the message from main function.                                
  Here is the message returning from newFunctionTwo.                     
  Here is the message returning from newFunctionOne.
-Click me to see the solution
 
-16. Write a C program to return the absolute value of an integer. Go to the editor
+
+16. Write a C program to return the absolute value of an integer. 
 
 Test Data and Expected Output :
 
 Input a positive or negative number :-25                               
  The absolute value of the given number is : 25
-Click me to see the solution
 
-17. Write a C program to abort the current process. Go to the editor
+
+17. Write a C program to abort the current process. 
 
 Expected Output :
 
  File does not exist or error, in opening the file.                                                           
 timeout: the monitored command dumped core                                                                    
 Aborted  
-Click me to see the solution
 
-18. Write a C program to demonstrate the working of keyword long. Go to the editor
+
+18. Write a C program to demonstrate the working of keyword long. 
 
 Expected Output :
 

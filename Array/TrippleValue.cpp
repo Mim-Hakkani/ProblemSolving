@@ -1,5 +1,5 @@
 /*
-49. Write a C program to read and print the elements of an array of length 7, before print, put the triple of the previous position starting from the second position of the array. Go to the editor
+49. Write a C program to read and print the elements of an array of length 7, before print, put the triple of the previous position starting from the second position of the array. 
 For example, if the first number is 2, the array numbers must be 2, 6, 18, 54 and 162
 Test Data:
 Input the first number of the array: 5

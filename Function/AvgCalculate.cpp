@@ -1,5 +1,5 @@
 /*
-44. Write a C program to calculate the average marks of mathematics of some students. Input 0 (excluding to calculate the average) or negative value to terminate the input process. Go to the editor
+44. Write a C program to calculate the average marks of mathematics of some students. Input 0 (excluding to calculate the average) or negative value to terminate the input process. 
 Test Data :
 Input Mathematics marks (0 to terminate): 10
 15

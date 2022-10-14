@@ -1,5 +1,5 @@
 /*
-48. Write a C program to read and print the elements of an array of length 7, before print replace every negative number, zero with 100. Go to the editor
+48. Write a C program to read and print the elements of an array of length 7, before print replace every negative number, zero with 100. 
 Test Data:
 Input the 5 members of the array:
 25

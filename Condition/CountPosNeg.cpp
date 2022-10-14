@@ -1,5 +1,5 @@
 /*
-27. Write a C program that read 5 numbers and counts the number of positive numbers and negative numbers. Go to the editor
+27. Write a C program that read 5 numbers and counts the number of positive numbers and negative numbers. 
 Test Data :
 Input the first number: 5
 Input the second number: -4

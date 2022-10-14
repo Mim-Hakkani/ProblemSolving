@@ -1,5 +1,5 @@
 /*
-33. Write a C program that accepts some integers from the user and find the highest value and the input position. Go to the editor
+33. Write a C program that accepts some integers from the user and find the highest value and the input position. 
 Test Data :
 Input 5 integers:
 5

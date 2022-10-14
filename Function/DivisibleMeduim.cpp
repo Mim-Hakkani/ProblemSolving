@@ -1,5 +1,5 @@
 /*
-40. Write a C program to find all numbers which are dividing by 7 and the remainder is equal to 2 or 3 between two given integer numbers. Go to the editor
+40. Write a C program to find all numbers which are dividing by 7 and the remainder is equal to 2 or 3 between two given integer numbers. 
 Test Data :
 Input the first integer: 25
 Input the second integer: 45

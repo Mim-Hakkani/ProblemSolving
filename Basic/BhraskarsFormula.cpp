@@ -1,5 +1,5 @@
 /*
-20. Write a C program to print the roots of Bhaskara’s formula from the given three floating numbers. Display a message if it is not possible to find the roots. Go to the editor
+20. Write a C program to print the roots of Bhaskara’s formula from the given three floating numbers. Display a message if it is not possible to find the roots. 
 Test Data :
 Input the first number(a): 25
 Input the second number(b): 35

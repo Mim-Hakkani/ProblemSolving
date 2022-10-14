@@ -1,5 +1,5 @@
 /*
-50. Write a C program to read an array of length 5 and print the position and value of the array elements of value less than 5. Go to the editor
+50. Write a C program to read an array of length 5 and print the position and value of the array elements of value less than 5. 
 Test Data:
 Input the 5 members of the array:
 15

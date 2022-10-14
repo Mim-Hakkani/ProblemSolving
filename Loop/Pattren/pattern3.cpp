@@ -1,5 +1,5 @@
 /*
-43. Write a C program that reads two integers p and q, print p number of lines in a sequence of 1 to q in a line. Go to the editor
+43. Write a C program that reads two integers p and q, print p number of lines in a sequence of 1 to q in a line. 
 Test Data :
 Input number of lines: 5
 Number of characters in a line: 6
