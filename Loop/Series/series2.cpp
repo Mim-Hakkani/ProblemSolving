@@ -1,6 +1,6 @@
 /*
 
-45. Write a C program to calculate the value of S where S = 1 + 1/2 + 1/3 + … + 1/50. Go to the editor
+45. Write a C program to calculate the value of S where S = 1 + 1/2 + 1/3 + … + 1/50. 
 
 Expected Output:
 Value of S: 4.50

@@ -1,40 +1,40 @@
-1. Write a C program to get the indices of the two numbers of a given array of integers, such that the sum of the two numbers equal to a specific target. Go to the editor
+1. Write a C program to get the indices of the two numbers of a given array of integers, such that the sum of the two numbers equal to a specific target. 
 Expected Output:
 
 Original Array: 4  2  1  5  
 Target Value: 7
 Indices of the two numbers whose sum equal to target value: 7
 1 3
-Click me to see the solution
 
-2. Write a C program to find length of the longest substring of a given string without repeating characters. Go to the editor
+
+2. Write a C program to find length of the longest substring of a given string without repeating characters. 
 Expected Output:
 
  Original String: xyzxyzyy  
  Length of the longest substring without repeating characters: 3
  
-Click me to see the solution
 
-3. Write a C program to find the median of the two given sorted arrays which are not empty. Go to the editor
+
+3. Write a C program to find the median of the two given sorted arrays which are not empty. 
 Expected Output:
 
 Median of the above two sorted arrays is: 10.000000
-Click me to see the solution
 
-4. Write a C program to find the longest palindromic substring of a given string. Maximum length of the given string is 1000. Go to the editor
+
+4. Write a C program to find the longest palindromic substring of a given string. Maximum length of the given string is 1000. 
 Expected Output:
 
 Original String: yxypxst Longest palindromic substring of the said string: yxy
-Click me to see the solution
 
-5. Write a C program to reverse digits of a given a 32-bit signed integer. Go to the editor
+
+5. Write a C program to reverse digits of a given a 32-bit signed integer. 
 Expected Output:
 
 Original integer:          123
 Reverse integer :          321
-Click me to see the solution
 
-6. Write a C program to convert a given integer to roman number. Go to the editor
+
+6. Write a C program to convert a given integer to roman number. 
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 Symbol       Value
@@ -48,9 +48,9 @@ M             1000
 Expected Output:
 Original integer: 12
 Roman number of the said integer: XII
-Click me to see the solution
 
-7. Write a C program to Write a C programming to convert a given roman number to an integer. Go to the editor
+
+7. Write a C program to Write a C programming to convert a given roman number to an integer. 
 
 Roman numerals are represented by seven different symbols: I, V, X, L, C, D and M.
 Symbol       Value
@@ -64,31 +64,31 @@ M             1000
 Expected Output:
  Original Roman number: XIV
 Roman to integer: 14
-Click me to see the solution
 
-8. Write a C program to find all unique triplets in a given array integers whose sum equal to zero. Go to the editor
+
+8. Write a C program to find all unique triplets in a given array integers whose sum equal to zero. 
 Expected Output:
 
 Original Array: -2  0  0  1  1  
 Unique triplets of the said array whose sum equal to zero: -2 1 1
-Click me to see the solution
 
-9. Write a C program to find all unique quadruplets in a given array of integers whose sum equal to zero. Go to the editor
+
+9. Write a C program to find all unique quadruplets in a given array of integers whose sum equal to zero. 
 Expected Output:
 
 Original Array: 0  4  7  0  1  6  6  -3  
 Unique quadruplets  of the said array whose sum equal to 12: 
 0 0 6 6
 0 1 4 7
-Click me to see the solution
 
-10. Write a C program to check if a given string is valid or not, the string contains the characters '(', ')', '{', '}', '[' and ']'. The string is valid if the open brackets must be closed by the same type of brackets and in correct order.Go to the editor
+
+10. Write a C program to check if a given string is valid or not, the string contains the characters '(', ')', '{', '}', '[' and ']'. The string is valid if the open brackets must be closed by the same type of brackets and in correct order.
 Expected Output:
 
 false
-Click me to see the solution
 
-11. Write a C program to generate all combinations of well-formed parentheses from n given pairs of parentheses.Go to the editor
+
+11. Write a C program to generate all combinations of well-formed parentheses from n given pairs of parentheses.
 
    
 Example: 
@@ -145,99 +145,99 @@ Expected Output:
 ()()(())()
 ()()()(())
 ()()()()()
-Click me to see the solution
 
-12. Write a C program to remove the duplicates from a given array of integers. Go to the editor
+
+12. Write a C program to remove the duplicates from a given array of integers. 
 Expected Output:
 
 Original array:
 1 1 2 3 4 4 5 6 6 6 
 After removing duplicates from the above sorted array:
 1 2 3 4 5 6
-Click me to see the solution
 
-13. Write a C program to remove all instances of a given value in a given array of integers and return the length of the new array. Go to the editor
+
+13. Write a C program to remove all instances of a given value in a given array of integers and return the length of the new array. 
 Expected Output:
 
  Original array: 1 1 2 3 4 4 5 6 6 6 
  Size of the new array after removing the value 4: 8
  
-Click me to see the solution
 
-14. Write a C program to find the index of the first occurrence of a given string within another given string. If not found return -1. Go to the editor
+
+14. Write a C program to find the index of the first occurrence of a given string within another given string. If not found return -1. 
 Expected Output:
 
 Main string: w3resource.com
 Substring searched in main string: source
 Starting position of the substring in the main string: 4
-Click me to see the solution
 
-15. Write a C program to divide two given integers without using multiplication, division and mod operator. Return the quotient after dividing. Go to the editor
+
+15. Write a C program to divide two given integers without using multiplication, division and mod operator. Return the quotient after dividing. 
 Expected Output:
 
 Quotient after dividing 15 and 3 : 5
-Click me to see the solution
 
-16. Write a C program to find the length of the longest valid (correct-formed) parentheses substring  of a given string. Go to the editor
+
+16. Write a C program to find the length of the longest valid (correct-formed) parentheses substring  of a given string. 
 Expected Output:
 
 Original Parentheses string: (()))
 Length of longest parentheses: 4
-Click me to see the solution
+
 
 17. The natural numbers below 10 that are multiples of 3 or 7 are 3, 7, 6 and 9. The sum of these multiples is 25.
-Write a C programming to find the sum of all the multiples of 3 or 7 below 100. Go to the editor
+Write a C programming to find the sum of all the multiples of 3 or 7 below 100. 
 Expected Output:
 
 2208
-Click me to see the solution
+
 
 18. In mathematics, the Fibonacci numbers, commonly denoted Fn form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is, and for n > 1. By starting with 1 and 2, the first 10 terms will be: 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, . . .
-Write a C programming to find the sum of the even-valued terms from the terms in the Fibonacci sequence whose values do not exceed one million. Go to the editor
+Write a C programming to find the sum of the even-valued terms from the terms in the Fibonacci sequence whose values do not exceed one million. 
 Expected Output:
 
 10
-Click me to see the solution
+
 
 19. The prime factors of 13195 are 5, 7, 13, 29.
-Write a C programming to find the largest prime factor of the number 438927456?. Go to the editor
+Write a C programming to find the largest prime factor of the number 438927456?. 
 Expected Output:
 
 415651
-Click me to see the solution
+
 
 20. A palindrome is a word, number, phrase, or other sequence of characters which reads the same backward as forward, such as taco cat or madam or racecar or the number 10801. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
-Write a C programming to find the largest palindrome made from the product of two 3-digit numbers. Go to the editor
+Write a C programming to find the largest palindrome made from the product of two 3-digit numbers. 
 Expected Output:
 
 906609
-Click me to see the solution
+
 
 21. 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
-Write a C programming to find the smallest positive number that is evenly divisible by all of the numbers from 1 to 20? Go to the editor
+Write a C programming to find the smallest positive number that is evenly divisible by all of the numbers from 1 to 20? 
 Expected Output:
 
 232792560
-Click me to see the solution
+
 
 22. The sum of the squares of the first ten natural numbers is,
 12 + 22 + ... + 102 = 385
 The square of the sum of the first ten natural numbers is,
 (1 + 2 + ... + 10)2 = 552 = 3025
 Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
-Write a C programming to find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum. Go to the editor
+Write a C programming to find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum. 
 Expected Output:
 
 25164150
-Click me to see the solution
+
 
 23. By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 The first six prime numbers are 2, 3, 5, 7, 11, and 13.
-Write a C programming to get the 1001st prime number? Go to the editor
+Write a C programming to get the 1001st prime number? 
 Expected Output:
 
 7927
-Click me to see the solution
+
 
 24. The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
 73167176531330624919225119674426574742355349194934
@@ -260,30 +260,30 @@ Click me to see the solution
 84580156166097919133875499200524063689912560717606
 05886116467109405077541002256983155200055935729725
 71636269561882670428252483600823257530420752963450.
-Write a C programming to find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product? Go to the editor
+Write a C programming to find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product? 
 Expected Output:
 
 40824
-Click me to see the solution
+
 
 25. A Pythagorean triplet is a set of three natural numbers, x < y < z, for which,
 x2 + y2 = z2
 For example, 32 + 42 = 9 + 16 = 25 = 52.
 There exists exactly one Pythagorean triplet for which x +y + z = 1000.
-Write a C programming to find the product xyz. Go to the editor
+Write a C programming to find the product xyz. 
 Expected Output:
 
 Numbers are: 200, 375, 425 
 Product of x, y, z is : 31875000
-Click me to see the solution
+
 
 26. A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers. A natural number greater than 1 that is not prime is called a composite number. For example, 5 is prime because the only ways of writing it as a product, 1 × 5 or 5 × 1, involve 5 itself. However, 6 is composite because it is the product of two numbers (2 × 3) that are both smaller than 6.
 The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
-Write a C programming to find the sum of all the primes below ten thousand. Go to the editor
+Write a C programming to find the sum of all the primes below ten thousand. 
 Expected Output:
 
 5736396
-Click me to see the solution
+
 
 27. In the 20×20 grid below, four numbers along a diagonal line have been marked in red.
 08 02 22 97 38 15 00 40 00 75 04 05 07 78 52 12 50 77 91 08
@@ -307,41 +307,41 @@ Click me to see the solution
 20 73 35 29 78 31 90 01 74 31 49 71 48 86 81 16 23 57 05 54
 01 70 54 71 83 51 54 69 16 92 33 48 61 43 52 01 89 19 67 48
 The product of these numbers is 26 × 63 × 78 × 14 = 1788696.
-Write a C programming to find the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid. Go to the editor
+Write a C programming to find the greatest product of four adjacent numbers in the same direction (up, down, left, right, or diagonally) in the 20×20 grid. 
 Expected Output:
 
 70600674
-Click me to see the solution
 
-28. Write a C programming to find the first missing positive integer from a given unsorted integer array. Go to the editor
+
+28. Write a C programming to find the first missing positive integer from a given unsorted integer array. 
 Expected Output:
 
 2
-Click me to see the solution
 
-29. Write a C program to find the minimum number of characters that must be inserted into a given string with no whitespace characters to make it a palindrome. Go to the editor
+
+29. Write a C program to find the minimum number of characters that must be inserted into a given string with no whitespace characters to make it a palindrome. 
 Sample Input: pps
 Output: 1
 
-Click me to see the solution
 
-30. Write a C program to create and display all prime numbers in strictly ascending decimal digit order. Go to the editor
+
+30. Write a C program to create and display all prime numbers in strictly ascending decimal digit order. 
 Sample Data: 2, 3, 5, 7, 13, 17, 19, 23, 29, 37, 47, 59, 67, 79,..
-Click me to see the solution
 
-31. Write a C program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. Go to the editor
+
+31. Write a C program to find the type of the progression (arithmetic progression/geometric progression) and the next successive member of a given three successive members of a sequence. 
 Sample Data: 2, 6, 18, 54, ..
-Click me to see the solution
 
-32. Write a C# Sharp program to create and display all prime numbers in strictly descending decimal digit order. Go to the editor
+
+32. Write a C# Sharp program to create and display all prime numbers in strictly descending decimal digit order. 
 Sample Data:
 2, 3, 5, 7, 31, 41, 43, 53, 61, 71, 73, 83, 97, 421, 431.....
-Click me to see the solution
 
-33. Write a C program to generate the attractive numbers up to 100. Go to the editor
-Click me to see the solution
 
-34. Write a C program (subroutine, function, procedure, whatever it may be called in your language) to test if a number is a colorful number or not. Go to the editor
+33. Write a C program to generate the attractive numbers up to 100. 
+
+
+34. Write a C program (subroutine, function, procedure, whatever it may be called in your language) to test if a number is a colorful number or not. 
 Sample Data:
 Colorful numbers less than 100:
 0 1 2 3 4 5 6 7 8 9
@@ -351,9 +351,8 @@ Colorful numbers less than 100:
 64 65 67 68 69 72 73 74 75 76
 78 79 82 83 84 85 86 87 89 92
 93 94 95 96 97 98
-Click me to see the solution
 
-35. Write a C program to generate a text calendar for any given year. Go to the editor
+
+35. Write a C program to generate a text calendar for any given year. 
 Sample Data:
 C Programming: Colorful numbers.
-Click me to see the solution

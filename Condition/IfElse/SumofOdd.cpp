@@ -1,5 +1,5 @@
 /*
-29. Write a C program that read 5 numbers and sum of all odd values between them. Go to the editor
+29. Write a C program that read 5 numbers and sum of all odd values between them. 
 Test Data :
 Input the first number: 5
 Input the second number: 7

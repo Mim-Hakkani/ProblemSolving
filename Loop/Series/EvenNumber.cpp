@@ -1,5 +1,5 @@
 /*
-26. Write a C program that prints all even numbers between 1 and 50 (inclusive). Go to the editor
+26. Write a C program that prints all even numbers between 1 and 50 (inclusive). 
 Test Data :
 Even numbers between 1 to 50 (inclusive):
 Expected Output:

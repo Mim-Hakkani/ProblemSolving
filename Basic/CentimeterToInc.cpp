@@ -1,5 +1,5 @@
 /*
-54. Write a C program that accepts a distance in centimeters and prints the corresponding value in inches. Go to the editor
+54. Write a C program that accepts a distance in centimeters and prints the corresponding value in inches. 
 Test Data:
 Input Data: 500cms
 Input the distance in cm:

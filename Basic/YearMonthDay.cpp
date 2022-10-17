@@ -1,6 +1,6 @@
 /*
 problem name : 
-  Write a C program to convert a given integer (in seconds) to hours, minutes and seconds. Go to the editor
+  Write a C program to convert a given integer (in seconds) to hours, minutes and seconds. 
 Test Data :
 Input seconds: 25300
 Expected Output:

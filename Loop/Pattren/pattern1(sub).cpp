@@ -1,5 +1,5 @@
 /*
-41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user. Go to the editor
+41. Write a C program to print 3 numbers in a line, starting from 1 and print n lines. Accept number of lines (n, integer) from the user. 
 Test Data :
 Input number of lines: 5
 Expected Output:

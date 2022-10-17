@@ -1,6 +1,6 @@
 /*
 problem name : 6.
- Write a C program to compute the perimeter and area of a circle with a given radius. Go to the editor
+ Write a C program to compute the perimeter and area of a circle with a given radius. 
 Expected Output:
 
 Expected Output:

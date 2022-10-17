@@ -1,5 +1,5 @@
 /*
-28. Write a C program that read 5 numbers and counts the number of positive numbers and print the average of all positive values. Go to the editor
+28. Write a C program that read 5 numbers and counts the number of positive numbers and print the average of all positive values. 
 Test Data :
 Input the first number: 5
 Input the second number: 8

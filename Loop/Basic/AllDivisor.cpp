@@ -1,5 +1,5 @@
 /*
-47. Write a C program that reads an integer and find all its divisor. Go to the editor
+47. Write a C program that reads an integer and find all its divisor. 
 Test Data:
 Input an integer: 45
 Expected Output:
