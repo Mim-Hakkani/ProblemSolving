@@ -175,14 +175,27 @@ table :
 
 
  ****************************
- 
+
  binary Number is the number that represents the 0 or 1. it's base is 2 . 
 
  let p = (1010)2 is the binary number 
 
  if convert the binary number to Deciamal number then : 
 
- 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 8 + 0 + 2 +0  = 10 is the decimal number 
+ 1*2^3 + 0*2^2 + 1*2^1 + 0*2^0 = 8 + 0 + 2 +0  = 10 is the decimal number
+
+Algorithms :
+
+1.Find the largest power of 2 that lies within the given number
+
+2.Subtract that value from the given number
+
+3.Find the largest power of 2 within the remainder found in step 2
+
+4.Repeat until there is no remainder
+
+5.Enter a 1 for each binary place value that was found, and a 0 for the rest
+
 
  if convert decimal to binary then : 
   10/2 = 5 - 0
@@ -191,5 +204,23 @@ table :
   1/2  = 0 - 1
 
   then go to the LSB to MSB  ,, in this case we get (1010)2 
+
+***********************************************************
+
+You and your friends in class might be choosing different values for P. Can anybody choose a P that is an odd number? Explain your answer.
+
+Answer : Yes can anybody choose an odd number . and its probality is 1/2 . because there are two number is even and odd . and the probability odd is 1/2 or 50% .
+
+and another case is odd number :
+
+1. if add two number one is even and another is  odd in that case this number is odd
+(ex : 5+2 = 7 , 1+2 = 3) that is the odd number  
+
+2. formula is odd is 2n+1 is always odd 
+
+3. if multiply two odd number that is always odd  5*3 =15 , 7*1 =7
+ 
+
+
 
 */
