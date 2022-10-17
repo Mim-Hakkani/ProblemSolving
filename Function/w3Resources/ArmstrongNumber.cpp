@@ -41,7 +41,7 @@ int ArmstrongNumber(int number){
 
   if(sum == armstrong) cout<<"This is the ArmsStrong Number : "<<sum<<"\n";
 
-  else cout<<"Not Armstrong Number ";
+  else cout<<"Not Armstrong Number "<<"\n";
 
     return 0;
 } 
