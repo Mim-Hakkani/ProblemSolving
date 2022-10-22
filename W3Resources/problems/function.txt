@@ -81,11 +81,8 @@ Test Data :
 Input lowest search limit of perfect numbers : 1
 Input lowest search limit of perfect numbers : 100
 Expected Output :
- mimsds
- The perfect numbers between 1 to 100 are :                                      
- 6   28  
+ The perfect numbers between 1 to 100 are : 6   28  
  
-
 
 11. Write a program in C to check whether two given strings are an anagram. 
 Test Data :
