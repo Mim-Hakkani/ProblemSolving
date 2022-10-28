@@ -1,62 +1,27 @@
 /*
- You need to take 4 distinct integer as input. Print the largest and smallest among them. Distinct means all of them are separate integers. None of them is equal to any other of them.
-
-Sample Input:
-123 435 34 612
-
-Sample Output:
-Largest = 612
-Smallest = 34
+4. This time you need to find the sum of the digits of the input. So look at the sample input output. 
+Sample Input: 
+2346167 
+Sample Output: 
+29 
+Explanation: Since, the sum of the digits is 2+3+4+6+1+6+7 = 29. So the output is 29. 
 
 */
 
 #include <stdio.h>
 int main()
 {
-    int a, b, c, d, max, min;
-    scanf("%d %d %d %d", &a, &b, &c, &d);
+    long long int a;
+    int sum =0,reminderLast;
+    scanf("%lld",&a);
 
-    if (a != b && a != c && a != d && b != c && b != d && c != d)
-    {
+    while(a!=0){
+        reminderLast = a%10;
+        sum = sum+reminderLast;
+        a= a/10;
 
-        // check maxuimum
-
-        if (a > b && a > c && a > d)
-        {
-            printf("Largest = %d\n", a);
-        }
-        else if (b > a && b > c && b > d)
-        {
-            printf("Largest = %d\n", b);
-        }
-        else if (c > a && c > b && c > d)
-        {
-            printf("Largest = %d\n", c);
-        }
-        else
-        {
-            printf("Largest = %d\n", d);
-        }
-
-        // check minimum  number
-
-        if (a < b && a < c && a < d)
-        {
-            printf("Smallest = %d\n", a);
-        }
-        else if (b < a && b < c && b < d)
-        {
-            printf("Smallest = %d\n", b);
-        }
-        else if (c < a && c < b && c < d)
-        {
-            printf("Smallest = %d\n", c);
-        }
-        else
-        {
-            printf("Smallest = %d\n", d);
-        }
     }
+    printf("%lld",sum);
 
-    return 0;
+   return 0;
 }
