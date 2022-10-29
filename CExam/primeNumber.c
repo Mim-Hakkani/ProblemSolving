@@ -11,9 +11,8 @@ int main(){
         
     }
     
-    else{
-          
-     i = 3;
+    else{        
+         i = 3;
             while(number>=i){
                 if(number%i==0){ printf("Composite\n");break;}
                 else{
