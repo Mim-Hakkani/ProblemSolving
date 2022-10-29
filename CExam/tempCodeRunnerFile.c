@@ -1,22 +1,21 @@
-/*
-divisor : 12
-output : 1,2,3,4,6,12
-*/
-
 #include<stdio.h>
+
 int main(){
-    int number,i,rem;
-    scanf("%d",&number);
-    printf("The factors of %d are: ",number);
-    i=1;
-    rem=number/2;
-    while(rem>=i){
-        if(number%i==0){
-            printf("%d,",i);
-        }
-        i++;
+    int num1,num2,temp,rem,lcm;
+    scanf("%d %d",&num1,&num2);
+    printf("The LCM of %d and %d is ",num1,num2);
+     temp = (num1*num2);
+
+    while(num2!=0){
+      rem = num1%num2;
+      num1= num2;
+      num2 = rem;     
     }
-    printf("%d\n",number);
+   
+   lcm = temp/num1;
+
+    printf("%d\n",lcm);
 
     return 0;
+
 }

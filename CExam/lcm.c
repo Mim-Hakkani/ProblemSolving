@@ -17,4 +17,5 @@ int main(){
     printf("%d\n",lcm);
 
     return 0;
+
 }
