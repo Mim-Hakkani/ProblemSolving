@@ -20,8 +20,9 @@ using namespace std;
 int main(){
     int weight;
     cin>>weight;
-    if(weight%2==0 && weight/2!=1) {
-        cout<<"YES"<<"\n";}
-    else cout<<"No"<<"\n";
+    cout<<(weight%2==0 && weight/2!=1 ?"Yes" : "No")<<"\n";
+
     return 0;
+
+    // cout<<weight%2<<"\n";
 }
