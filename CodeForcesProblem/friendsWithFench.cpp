@@ -49,7 +49,5 @@ int main(){
          total = min + max*2;
          cout<<total<<"\n";
    
-
-
     return 0;
 }
