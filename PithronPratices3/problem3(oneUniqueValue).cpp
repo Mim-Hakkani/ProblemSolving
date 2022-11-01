@@ -39,7 +39,7 @@ int main()
             }
         }
 
-        if(count==5) cout<<"Yes"<<"\n";
+        if(count==n) cout<<"Yes"<<"\n";
         else cout<<"No"<<"\n";
 
         return 0;
