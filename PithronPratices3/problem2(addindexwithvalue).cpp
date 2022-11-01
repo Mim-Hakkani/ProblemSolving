@@ -25,21 +25,26 @@ int main()
     cin>>size;
     int a[size];
     
+    // input number of array 
+
     for(int i=0;i<size;i++){
         cin>>a[i];
     }
 
+// input query to find index 
+
     cout<<"Number Of Query : ";
     cin>>numberOfQuery;
-    int p[numberOfQuery];
 
+    // assign index with new number 
 
     for(int j=0;j<numberOfQuery;j++){
-
         cin>>indexNumber>>value;
         a[indexNumber] =   a[indexNumber] + value;  
-
     }
+
+
+    // show the  additional merge array final output  
 
   for(int i=0;i<size;i++){
         cout<<a[i]<<" ";
