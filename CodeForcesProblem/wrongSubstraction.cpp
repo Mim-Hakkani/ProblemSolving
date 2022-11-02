@@ -32,7 +32,7 @@ The first example corresponds to the following sequence: 512→511→510→51→
 #include<iostream>
 using namespace std;
 int main(){
-    long long int n,k;
+   int n,k;
     cin>>n>>k;
     for(int i=1;i<=k;i++){
         if(n%10!=0) 
