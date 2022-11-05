@@ -20,8 +20,6 @@ int main()
         scanf("%d",&k);
 
 
-    if (k >= 0 && k <= 20)
-    {
         if (k != 0)
         {
             for (i = k; i <= n; i++)
@@ -46,8 +44,6 @@ int main()
         }
         printf("\n");
         }
-
-    }
 
      }
      return 0;
