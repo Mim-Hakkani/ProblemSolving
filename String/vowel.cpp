@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char companyName[] ="Ehsan Marketing aeiou";
+    char companyName[] ="Ehsan Marketing";
     int i =0,count=0;
 
     while (companyName[i]!='\0')
