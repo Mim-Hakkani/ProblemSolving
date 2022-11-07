@@ -1,3 +1,6 @@
+/*
+vowel number count 
+*/
 #include<iostream>
 using namespace std;
 int main(){
