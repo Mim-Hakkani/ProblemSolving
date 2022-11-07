@@ -13,12 +13,12 @@ int main(){
              name[i] = name[i]-32;
      
         }
-        printf("%c",name[i]);
+        printf("%c",name[i]);  // its also working 
         
         i++;
      }
 
-    //  printf("%s",name);
+    //  printf("%s",name); its  working 
      
   printf("\n");
 
