@@ -3,7 +3,6 @@ int main()
 {
 
 
-
 int n = 10;
 int x = 5;
 int index = 0;
@@ -14,7 +13,7 @@ for (int i=0; i<n; i++) {
     
    b[i] = a[i]+x;
 
-   printf("%d ",b[i]);
+  //  printf("%d ",b[i]);
 
 }
 }
