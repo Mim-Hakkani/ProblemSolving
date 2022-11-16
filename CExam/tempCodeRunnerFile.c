@@ -47,19 +47,46 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
 **********************************************/
 
-{
- 	char a[10];
-	a[0] = 98;
-	a[1] = 97;
-	a[2] = 'n';
-	a[3] = 'a';
-	a[4] = 'n';
-	a[5] = 'a';
-	a[6] = '\0';
+// {
+//  	char a[10];
+// 	a[0] = 98;
+// 	a[1] = 97;
+// 	a[2] = 'n';
+// 	a[3] = 'a';
+// 	a[4] = 'n';
+// 	a[5] = 'a';
+// 	a[6] = '\0';
 
-  printf("%c",a[1]);
-  printf("%c\n",a[2]);
+//   printf("%c",a[1]);
+//   printf("%c\n",a[2]);
 
 
-  return 0;
-}
+//   return 0;
+// }
+
+
+/**************************************************/
+
+	{							       
+  char a[10];
+		char ch = 'a'; 
+		for(int i = 0; i<8;i++)
+		{
+			a[i] = ch+8-i;
+                                            
+		}
+		a[8] = '\0';
+
+     int j = 0 ;
+     while(a[j]!='\0'){
+      printf("%d ",a[j]);
+      printf("%c ",a[j]);
+      j++;
+     }
+
+    }
+
+  // after execution in code block we see that the stored value is :
+  //  105 104 103 102 101 100 99 98 
+
+// What will be stored in the given character array ‘a’ of the question after the execution of the block of code?    (10)
