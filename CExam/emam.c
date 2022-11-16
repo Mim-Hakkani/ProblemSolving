@@ -32,4 +32,23 @@ Suppose you want to declare an array of size 15 and the elements of the array wi
 Access to fetch at 'https://embackend.com/graphql/' from origin 'https://www.ehsanmarketing.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
 
 
+******************************************************************
+
+To declare a string, Fahim uses the following code. What will happen in the second and the third statement. Explain.	(10)						         
+	char a[10];
+	a[0] = 98;
+	a[1] = 97;
+	a[2] = 'n';
+	a[3] = 'a';
+	a[4] = 'n';
+	a[5] = 'a';
+	a[6] = ‘\0’;
+
+
+ firstly declare the chracter type a ,which has taken 10 character  value . we see that a[1] is the 2nd statement in c chracter type . if it is the chracter type sothat 97 is the chracter of a. 97 is the ascii value of 'a'. but we see that a[2] is the 3rd statement which is already declare the character of 'n' . 
+
+ if we translate the total value of 
+   a[10] ={98,97,'n','a','n','a','\0'} 
+   a[10] = "banana"  is the final string 
+
 */

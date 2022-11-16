@@ -1,22 +1,22 @@
 #include<stdio.h>
 int main()
-{
+// {
 
 
-int n = 10;
-int x = 5;
-int index = 0;
-int a[] = {12, 7, 3, 71, 2, 43, 38, 23, 45, 22};
-int b[n];
-for (int i=0; i<n; i++) {
- 	//Write Code Here
+// int n = 10;
+// int x = 5;
+// int index = 0;
+// int a[] = {12, 7, 3, 71, 2, 43, 38, 23, 45, 22};
+// int b[n];
+// for (int i=0; i<n; i++) {
+//  	//Write Code Here
     
-   b[i] = a[i]+x;
+//    b[i] = a[i]+x;
 
-  //  printf("%d ",b[i]);
+//   //  printf("%d ",b[i]);
 
-}
-}
+// }
+// }
 
 // for(j=1;j<=index;j++){
 //   printf("%d ",b[j]);
@@ -46,3 +46,20 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 }
 
 **********************************************/
+
+{
+ 	char a[10];
+	a[0] = 98;
+	a[1] = 97;
+	a[2] = 'n';
+	a[3] = 'a';
+	a[4] = 'n';
+	a[5] = 'a';
+	a[6] = '\0';
+
+  printf("%c",a[1]);
+  printf("%c\n",a[2]);
+
+
+  return 0;
+}
