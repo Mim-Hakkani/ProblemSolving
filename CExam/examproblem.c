@@ -94,4 +94,5 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
  // we added some extra code to print this int and chracter type value 
 
-
+// *********************************************************
+There are 48 byte in the int type array with 12 elements in memory.
