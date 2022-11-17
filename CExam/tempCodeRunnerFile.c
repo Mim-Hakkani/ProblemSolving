@@ -171,50 +171,51 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 // How can you find the sum of digits of a number? Write a C program that will extract the digits of the given integer number as input and add them to find the required output. For example, if the input is 1235623, then the output will be 22. Because, 1+2+3+5+6+2+3 = 22.        
 
 
+// #include<stdio.h>
+// int main(){
+//   int num,sum=0,reminder;
+//   scanf("%d",&num);
+  
+//   while(num!=0){
+//     reminder =  num%10;
+//     sum =sum+reminder;
+//     num/=10;
+//   }
+
+//   printf("%d\n",sum);
+
+// return 0;
+// }
+
+
+
 #include<stdio.h>
 int main(){
-  int num,sum=0,reminder;
-  scanf("%d",&num);
-  
-  while(num!=0){
-    reminder =  num%10;
-    sum =sum+reminder;
-    num/=10;
+  int a[3][3],i,j,k;
+
+  for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+      scanf("%d",&a[i][j]);
+    }
   }
 
-  printf("%d\n",sum);
 
-return 0;
+
+  // output of this matrix 
+
+printf("Output is : \n");
+
+   for(i=0;i<3;i++){
+    for(j=0;j<3;j++){
+     printf("%d ",a[i][j]);
+    }
+    printf("\n");
+  }
+
+  return 0;
 }
 
 
 
 
-
-
-
-
-
-
-
-
-
-// You will be given a 3x3 matrix as input. You need to check whether the matrix is a magic square or not. Magic squares are the matrices which have equal sum along all rows, columns and diagonals. For example,
-
-// This is a magic square as you can see all the sums are equal to 15 along all the rows and columns and even the diagonals.
-// Now,Write a C Program to check the matrix is magic square or not.     (10)
-
-
-//   Sample Input	
-//   Sample Output
-//   2   7   6
-//   9   8   1                                                                                    
-//   4   3   5
-
-//  NO
-//   2   7   6
-//   9   5   1                                                                                    
-//   4   3   8
-
-//    YES
 
