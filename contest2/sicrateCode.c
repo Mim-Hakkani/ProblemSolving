@@ -7,11 +7,12 @@ int main()
     for (i = 0; i < test; i++)
     {
         scanf("%d", &num[i]);
+       
         
     }
 
 
-        for (j = 3; j <=j-test ; j++)
+        for (j = 0; j <= ; j++)
         {  
 
         if (num[j-3] == 1 ){
