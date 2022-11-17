@@ -1,0 +1,147 @@
+char name[] ={'a','b','\0'} 
+
+char name[3] ={'a','b','\0'}
+
+char name[100] = "Golam hakkani"
+
+char name[] = "Golam hakkani"
+
+
+complete basic program : 
+
+#include <stdio.h>
+int main()
+{
+    char name[30];
+    printf("Enter name: ");
+    fgets(name, sizeof(name), stdin);  // read string
+    printf("Name: ");
+    puts(name);    // display string
+    return 0;
+}
+
+****************used string in function ***********************
+#include <stdio.h>
+void displayString(char str[]);
+
+int main()
+{
+    char str[50];
+    printf("Enter string: ");
+    fgets(str, sizeof(str), stdin);             
+    displayString(str);     // Passing string to a function.    
+    return 0;
+}
+void displayString(char str[])
+{
+    printf("String Output: ");
+    puts(str);
+}
+
+****************************************************
+Example 4: Strings and Pointers
+
+**************************************************
+
+#include <stdio.h>
+
+int main(void) {
+  char name[] = "Harry Potter";
+
+  printf("%c", *name);     // Output: H
+  printf("%c", *(name+1));   // Output: a
+  printf("%c", *(name+7));   // Output: o
+
+  char *namePtr;
+
+  namePtr = name;
+  printf("%c", *namePtr);     // Output: H
+  printf("%c", *(namePtr+1));   // Output: a
+  printf("%c", *(namePtr+7));   // Output: o
+}
+
+
+****************************************************
+****************************************************
+Commonly Used String Functions
+strlen() - calculates the length of a string
+strcpy() - copies a string to another
+strcmp() - compares two strings
+strcat() - concatenates two strings
+
+**********************************************************
+Example: C strlen() function
+**********************************************************
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[20]="Program";
+    char b[20]={'P','r','o','g','r','a','m','\0'};
+
+    // using the %zu format specifier to print size_t
+    printf("Length of string a = %zu \n",strlen(a));
+    printf("Length of string b = %zu \n",strlen(b));
+
+    return 0;
+}
+
+
+******************************************************
+ strcpy(jakhane copy korboo,jakecopykorbo)
+******************************************************
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char str1[20] = "C programming";
+  char str2[20];
+
+  // copying str1 to str2
+  strcpy(str2, str1);
+
+  puts(str2); // C programming
+
+  return 0;
+}
+
+/*********************************************************
+    strcmp() function 
+**********************************************************/
+  #include <stdio.h>
+#include <string.h>
+
+int main() {
+  char str1[] = "abcd", str2[] = "abCd", str3[] = "abcd";
+  int result;
+
+  // comparing strings str1 and str2
+  result = strcmp(str1, str2);
+  printf("strcmp(str1, str2) = %d\n", result);
+
+  // comparing strings str1 and str3
+  result = strcmp(str1, str3);
+  printf("strcmp(str1, str3) = %d\n", result);
+
+  return 0;
+}
+ **************************/
+
+
+ #include <stdio.h>
+#include <string.h>
+int main() {
+   char str1[100] = "This is ", str2[] = "programiz.com";
+
+   // concatenates str1 and str2
+   // the resultant string is stored in str1.
+   strcat(str1, str2);
+
+   puts(str1);
+   puts(str2);
+
+   return 0;
+}
+
+/*********************************************************/

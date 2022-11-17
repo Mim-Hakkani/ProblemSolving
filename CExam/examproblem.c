@@ -101,7 +101,34 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
 // What does lexicographical comparison mean? Explain with examples. How can we order strings in lexicographic order in C? 	   
 
+// lexicographical comparison : 
+// Lexicographic ordering means dictionary like ordering on types that have several elements in some defined sequence.
 
+// explanation : 
+
+// If the first element of a sequence A is less than the first element of a sequence B then A is lexicographically less than B. Likewise, if the first element of A is greater than the first element of B then A is lexicographically greater than B. If the first element of A is equal to the first element of B then the lexicographic order of A and B is determined by the lexicographic order of A's sequence and B's sequence with the first element removed from both sequences. An empty sequence is smaller than a non-empty sequence.
+
+// where to use : 
+// The lexicographic order is commonly used for strings, vector, matrix and color classes.
+
+
+example : 
+  acomplash
+  aback 
+  aass 
+
+there are three string in this element . three elements has same order in first chracter in a so, a is removed both side ,, then check it as second position in string ,,, i think it is check by their assci value . 
+c = 67
+b = 66  
+a = 65
+
+if a is less then b and c so it is ordered by lexically 
+aass is the first order 
+aback is the second order 
+acomplash is the third order 
+
+
+/// c program in lexical order 
  
 // What does ASCII value of a character mean? How can you print the ASCII value of a character in C language? 
 
@@ -190,70 +217,70 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
 
 
-#include<stdio.h>
-int main(){
-  int a[3][3],i,j,k,sumc=0,sumr=0,s1=0,s2=0,f=0;
+// #include<stdio.h>
+// int main(){
+//   int a[3][3],i,j,k,sumc=0,sumr=0,s1=0,s2=0,f=0;
  
 
-  for(i=0;i<3;i++){
-    for(j=0;j<3;j++){
-      scanf("%d",&a[i][j]);
+//   for(i=0;i<3;i++){
+//     for(j=0;j<3;j++){
+//       scanf("%d",&a[i][j]);
      
-    }
+//     }
 
-  }
-
-
-// for diagonal check 
+//   }
 
 
-  for(i=0;i<3;i++){
-    for(j=0;j<3;j++){
-      if(i==j){
-         s1 =s1 +a[i][j] ;   
-      }
-      if(i+j==3-1){
-         s2 =s2 +a[i][j] ;   
+// // for diagonal check 
 
-      }
+
+//   for(i=0;i<3;i++){
+//     for(j=0;j<3;j++){
+//       if(i==j){
+//          s1 =s1 +a[i][j] ;   
+//       }
+//       if(i+j==3-1){
+//          s2 =s2 +a[i][j] ;   
+
+//       }
      
-    }
+//     }
 
-  }
+//   }
 
-if(s1!=s2){f=1;}
-else{
+// if(s1!=s2){f=1;}
+// else{
 
 
-  for(i=0;i<3;i++){
-    sumc=0,sumr=0;
-    for(j=0;j<3;j++){
-      sumr=sumr + a[i][j];
-      sumc=sumc + a[j][i];
-    }
+//   for(i=0;i<3;i++){
+//     sumc=0,sumr=0;
+//     for(j=0;j<3;j++){
+//       sumr=sumr + a[i][j];
+//       sumc=sumc + a[j][i];
+//     }
 
-    if(sumc!=s1){
-      f=1;
-      }
-    else if(sumr!=s1){
-      f=1;
-      }
-    else{
-      f =0;
-    }
-}
-}
+//     if(sumc!=s1){
+//       f=1;
+//       }
+//     else if(sumr!=s1){
+//       f=1;
+//       }
+//     else{
+//       f =0;
+//     }
+// }
+// }
 
-if(f==0){
-  printf("Yes\n");
-}
+// if(f==0){
+//   printf("Yes\n");
+// }
 
-else{
-  printf("No\n");
-}
+// else{
+//   printf("No\n");
+// }
 
-  return 0;
-}
+//   return 0;
+// }
 
 
 
