@@ -189,28 +189,68 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
 
 
+
 #include<stdio.h>
 int main(){
-  int a[3][3],i,j,k;
+  int a[3][3],i,j,k,sumc=0,sumr=0,s1=0,s2=0,f=0;
+ 
 
   for(i=0;i<3;i++){
     for(j=0;j<3;j++){
       scanf("%d",&a[i][j]);
+     
     }
+
   }
 
 
+// for diagonal check 
 
-  // output of this matrix 
 
-printf("Output is : \n");
-
-   for(i=0;i<3;i++){
+  for(i=0;i<3;i++){
     for(j=0;j<3;j++){
-     printf("%d ",a[i][j]);
+      if(i==j){
+         s1 =s1 +a[i][j] ;   
+      }
+      if(i+j==3-1){
+         s2 =s2 +a[i][j] ;   
+
+      }
+     
     }
-    printf("\n");
+
   }
+
+if(s1!=s2){f=1;}
+else{
+
+
+  for(i=0;i<3;i++){
+    sumc=0,sumr=0;
+    for(j=0;j<3;j++){
+      sumr=sumr + a[i][j];
+      sumc=sumc + a[j][i];
+    }
+
+    if(sumc!=s1){
+      f=1;
+      }
+    else if(sumr!=s1){
+      f=1;
+      }
+    else{
+      f =0;
+    }
+}
+}
+
+if(f==0){
+  printf("Yes\n");
+}
+
+else{
+  printf("No\n");
+}
 
   return 0;
 }
