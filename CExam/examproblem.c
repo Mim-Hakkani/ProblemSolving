@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main()
+// #include<stdio.h>
+// int main()
 // {
 
 
@@ -67,15 +67,15 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 
 /**************************************************/
 
-	{							       
-  char a[10];
-		char ch = 'a'; 
-		for(int i = 0; i<8;i++)
-		{
-			a[i] = ch+8-i;
+	// {							       
+  // char a[10];
+	// 	char ch = 'a'; 
+	// 	for(int i = 0; i<8;i++)
+	// 	{
+	// 		a[i] = ch+8-i;
                                             
-		}
-		a[8] = '\0';
+	// 	}
+	// 	a[8] = '\0';
 
     //  int j = 0 ;
     //  while(a[j]!='\0'){
@@ -84,7 +84,7 @@ for(i=1,k=0;k<=15;i*=2){                                                        
     //   j++;
     //  }
 
-    }
+    // }
 
   // after execution in code we see that the stored value is :
    
@@ -95,34 +95,97 @@ for(i=1,k=0;k<=15;i*=2){                                                        
  // we added some extra code to print this int and chracter type value 
 
 // *********************************************************
-There are 48 byte in the int type array with 12 elements in memory.
+// There are 48 byte in the int type array with 12 elements in memory.
 
 /*****************************************************************/
 
-What does lexicographical comparison mean? Explain with examples. How can we order strings in lexicographic order in C? 	   (10)				  	      
+// What does lexicographical comparison mean? Explain with examples. How can we order strings in lexicographic order in C? 	   
+
+
  
-What does ASCII value of a character mean? How can you print the ASCII value of a character in C language?      (10)
+// What does ASCII value of a character mean? How can you print the ASCII value of a character in C language? 
 
-Explain Bubble Sorting. Suppose you are given an array of integers 12, 7, 9, 1, 3, 73, 11, 15, 62, 19, 4. What will be the sequence of these integers if we run Bubble sort for only 5 iterations?      (10)
+// ASCII means 
 
-How can you find the sum of digits of a number? Write a C program that will extract the digits of the given integer number as input and add them to find the required output. For example, if the input is 1235623, then the output will be 22. Because, 1+2+3+5+6+2+3 = 22.        (6)
-
-You will be given a 3x3 matrix as input. You need to check whether the matrix is a magic square or not. Magic squares are the matrices which have equal sum along all rows, columns and diagonals. For example,
-
-This is a magic square as you can see all the sums are equal to 15 along all the rows and columns and even the diagonals.
-Now,Write a C Program to check the matrix is magic square or not.     (10)
+// (American Standard Code for Information Interchange) is the most common character encoding format for text data in computers and on the internet. In standard ASCII-encoded data, there are unique values for 128 alphabetic, numeric or special additional characters and control codes.
 
 
-  Sample Input	
-  Sample Output
-  2   7   6
-  9   8   1                                                                                    
-  4   3   5
 
- NO
-  2   7   6
-  9   5   1                                                                                    
-  4   3   8
 
-   YES
+
+
+
+
+
+//  In c program, 'a' is used instead of 97 and 'z' is used instead of 122 . Similarly, 'A' is used instead of 65 and 'Z' is used instead of 90 
+ 
+//  if we print ascii to chracter then : 
+   
+//    printf("%c",97);
+
+
+// else if we print chracter to ascii then :
+
+// printf("%d",a);
+
+
+// c code to convert :  
+
+
+// #include<stdio.h>
+// int main(){
+//   int asci =97;
+//   char crac = 'A';
+
+//   printf("%c\n",asci);
+//   printf("%d\n",crac);
+// }
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+// ****************************************************************
+
+// Explain Bubble Sorting. Suppose you are given an array of integers 12, 7, 9, 1, 3, 73, 11, 15, 62, 19, 4. What will be the sequence of these integers if we run Bubble sort for only 5 iterations? 
+
+// Bubble sort is a basic algorithm for arranging a string of numbers or other elements in the correct order. The method works by examining each set of adjacent elements in the string, from left to right, switching their positions if they are out of order. The algorithm then repeats this process until it can run through the entire string and find no two elements that need to be swapped.
+
+// array list : 12, 7, 9, 1, 3, 73, 11, 15, 62, 19, 4.
+
+// lteration 1 result :  7 9 1 3 12 11 15 62 19 4 73 
+// lteration 2 result :  7 1 3 9 11 12 15 19 4 62 73
+// lteration 3 result :  1 3 7 9 11 12 15 4 19 62 73
+// lteration 4 result :  1 3 7 9 11 12 4 15 19 62 73 
+// lteration 5 result :  1 3 7 9 11 4 12 15 19 62 73
+// ***************************************************************     
+
+// How can you find the sum of digits of a number? Write a C program that will extract the digits of the given integer number as input and add them to find the required output. For example, if the input is 1235623, then the output will be 22. Because, 1+2+3+5+6+2+3 = 22.        (6)
+
+// You will be given a 3x3 matrix as input. You need to check whether the matrix is a magic square or not. Magic squares are the matrices which have equal sum along all rows, columns and diagonals. For example,
+
+// This is a magic square as you can see all the sums are equal to 15 along all the rows and columns and even the diagonals.
+// Now,Write a C Program to check the matrix is magic square or not.     (10)
+
+
+//   Sample Input	
+//   Sample Output
+//   2   7   6
+//   9   8   1                                                                                    
+//   4   3   5
+
+//  NO
+//   2   7   6
+//   9   5   1                                                                                    
+//   4   3   8
+
+//    YES
 
