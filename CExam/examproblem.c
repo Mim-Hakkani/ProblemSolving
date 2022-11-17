@@ -168,7 +168,36 @@ for(i=1,k=0;k<=15;i*=2){                                                        
 // lteration 5 result :  1 3 7 9 11 4 12 15 19 62 73
 // ***************************************************************     
 
-// How can you find the sum of digits of a number? Write a C program that will extract the digits of the given integer number as input and add them to find the required output. For example, if the input is 1235623, then the output will be 22. Because, 1+2+3+5+6+2+3 = 22.        (6)
+// How can you find the sum of digits of a number? Write a C program that will extract the digits of the given integer number as input and add them to find the required output. For example, if the input is 1235623, then the output will be 22. Because, 1+2+3+5+6+2+3 = 22.        
+
+
+// #include<stdio.h>
+// int main(){
+//   int num,sum=0,reminder;
+//   scanf("%d",&num);
+  
+//   while(num!=0){
+//     reminder =  num%10;
+//     sum =sum+reminder;
+//     num/=10;
+//   }
+
+//   printf("%d\n",sum);
+
+// return 0;
+// }
+
+
+
+
+
+
+
+
+
+
+
+
 
 // You will be given a 3x3 matrix as input. You need to check whether the matrix is a magic square or not. Magic squares are the matrices which have equal sum along all rows, columns and diagonals. For example,
 
