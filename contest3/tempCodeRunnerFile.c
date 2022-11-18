@@ -1,14 +1,11 @@
 #include<stdio.h>
 int main(){
     char operator[20];
-    long long int a,b,sum1=0,sum2=0;
+    int a,b,sum1=0;
 
-    fgets(operator,sizeof(operator),stdin);
-    scanf("%lld %lld",&a,&b);
+    scanf("%s",operator);
+    scanf("%d %d",&a,&b);
   
-
-    
-
     int i =0;
     while (operator[i]!='\0')
     {
