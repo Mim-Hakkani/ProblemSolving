@@ -9,10 +9,9 @@ int main(){
     for(i=1;i<=t;i++){
 
         if(n[i-1]==n[i]){
-        //    printf("%d sds",count);
+
             count++;
-            // printf("%d pp",count);
-            
+    
         }
         else{
            count=1 ; 
@@ -22,8 +21,6 @@ int main(){
     if(count>mx){
         mx=count;
     }
-
-    // while(n[]
 
     }
 
