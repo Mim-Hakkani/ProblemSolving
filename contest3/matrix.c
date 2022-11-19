@@ -32,7 +32,7 @@ int main()
     }
 
 
-    printf("Matrix shown : \n");
+    // printf("Matrix shown : \n");
 
     for (i = 1; i <= row; i++)
     {
