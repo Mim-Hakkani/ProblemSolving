@@ -8,7 +8,7 @@ Output:
 Reverse integer: 321
 Reverse integer: 339874802
 Reverse integer: -43637
-
+ ****************************************************
 
 2. Write a C program to check whether an integer is a palindrome or not. An integer is a palindrome when it reads the same forward as backward. 
 Example:
@@ -63,6 +63,8 @@ If n =3 we will get the following sequence:
 6. "321"
 Input: n = 3, k = 4
 Output: "231"
+
+
 Write a C program to get the kth permutation sequence from two given integers n and k where n is between 1 and 9 inclusive and k is between 1 and n! inclusive. 
 Example:
 Input:

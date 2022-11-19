@@ -48,9 +48,7 @@ int main(){
         
        
         // printf("%d \n",num[k]); 
-        //Link : https://www.hackerrank.com/mim_cse32
 
-// @mim_cse32
 
 
         

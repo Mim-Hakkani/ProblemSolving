@@ -13,19 +13,17 @@ Result:(x^n) : 238.328000
 
 */
 
-#include<bits/stdc++.h>
-using namespace std;
+#include<stdio.h>
+#include<math.h>
 
 int main(){
     float a,result;
     int n;
 
-    scanf("%f",&a);
-    scanf("%d",&n);
-
-    result = pow(a,n);
+    scanf("%d %f",&n,&a);
+    // result = pow(a,n);
+    result = sqrt(a);
     printf("%0.4f\n",result);
-
 
 return 0;
 }
