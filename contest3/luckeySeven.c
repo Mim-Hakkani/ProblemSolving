@@ -24,7 +24,6 @@ int main(){
         
         int cmp = strcmp(name,name2);
        
-
         if(cmp==0){
            
              if(length>7){
