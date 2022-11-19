@@ -1,5 +1,4 @@
 /*
-<<<<<<< HEAD
 6. Write a program in C to compare two strings without using string library functions. 
 
 Test Data :
@@ -76,16 +75,4 @@ int main()
 
    
     return 0;
-=======
- input name with space and show the output
-*/
-#include<stdio.h>
-int main(){
-     char name[100];
-     printf("Input Your name : ");
-    fgets(name,sizeof(name),stdin);
-    printf("Your Name is : ");
-    puts(name);
-
->>>>>>> 7897db0b0f37260325db8f4fa17f44b13b525f6f
 }

@@ -1,3 +1,45 @@
+<<<<<<< HEAD
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+    int num[101], test, squrtNumber, i, j;
+    scanf("%d", &test);
+    for (i = 0; i < test; i++)
+    {
+        scanf("%d", &num[i]);
+        
+    }
+
+
+        for (j = 3; j <=j-test ; j++)
+        {  
+
+        if (num[j-3] == 1 ){
+    printf("No\n");
+        }
+           
+
+       if (num[j-3] == 2){
+  printf("Yes\n");
+        }
+          
+
+        // squrtNumber = sqrt(num[i]); 
+
+            if (num[j-3] % j == 0)
+            {
+              
+                 printf("No\n");
+            }
+            else
+            {
+                 printf("Yes\n");
+            }
+        }
+    
+    return 0;
+=======
 #include<stdio.h>
 int main(){
     int n,i,j,k,arr[101];
@@ -29,4 +71,5 @@ int main(){
          if(flag==1) printf("No\n");
          if(flag==0) printf("Yes\n");
     }
+>>>>>>> 7897db0b0f37260325db8f4fa17f44b13b525f6f
 }
