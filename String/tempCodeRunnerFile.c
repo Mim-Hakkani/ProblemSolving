@@ -1,24 +1,13 @@
 /*
-<<<<<<< HEAD
-6. Write a program in C to compare two strings without using string library functions. 
+4. Write a program in C to print individual characters of string in reverse order. 
 
 Test Data :
-Check the length of two strings:
---------------------------------
-Input the 1st string : aabbcc
-Input the 2nd string : abcdef
-String1: aabbcc
-String2: abcdef
-Expected Output : Strings are not equal.
+Input the string : w3resource.com
 
-Check the length of two strings:
---------------------------------
-Input the 1st string : aabbcc
-Input the 2nd string : aabbcc
-String1: aabbcc
-String2: aabbcc
-Expected Output : Strings are equal.
+Expected Output :
 
+The characters of the string in reverse are :
+m  o  c  .  e  c  r  u  o  s  e  r  3  w 
 */
 
 #include <stdio.h>
@@ -26,66 +15,19 @@ Expected Output : Strings are equal.
 int main()
 {
 
-    char stringData1[1000],stringData2[1000];
-    int length1=0,length2=0;
-    printf("Input the String 1: ");
-    fgets(stringData1, sizeof(stringData1), stdin);
+    char stringData[1000],length;
+    printf("Input the String : ");
+    fgets(stringData, sizeof(stringData), stdin);
+    length = (strlen(stringData)-1);
+    printf("%d",length);
+   
 
-    printf("Input the String 2: ");
-    fgets(stringData2, sizeof(stringData2), stdin);
-
-    int i = 0;
-    
-    while (stringData1[i]!= '\0')
+    int i = length;
+    while (stringData[i]>= 1)
     {
-      length1++;
-       i++;
+        printf("%c", stringData[i]);
+        i--;
     }
-
-    // calulate length 2 
-
-    int j = 0;
-    while (stringData2[j]!= '\0')
-    {
-      length2++;
-       j++;
-    }
-
-    printf("%d",length1);
-    printf("%d",length2);
-    // printf("%s",stringData1);
-    // printf("%s",stringData2);
-        if(stringData1==stringData2){
-        printf("String Are Equal");
-      }
-    
-    //  compare length 
-    if(length1==length2){
-      if(stringData1==stringData2){
-        printf("String Are Equal");
-      }
-      else{
-          printf("%s",stringData1);
-          printf("%s",stringData2);
-        printf("String Are Not Equal");
-      }
-    }
-    else{
-        printf("String are not equal");
-    }
-
    
     return 0;
-=======
- input name with space and show the output
-*/
-#include<stdio.h>
-int main(){
-     char name[100];
-     printf("Input Your name : ");
-    fgets(name,sizeof(name),stdin);
-    printf("Your Name is : ");
-    puts(name);
-
->>>>>>> 7897db0b0f37260325db8f4fa17f44b13b525f6f
 }

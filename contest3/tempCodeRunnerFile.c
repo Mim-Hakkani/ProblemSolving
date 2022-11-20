@@ -28,6 +28,9 @@ int main(){
                 }
                    
                 }
+       
+
+     
         for(l=k-1;l>=0;l--){
             if((num[k]+num[l])%2==0){
                 sum = num[k]+num[l];
@@ -39,10 +42,6 @@ int main(){
             
         }
         
-       
-        // printf("%d \n",num[k]); 
-
-
         
     }
      printf("%d\n",max);
