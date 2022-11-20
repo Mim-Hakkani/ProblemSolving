@@ -18,9 +18,16 @@ int main(){
             
     }
 
+    // printf("sort : ");
+    // for(i=0;i<t;i++){
+    //     printf("%d",num[i]);
+    // }
+
+    // printf("\n\n");
+
     //print 
      int sum = 0,l,max=0;
-      for(k=t-1;k>=1;k--){
+      for(k=t-1;k>=0;k--){
 
         if(num[k]%2==0){
             if(num[k]>max){
@@ -42,6 +49,10 @@ int main(){
             
         }
         
+       
+        // printf("%d \n",num[k]); 
+
+
         
     }
      printf("%d\n",max);
