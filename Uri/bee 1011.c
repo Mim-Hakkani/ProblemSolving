@@ -10,8 +10,5 @@ int main(){
 
     result = (4/3.0)*PI*radious*radious*radious;
     printf("VOLUME = %0.3f\n",result);
-
-
-
     return 0;
 }
