@@ -7,8 +7,7 @@ int main(){
     int radious;
     double result;
     scanf("%d",&radious);
-
     result = (4/3.0)*PI*radious*radious*radious;
-    printf("VOLUME = %0.3f\n",result);
+    printf("VOLUME = %0.3lf\n",result);
     return 0;
 }
