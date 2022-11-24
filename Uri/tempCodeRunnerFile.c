@@ -2,12 +2,17 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-int main()
-{
-    int distance, minutes;
-    scanf("%d", &distance);
-    minutes = distance * 2;
-    printf("%d minutos\n", minutes);
+int main(){
+    int a,b;
+    float result;
+
+    scanf("%d %d",&a,&b);
+
+    result = (b/12.0)*a;
+
+
+    printf("%0.3f\n",result);
+
 
     return 0;
 }
