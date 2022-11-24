@@ -2,27 +2,25 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-int main(){
-    int time,remaining,result;
-    scanf("%d",&time);
-    
-    // calculate for hour 
+int main()
+{
+    int time, remaining, result;
+    scanf("%d", &time);
 
-    result = time/3600;
-    remaining = time -(result*3600);
-    printf("%d:",result);
+    // calculate for hour
 
-    // calculate for minites 
+    result = time / 3600;
+    remaining = time - (result * 3600);
+    printf("%d:", result);
 
-    result = remaining/60;
-    remaining = remaining -(result*60);
-    printf("%d:",result);
+    // calculate for minites
 
-    // calculate for seconds 
-    printf("%d\n",remaining);
+    result = remaining / 60;
+    remaining = remaining - (result * 60);
+    printf("%d:", result);
 
-
-
+    // calculate for seconds
+    printf("%d\n", remaining);
 
     return 0;
 }

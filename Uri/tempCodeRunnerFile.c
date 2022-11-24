@@ -3,16 +3,23 @@
 #include <math.h>
 #include <stdlib.h>
 int main(){
-    int time,remaining,result;
-    scanf("%d",&time);
-    result = time/3600;
-    remaining = time -(result*3600);
-    printf("%d:",result);
+    int days,remaining,result;
+    scanf("%d",&days);
+    
+    // calculate for hour 
 
-    result = remaining/60;
-    remaining = remaining -(result*60);
-    printf("%d:",result);
-    printf("%d\n",remaining);
+    result = days/365;
+    remaining = days -(result*365);
+    printf("%d ano(s)\n",result);
+
+    // calculate for minites 
+
+    result = remaining/30;
+    remaining = remaining -(result*30);
+    printf("%d mes(es)\n",result);
+
+    // calculate for seconds 
+    printf("%d dia(s)\n",remaining);
 
 
 
