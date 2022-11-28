@@ -10,7 +10,6 @@ int main()
      s=s+p;
 
 
-
    }
   printf("%0.2f\n",s);
 
