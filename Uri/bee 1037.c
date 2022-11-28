@@ -20,7 +20,7 @@ int main()
    {
        printf("Intervalo (50,75]\n");
    }
-   else if(x>75&&x<=100)
+   else if(x>75 && x<=100)
    {
       printf("Intervalo (75,100]\n");
    }

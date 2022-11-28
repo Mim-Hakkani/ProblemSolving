@@ -1,39 +1,29 @@
-#include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
+#include<stdio.h>
 int main()
 {
-    float taka, remaining, result,somechanges;
-    int remaining2;
-    scanf("%f", &taka);
-    remaining2 = taka*100.00;
-     printf("%d\n",remaining2);
+   float x;
+   scanf("%f",&x);
+   if(x<0||x>100)
+   {
+       printf("Fora de intervalo\n");
+   }
 
-    // remaining = taka - (result * 100);
-    // printf("%d\n",taka);
-    // printf("%d nota(s) de R$ 100,00\n", result);
+   else if(x>=0&&x<=25){
+          printf("Intervalo [0,25]\n");
 
-    // result = remaining / 50;
-    // remaining = remaining - (result * 50);
-    // printf("%d nota(s) de R$ 50,00\n", result);
+       }
+   else if(x>25&&x<=50)
+   {
+      printf("Intervalo (25,50]\n");
+   }
+   else if(x>50&&x<=75)
+   {
+       printf("Intervalo (50,75]\n");
+   }
+   else if(x>75 && x<=100)
+   {
+      printf("Intervalo (75,100]\n");
+   }
+   return 0;
 
-    // result = remaining / 20;
-    // remaining = remaining - (result * 20);
-    // printf("%d nota(s) de R$ 20,00\n", result);
-
-    // result = remaining / 10;
-    // remaining = remaining - (result * 10);
-    // printf("%d nota(s) de R$ 10,00\n", result);
-
-    // result = remaining / 5;
-    // remaining = remaining - (result * 5);
-    // printf("%d nota(s) de R$ 5,00\n", result);
-
-    // result = remaining / 2;
-    // remaining = remaining - (result * 2);
-    // printf("%d nota(s) de R$ 2,00\n", result);
-    // printf("%d nota(s) de R$ 1,00\n", remaining);
-
-    return 0;
 }
