@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+int main(){
+
+int i=0;
+while(i<10)
+{
+	printf("I am inside the loop");
+
+    // correction 
+    i++;
+}
+  
+
+
+    return 0;
+}
+
+/*
+
+in this section this loop is infinity loop because there is no increment value . if add the increment i++ then after 10 times later the condition is false the break the loop otherwise it will always true .
+
+
+*/
