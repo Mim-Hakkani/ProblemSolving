@@ -2,42 +2,19 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
+
+int add_three_nums(int a, int b, int c=0)
+{
+return a+b+c;
+}
+
+
 int main(){
-    int a,b,arr[10000],arreven[10000],arrodd[10000],i,j;
+    int a,b;
     scanf("%d %d",&a,&b);
-    int index = 0;
-    int index2 = 0;
-    int count = 0;
+    int summation = add_three_nums(a,b);
 
-//   for even number 
-
-   for(i=2;i<=a;i+=2){
-
-    arreven[index] = i;
-    arr[index]=arreven[index];
-    index++;
-    count++;
-  
-   }
-
-
-   //   for odd number 
-
-   for(i=1;i<=a;i+=2){
-
-    arrodd[index2] = i;
-    arr[index]=arrodd[index2];
-    index2++;
-    index++;
-    count++;
-  
-   }
-
-   for(i=0;i<count;i++){
-     printf("%d ",arr[i]);
-   }
-   printf("\nThe %dth element in this sequence is %d\n",b,arr[b-1]);
- 
+    printf("%d\n",summation);
 
 
     return 0;
