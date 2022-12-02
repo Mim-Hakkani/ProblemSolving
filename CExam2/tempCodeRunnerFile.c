@@ -2,27 +2,31 @@
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
-int main()
-{
-    int a, i = 0;
-    char names[100];
-    scanf("%s %d", names, &a);
+char studentGrade(int grade){
+   if(grade>=0 && grade<=39){
+    return 'F';
+   }
+  else if(grade>39 && grade<=59){
+    return 'C';
+   }
 
-    while (names[i] != '\0')
-    {
-        if (names[i] >= 'a' && names[i] <= 'z')
-        {
-            if (names[i] + a > 122)
-            {
-                printf("%c", names[i] +a+97 - 123);
-            }
-            else
-            {
-                printf("%c", names[i] + a);
-            }
-        }
-        i++;
-    }
+     else if(grade>59 && grade<=79){
+    return 'B';
+   }
+
+    else if (grade>=80 && grade<=100){
+    return 'A';
+   }
+
+
+}
+int main(){
+    int grade;
+    scanf("%d",&grade);
+    char gd = studentGrade(grade);
+
+    printf("%c\n",gd);
+
 
     return 0;
 }
