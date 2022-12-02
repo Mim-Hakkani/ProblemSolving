@@ -15,13 +15,8 @@ int main()
         }
     }
 
-
-
-
-
-
-  // show the output in matrix 
-  printf("Output is : \n");
+    // show the output in matrix
+    printf("Output is : \n");
     for (int i = 0; i < 3; i++)
     {
         for (int j = 0; j < 3; j++)
