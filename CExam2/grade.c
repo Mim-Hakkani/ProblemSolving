@@ -28,7 +28,6 @@ int main()
     int grade;
     scanf("%d", &grade);
     char gd = studentGrade(grade);
-
     printf("%c\n", gd);
 
     return 0;
