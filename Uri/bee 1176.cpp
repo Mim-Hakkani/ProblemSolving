@@ -10,13 +10,13 @@ int main()
         if (fibo == 0)
         {
           
-            cout << "Fib (0) = 0"<<"\n";
+            cout << "Fib(0) = 0"<<"\n";
         }
 
         else if (fibo == 1)
         {
            
-             cout << "Fib (1) = 1"<<"\n";
+             cout << "Fib(1) = 1"<<"\n";
         }
 
         else
@@ -27,7 +27,7 @@ int main()
                 a[1] = 1;
                 a[i] = a[i - 1] + a[i - 2];
             }
-            cout << "Fib (" << fibo << ") = " << a[fibo] << "\n";
+            cout << "Fib(" << fibo << ") = " << a[fibo] << "\n";
         }
     }
 
