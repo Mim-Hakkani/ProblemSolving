@@ -47,7 +47,7 @@ int main(){
    
     }
 
-    printf("Sum aa: %d\n",sum);
+    printf("%d\n",sum);
     
     return 0;
 }
