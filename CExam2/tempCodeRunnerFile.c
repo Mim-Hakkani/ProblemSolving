@@ -1,35 +1,40 @@
+/*
+Write a C program that will take a string  as input from you and change the cases of the characters.If the letter is capital, change it into small and if the letter is small change it into capital letter. Look at the test case and explanation for more clarification.
+
+Sample Input:
+hElLoWorld
+
+Sample Output:
+HeLlOwORLD
+
+*/
+
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
 #include <stdlib.h>
 int main()
 {
-    int a[3][3];
+    char changes[1000];
+    fgets(changes, sizeof(changes), stdin);
 
-    // input 3x3 matrix
-    for (int i = 0; i < 3; i++)
+    int i = 0;
+    while (changes[i] != '\0')
     {
-        for (int j = 0; j < 3; j++)
+
+        if (changes[i] >= 'a' && changes[i] <= 'z')
         {
-            scanf("%d", &a[i][j]);
+            changes[i] = changes[i] - 32;
         }
+        else if (changes[i] >= 'A' && changes[i] <= 'Z')
+        {
+            changes[i] = changes[i] + 32;
+        }
+
+        i++;
     }
 
-
-
-
-
-
-  // show the output in matrix 
-  printf("Output is : \n");
-    for (int i = 0; i < 3; i++)
-    {
-        for (int j = 0; j < 3; j++)
-        {
-            printf("%d ", a[j][i]);
-        }
-        printf("\n");
-    }
+    puts(changes);
 
     return 0;
 }
