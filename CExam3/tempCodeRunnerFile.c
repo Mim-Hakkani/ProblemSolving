@@ -16,12 +16,9 @@ abbcdd
 
 
 #include<stdio.h>
-#include<string.h>
-int main(){
-    char name[100],name2[100];
-    int i,count=0;
-    fgets(name,sizeof(name),stdin);
 
+void keyboardTwice(char name[],int i){
+    int count = 0;
     while (name[i]!='\0')
     {
         count++;
@@ -36,7 +33,13 @@ int main(){
         
         i++;
     }
-
-
+}
+#include<string.h>
+int main(){
+    char name[100];
+    int i,count=0;
+    fgets(name,sizeof(name),stdin);
+    
+    keyboardTwice(name,i);
     
 }
