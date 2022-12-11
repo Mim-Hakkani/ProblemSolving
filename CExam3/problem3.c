@@ -11,3 +11,18 @@ Sample Output
 Tag: Pointer
 
 */
+
+#include<stdio.h>
+int main(){
+    int x,y;
+    printf("Sample Input : ");
+    scanf("%d %d",&x,&y);
+    int* ptrX,*ptrY;
+    ptrX = &x;
+    ptrY = &y;
+    printf("Sample Output : ");
+
+    printf("%d %d\n",*ptrX,*ptrY);
+  
+
+}                             
