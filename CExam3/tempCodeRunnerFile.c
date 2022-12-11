@@ -1,45 +1,78 @@
 /*
-Problem Statement:
-Your keyboard is worn out after playing games for a long time. Now when you press the keys of the keyboard, the first character you press is pressed once, then the key you press is pressed twice, then the third character will be pressed once again, and the fourth character will be pressed twice and so on. Implement it using function.
+ Mixed Array
+
+Problem Statement
+You are given an array of size n. And the next line will contain n positive integers. Find the number of prime numbers in the array and find the average of all even integers in the array. Implement it using two functions(one is for prime and second one is for finding the average) and traverse the array using pointers.
 
 See the sample input-output for more clarification.
 
 Sample Input-
 -----------------------
-abcd
+5
+2 5 9 11 14
 
 Sample Output-
 -----------------------
-abbcdd
+Prime numbers: 3
+Average of all even integers: 8.00
 
 */
 
-
 #include<stdio.h>
+int Isprime(int num){
 
-void keyboardTwice(char name[],int i){
-    int count = 0;
-    while (name[i]!='\0')
-    {
-        count++;
-        if(count%2==0){        
-         printf("%c%c",name[i],name[i]);
-        }
-        else{
-          
-            printf("%c",name[i]);
-           
-        }
+    // printf(" aa : %d\n",num);
+
+    int flag = 0,i;
+
+    for(i=2;i<=num/2;i++){
         
-        i++;
+		if(num%i==0)
+		{
+			flag =1;
+			break;
+		}
+	}
+	//flag is 1, if number is not prime
+  
+	if(flag==1)
+		return 0;
+	else
+		return 1;
     }
+   
+int IsEvenAvg(int num){
+    if(num%2==0){
+        return 1;
+    }
+    else return 0;
+   
 }
-#include<string.h>
 int main(){
-    char name[100];
-    int i,count=0;
-    fgets(name,sizeof(name),stdin);
+    int a[100],n,i,count=0,sum=0,evencount=0;
+    scanf("%d",&n);
+     for( i=0;i<n;i++){
+        scanf("%d",&a[i]); // using pointer is same as &a[i]
+        
+    }
+   
+     for(i=0;i<n;i++){
+             
+           
+            if(Isprime(a[i])==1) {
+                count++;
+            };
+
+             printf("avg =  %d\n",IsEvenAvg(a[i]));
+
+             if(IsEvenAvg(a[i])==1){
+                evencount++;
+                sum =sum +a[i] ;
+             }
+    }
+
     
-    keyboardTwice(name,i);
-    
+
+  printf("Prime numbers: %d\n",count);
+  printf("average number: %0.2f\n",(float)sum/(float)evencount);
 }
