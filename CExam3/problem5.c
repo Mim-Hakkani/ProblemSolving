@@ -54,6 +54,7 @@ int main(){
 
     }
  
- printf("Summation is : %d\n",summation);
+//  printf("Summation is : %d\n",summation);
+ printf("%d\n",summation);
     
 }
