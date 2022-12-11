@@ -28,7 +28,31 @@ Sample Output
 110 112 114 116
 124 126 128 130
 
- 
- 
-
 */
+
+#include<stdio.h>
+int main(){
+    int n,number,i,sum=0;
+    scanf("%d",&n);
+    for(i=1;i<=n;i++){
+        scanf("%d",&number);
+        int con=(number-12)/4;
+
+        while(con!=number){
+            printf("%d ",con);
+            sum+=con;
+            if(sum==number){
+                sum=0;
+                break;
+               
+            }
+            con+=2;
+
+        }
+        printf("\n");
+       
+        
+    }
+    return 0;
+}
+
