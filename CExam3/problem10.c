@@ -34,3 +34,63 @@ In sample input 1 -
 734 has the first digit 7 
 
 */
+
+#include<stdio.h>
+#include<math.h>
+
+void FavourateNumber(int arr[],int n){
+    int count=0;
+    int indexValue =ceil((float)n/2);
+  for(int i=0;i<n;i++){
+       while(arr[i]>0){
+            if(arr[i]%10==7){
+                count++;
+            }
+            arr[i]/=10;
+        }
+  }
+
+//   printf("Count : %d\n",count);
+    if(count>=indexValue) {
+        printf("Beautiful\n");}
+
+    else {printf("Ugly\n");}
+
+}
+
+int main(){
+    int arr[100];
+    int n,i;
+    scanf("%d",&n);
+    // int indexValue =ceil((float)n/2);
+
+    
+    // input array 
+
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    } 
+
+    FavourateNumber(arr,n);
+    
+    
+    //print function 
+    // for(i=0;i<n;i++){
+    //     // printf("%d ",arr[i]);
+
+    //     while(arr[i]>0){
+    //         if(arr[i]%10==7){
+    //             count++;
+    //         }
+    //         arr[i]/=10;
+    //     }
+    // } 
+    
+    // printf("Count : %d\n",count);
+    // if(count>=indexValue) {
+    //     printf("Beautiful\n");}
+
+    // else {printf("Ugly\n");}
+
+
+}

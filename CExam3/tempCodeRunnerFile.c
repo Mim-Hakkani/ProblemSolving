@@ -1,78 +1,97 @@
 /*
- Mixed Array
+Question-10
+ Beautiful Array
 
-Problem Statement
-You are given an array of size n. And the next line will contain n positive integers. Find the number of prime numbers in the array and find the average of all even integers in the array. Implement it using two functions(one is for prime and second one is for finding the average) and traverse the array using pointers.
+Problem Statement:
+You are given an array of size n. And the next line will contain n positive integers. Your favourite number is 7. The array will be nice if half or more of the numbers in the array have 7 digits. Implement it using a function and traverse the array using pointers.
 
 See the sample input-output for more clarification.
 
-Sample Input-
+Note - If the array size is odd that time  consider the ceil value as half, for example n=5, that means n/2 = 5/2 = 3 
+
+Sample Input- 1
+-----------------------
+6
+33 1 17 171 88 734
+
+Sample Output- 1
+-----------------------
+Beautiful
+
+Sample Input- 2
 -----------------------
 5
-2 5 9 11 14
+33 1 17 11 88 
 
-Sample Output-
+Sample Output- 2
 -----------------------
-Prime numbers: 3
-Average of all even integers: 8.00
+Ugly
+
+Explanation - 
+In sample input 1 - 
+17 have the last digit 7
+171 have the middle digit 7
+734 has the first digit 7 
 
 */
 
 #include<stdio.h>
-int Isprime(int num){
+#include<math.h>
 
-    // printf(" aa : %d\n",num);
-
-    int flag = 0,i;
-
-    for(i=2;i<=num/2;i++){
-        
-		if(num%i==0)
-		{
-			flag =1;
-			break;
-		}
-	}
-	//flag is 1, if number is not prime
-  
-	if(flag==1)
-		return 0;
-	else
-		return 1;
-    }
-   
-int IsEvenAvg(int num){
-    if(num%2==0){
-        return 1;
-    }
-    else return 0;
-   
-}
-int main(){
-    int a[100],n,i,count=0,sum=0,evencount=0;
-    scanf("%d",&n);
-     for( i=0;i<n;i++){
-        scanf("%d",&a[i]); // using pointer is same as &a[i]
-        
-    }
-   
-     for(i=0;i<n;i++){
-             
-           
-            if(Isprime(a[i])==1) {
+void FavourateNumber(int arr[],int n){
+    int count=0;
+    int indexValue =ceil((float)n/2);
+  for(int i=0;i<n;i++){
+       while(arr[i]>0){
+            if(arr[i]%10==7){
                 count++;
-            };
+            }
+            arr[i]/=10;
+        }
+  }
 
-             printf("avg =  %d\n",IsEvenAvg(a[i]));
 
-             if(IsEvenAvg(a[i])==1){
-                evencount++;
-                sum =sum +a[i] ;
-             }
-    }
+  printf("Count : %d\n",count);
+    if(count>=indexValue) {
+        printf("Beautiful\n");}
+
+    else {printf("Ugly\n");}
+
+}
+
+int main(){
+    int arr[100];
+    int n,i;
+    scanf("%d",&n);
+    // int indexValue =ceil((float)n/2);
 
     
+    // input array 
 
-  printf("Prime numbers: %d\n",count);
-  printf("average number: %0.2f\n",(float)sum/(float)evencount);
+    for(i=0;i<n;i++){
+        scanf("%d",&arr[i]);
+    } 
+
+    FavourateNumber(arr,n);
+    
+    
+    //print function 
+    // for(i=0;i<n;i++){
+    //     // printf("%d ",arr[i]);
+
+    //     while(arr[i]>0){
+    //         if(arr[i]%10==7){
+    //             count++;
+    //         }
+    //         arr[i]/=10;
+    //     }
+    // } 
+    
+    // printf("Count : %d\n",count);
+    // if(count>=indexValue) {
+    //     printf("Beautiful\n");}
+
+    // else {printf("Ugly\n");}
+
+
 }
