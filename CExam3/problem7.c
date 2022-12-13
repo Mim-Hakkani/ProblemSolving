@@ -32,11 +32,33 @@ Explanation -
 */
 
 #include<stdio.h>
+int AddressChanges(int arr[],int n){
+
+    int *arr2[100];
+    int num,l,r,j;
+
+    scanf("%d",&num);
+    for(j = 1;j<=num;j++){
+       scanf("%d %d",&l,&r);
+       arr[r-1] = arr[l-1];
+    }
+
+    // printf the traverse array 
+
+    printf("traverse array is :: \n");
+
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+}
 int main(){
     int arr[1000],n,i;
     scanf("%d",&n);
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+
+    AddressChanges(arr,n);
     
 }

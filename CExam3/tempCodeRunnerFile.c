@@ -1,97 +1,64 @@
 /*
-Question-10
- Beautiful Array
-
 Problem Statement:
-You are given an array of size n. And the next line will contain n positive integers. Your favourite number is 7. The array will be nice if half or more of the numbers in the array have 7 digits. Implement it using a function and traverse the array using pointers.
+You are given a positive integer n .The second line will contain n positive integers.And the third line will contain a value Q.The next line will contain Q queries,every query will contain two values L and R.Now,You need to swap two values by the following way-
+ 
+>> Swap the values of index L  with R .
+ 
+And lastly print the modified array.
+ 
+Note - You must swap the values using a function with pointers.And Consider the array as 1 base index.
+ 
+See the sample input output for more clarification.
+ 
+Constraints- 
+2<=n<=100
+Values of array will be given between 1-1000
+1<=L,R<=100 and L!=R
+ 
+Sample Input : 							     Sample Output :
+ 
+7
+9 1 17 3 5 2 7 
+4									     17 3 5 2 9 1 7
+1 3 
+2 4
+5 3
+4 6
+ 
+Explanation -
+1st query - swap 1st index value with 3rd index value then the array will be -  17 1 9 3 5 2 7
 
-See the sample input-output for more clarification.
-
-Note - If the array size is odd that time  consider the ceil value as half, for example n=5, that means n/2 = 5/2 = 3 
-
-Sample Input- 1
------------------------
-6
-33 1 17 171 88 734
-
-Sample Output- 1
------------------------
-Beautiful
-
-Sample Input- 2
------------------------
-5
-33 1 17 11 88 
-
-Sample Output- 2
------------------------
-Ugly
-
-Explanation - 
-In sample input 1 - 
-17 have the last digit 7
-171 have the middle digit 7
-734 has the first digit 7 
 
 */
 
 #include<stdio.h>
-#include<math.h>
+int AddressChanges(int arr[],int n){
 
-void FavourateNumber(int arr[],int n){
-    int count=0;
-    int indexValue =ceil((float)n/2);
-  for(int i=0;i<n;i++){
-       while(arr[i]>0){
-            if(arr[i]%10==7){
-                count++;
-            }
-            arr[i]/=10;
-        }
-  }
+    int *arr2[100];
+    int num,l,r,j;
 
+    scanf("%d",&num);
+    for(j = 1;j<=num;j++){
+       scanf("%d %d",&l,&r);
+       arr[r-1] = arr[l-1];
+    }
 
-  printf("Count : %d\n",count);
-    if(count>=indexValue) {
-        printf("Beautiful\n");}
+    // printf the traverse array 
 
-    else {printf("Ugly\n");}
+    printf("traverse array is :: \n");
 
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
 }
-
 int main(){
-    int arr[100];
-    int n,i;
+    int arr[1000],n,i;
     scanf("%d",&n);
-    // int indexValue =ceil((float)n/2);
-
-    
-    // input array 
-
     for(i=0;i<n;i++){
         scanf("%d",&arr[i]);
-    } 
+    }
 
-    FavourateNumber(arr,n);
+    AddressChanges(arr,n);
     
-    
-    //print function 
-    // for(i=0;i<n;i++){
-    //     // printf("%d ",arr[i]);
-
-    //     while(arr[i]>0){
-    //         if(arr[i]%10==7){
-    //             count++;
-    //         }
-    //         arr[i]/=10;
-    //     }
-    // } 
-    
-    // printf("Count : %d\n",count);
-    // if(count>=indexValue) {
-    //     printf("Beautiful\n");}
-
-    // else {printf("Ugly\n");}
-
-
 }
