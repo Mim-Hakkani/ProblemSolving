@@ -25,7 +25,9 @@ int main(){
    printf("Name is : %c\n",s1.name);
    printf("Weight is : %0.2f\n",s1.weight);
 
-    struct Student s2 = {.name='r',.roll=12,.weight=5.5};
+    struct Student s2 = {.name='r',.roll=12,.weight=5.5};  // Designated Initialization for structure 
+
+
    printf("Student 2 Result is :: \n");
    
    printf("Roll is : %d\n",s2.roll);
