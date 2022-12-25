@@ -16,6 +16,8 @@ int main(){
      scanf("%d %d",&p1.x,&p1.y);
      scanf("%d %d",&p2.x,&p2.y);
     
-    Distance(p1,p2);
+    double distance = Distance(p1,p2);
+    
+    printf("Distance Between Two co-ordinator is : %0.3lf\n",distance);
     return 0;
 }
