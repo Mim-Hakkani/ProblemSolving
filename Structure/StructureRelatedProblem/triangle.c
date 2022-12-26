@@ -91,6 +91,5 @@ int main(){
    printf("x = %0.1f\n",dp.x);
    printf("y = %0.1f\n",dp.y);
 
-
     return 0 ;
 }

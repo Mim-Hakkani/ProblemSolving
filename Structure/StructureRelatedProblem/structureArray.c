@@ -13,9 +13,10 @@ int main(){
 
    for (int i = 0; i < 5; i++)
    {
-      scanf("%lf\n",&s[i].marks);
       scanf("%d\n",&s[i].roll);
       scanf("%s\n",s[i].name);
+      scanf("%lf\n",&s[i].marks);
+      
    }
 
 
