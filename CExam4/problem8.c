@@ -64,11 +64,11 @@ int main(){
 
 printf("Enter information: \n");
 printf("Enter name: ");
-  scanf("%s",s.name);
+scanf("%s",s.name);
 printf("Enter roll number: ");
- scanf("%d",&s.roll);
+scanf("%d",&s.roll);
 printf("Enter Mark:");
- scanf("%d",&s.mark);
+scanf("%d",&s.mark);
 
 
 
