@@ -4,8 +4,10 @@ int main(){
     int n;
     scanf("%d",&n);
 
+    
+    // i think always using pointer with type casting 
     int *ptr ;
-    ptr =(int *) malloc(n*sizeof(n));
+    ptr =(int *) malloc(n*sizeof(int)); // dynamically allocate function 
 
     // input the array 
 
@@ -18,10 +20,11 @@ int main(){
        for(int i =0;i<n;i++){
         printf("%d ",*(ptr+i));
     }
+
+      free(ptr);
+
     printf("\n");
 
-
-
-
+  
 
 }
