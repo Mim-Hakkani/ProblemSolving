@@ -75,7 +75,7 @@ printf("Enter Mark:");
 // print the output 
 
 printf("\n\n");
-printf(" Displaying Information: \n");
+printf("Displaying Information: \n");
 printf("Name: %s\n",s.name);
 printf("Roll number: %d\n",s.roll);
 printf("Marks: %d\n",s.mark);
