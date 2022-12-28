@@ -8,5 +8,6 @@ int main(){
     int n;
     scanf("%d",&n);
     Solve(n);
+    printf("\n");
     return 0;
 }
