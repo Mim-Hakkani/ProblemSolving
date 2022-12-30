@@ -71,7 +71,6 @@ int main(){
              }
     }
 
-    
 
   printf("Prime numbers: %d\n",count);
   printf("Average of all even integers: %0.2f\n",(float)sum/(float)evencount);
