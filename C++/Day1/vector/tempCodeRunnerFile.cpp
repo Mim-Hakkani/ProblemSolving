@@ -2,45 +2,60 @@
 using namespace std;
 int main()
 { 
-    vector<int>a ={1,2,3};
-    vector<float>b ={1.1,2.2,3.3,4.5,6.8};
-    vector<char>c ={'i','l','b'};
-    vector<string>s ={"mim","love","bangladesh"};
-     // for int 
+    vector<int>a;
+  
+    // vector<float>b ={1.1,2.2,3.3,4.5,6.8};
+    // vector<char>c ={'i','l','b'};
+    // vector<string>s ={"mim","love","bangladesh"};
+
+
+     // for insert element using int 
+    for (int i = 0; i <5; i++)
+    {
+        a.push_back(i+1);
+    }
+
+   cout<<"\n";
+
+  a.resize(3);
+//    insert element 
+
+  a.insert(a.begin(),25);
+
+
+  // insert element in any where 
+
+  a.insert(a.begin()+3,35);
+
+ // for print inserting element 
+    
     for (int i = 0; i < a.size(); i++)
     {
         cout<<a[i]<<" ";
     
     }
-
+    
    cout<<"\n";
- // for float 
-    
-    for (int i = 0; i < b.size(); i++)
+   // delete the last element 
+
+   a.pop_back();
+       for (int i = 0; i < a.size(); i++)
     {
-        cout<<b[i]<<" ";
+        cout<<a[i]<<" ";
     
     }
-    
+
+       
     cout<<"\n";
+       // delete the last element 
 
-    // for char 
-
-    for (int i = 0; i < c.size(); i++)
+       a.erase(a.begin());
+       for (int i = 0; i < a.size(); i++)
     {
-        cout<<c[i]<<" ";
+        cout<<a[i]<<" ";
     
     }
-cout<<"\n";
 
-    // for string 
-
-    for (int i = 0; i < s.size(); i++)
-    {
-        cout<<s[i]<<" ";
-    
-    }
-cout<<"\n";
 
 
     return 0;
