@@ -16,7 +16,6 @@ class Area{
 };
 
 
-
 int main(){
    
    Area rec;
