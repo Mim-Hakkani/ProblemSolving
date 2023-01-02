@@ -1,14 +1,16 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
-int main(){
-    vector <int> a ={3,15,7,1,2};
-    cout<<"Before Sort : ";
-    for(int i = 0;i<a.size();i++){
-        cout<<a[i]<<" ";
+int main()
+{
+    vector<string> a = {"ema", "farida", "asa","comola", "karim"};
+    cout << "Before Sort : ";
+    for (int i = 0; i < a.size(); i++)
+    {
+        cout << a[i] << " ";
     }
-    cout<<"\n";
+    cout << "\n";
 
-    // sort functionality 
+    // sort functionality
 
     // sort(a.begin(),a.end());  // sort by assending order
 
@@ -17,8 +19,7 @@ int main(){
     //     cout<<a[i]<<" ";
     // }
 
-
-    // sort indevidual order  output 3 1 7 15 2 
+    // sort indevidual index  order  output 3 1 7 15 2
 
     // sort(a.begin()+1,a.begin()+3+1);
 
@@ -27,14 +28,13 @@ int main(){
     // }
     // cout<<"\n";
 
+    // sort by decending order
 
-    // sort by decending order 
-
-    sort(a.begin(),a.end(),greater<int>());
-    for(int i = 0;i<a.size();i++){
-        cout<<a[i]<<" ";
+    sort(a.begin(), a.end(),greater<string>());
+    for (int i = 0; i < a.size(); i++)
+    {
+        cout << a[i] << " ";
     }
-
 
     return 0;
 }
