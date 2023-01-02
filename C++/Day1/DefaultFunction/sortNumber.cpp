@@ -18,7 +18,7 @@ int main(){
     // }
 
 
-    // sort indevidual order  output 3 1 7 15 2 
+    // sort indevidual index  order  output 3 1 7 15 2 
 
     // sort(a.begin()+1,a.begin()+3+1);
 
