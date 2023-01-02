@@ -3,7 +3,7 @@ using namespace std;
 int main(){
     int a,b,c,d,e;
     cin>>a>>b>>c>>d>>e;
-    int minimum = min({a,b,c,d,e});
-    cout<<"Finding Minimum More then Two Number : "<<minimum<<"\n";
+    int maximum = max({a,b,c,d,e});
+    cout<<"Finding Maximum More then Two Number : "<<maximum<<"\n";
     return 0;
 }
