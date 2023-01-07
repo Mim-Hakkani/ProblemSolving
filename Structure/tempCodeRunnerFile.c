@@ -1,41 +1,28 @@
-// #include<stdio.h>
-// struct Course {
-//     char name[20];
-//     int price;
-// };
-
-// int main()
-// {
-//     struct Course c1 ={"C Programming",5000};
-//     printf("%s",c1.name);
-//     return 0;
-// }
-
-// #include<stdio.h>
-
-// struct st
-// {
-//     char x;
-//     int ar[6];
-//     int a;
-//     double b;
-// };
-
-// int main()
-// {
-//     printf("%d", sizeof(struct st));
-//     return 0;
-// }
-
 #include<stdio.h>
-struct Course {
-    char name[];
-    int price;
+struct Student{
+ int roll;
+ float weight;
+ char name;
 };
 
-int main()
-{
-    struct Course c1 ={"C Programming",5000};
-    printf("%s",c1.name);
-    return 0;
+int main(){
+   struct Student s;
+   s.roll = 150132;
+   s.weight = 75.1;
+   s.name='s';
+
+   printf("Roll is : %d\n",s.roll);
+   printf("Name is : %c\n",s.name);
+   printf("Weight is : %0.2f\n",s.weight);
+
+
+   struct Student s1;
+
+   scanf("%d %f %c",&s1.roll,&s1.weight,&s1.name);
+   
+   printf("Roll is : %d\n",s1.roll);
+   printf("Name is : %c\n",s1.name);
+   printf("Weight is : %0.2f\n",s1.weight);
+
+
 }
