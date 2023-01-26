@@ -39,6 +39,6 @@ int main()
         cout << "\n";
     }
 
-    cout << "Total : " << sum;
+    cout << "Total : " << sum << "\n";
     return 0;
 }
