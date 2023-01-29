@@ -10,8 +10,10 @@ int main(){
   for(int i=1;i<=n1 && i<=n2;++i){
     if(n1%i==0 && n2%i==0){
         gcd = i;
-        cout<<"Gcd : "<<gcd<<"\n";
+        
     }
+
+    cout<<"Gcd : "<<gcd<<"\n";
   }
   return 0;
     
