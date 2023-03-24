@@ -1,3 +1,4 @@
+// WAP that takes n integer numbers, and sum up all the integers in that array.
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
