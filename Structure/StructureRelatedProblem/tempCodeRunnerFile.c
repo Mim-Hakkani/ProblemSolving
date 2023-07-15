@@ -1,29 +1,28 @@
 #include<stdio.h>
-struct Complex{
-    double real;
-    double img;
+struct Student{
+ int roll;
+ float weight;
+ char name;
 };
 
-struct Complex additon(struct Complex a,struct Complex b){
-  struct Complex ans;
-  
-  ans.real = a.real+b.real;
-  ans.img = a.img+b.img;
- 
-  return ans;
-}
-
 int main(){
+   struct Student s;
+   s.roll = 150132;
+   s.weight = 75.1;
+   s.name='s';
 
-   struct Complex a ={5,5};
-   struct Complex b ={3,4};
+   printf("Roll is : %d\n",s.roll);
+   printf("Name is : %c\n",s.name);
+   printf("Weight is : %0.2f\n",s.weight);
 
-   // print real and complex number
 
-     struct Complex add = additon(a,b);
+   struct Student s1;
 
-     printf("%0.1lf + %0.1lfi\n",add.real,add.img);
- 
+   scanf("%d %f %c",&s1.roll,&s1.weight,&s1.name);
+   
+   printf("Roll is : %d\n",s1.roll);
+   printf("Name is : %c\n",s1.name);
+   printf("Weight is : %0.2f\n",s1.weight);
 
-    return 0;
+
 }
