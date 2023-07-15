@@ -1,0 +1,14 @@
+Certainly! Here are 10 easy sorting and searching problems that you can solve using C:
+
+1. Write a program to sort an array of integers in ascending order using the bubble sort algorithm.
+2. Write a program to sort an array of integers in descending order using the selection sort algorithm.
+3. Write a program to sort an array of integers in ascending order using the insertion sort algorithm.
+4. Write a program to search for a specific element in an array of integers using linear search.
+5. Write a program to search for a specific element in a sorted array of integers using binary search.
+6. Write a program to find the maximum element in an array of integers using linear search.
+7. Write a program to find the minimum element in an array of integers using linear search.
+8. Write a program to count the occurrences of a specific element in an array of integers.
+9. Write a program to find the sum of all elements in an array of integers.
+10. Write a program to find the average of all elements in an array of integers.
+
+These sorting and searching problems will help you practice the basic concepts and algorithms of sorting and searching in C programming. Good luck with your coding!
