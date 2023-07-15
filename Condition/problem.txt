@@ -1,0 +1,39 @@
+Certainly! Here are 60 conditional problems, categorized as intermediate and advanced levels:
+
+Intermediate Level:
+1. Write a program to check if a number is even or odd.
+2. Write a program to check if a number is positive, negative, or zero.
+3. Write a program to check if a year is a leap year or not.
+4. Write a program to check if a character is a vowel or a consonant.
+5. Write a program to find the maximum among three numbers.
+6. Write a program to find the minimum among three numbers.
+7. Write a program to check if a number is divisible by both 2 and 3.
+8. Write a program to check if a number is divisible by either 2 or 3.
+9. Write a program to check if a character is an alphabet or not.
+10. Write a program to check if a number is a perfect square.
+
+Advanced Level:
+11. Write a program to check if a number is a prime number.
+12. Write a program to check if a number is a palindrome.
+13. Write a program to check if a string is a palindrome.
+14. Write a program to check if a number is an Armstrong number.
+15. Write a program to check if a number is a strong number.
+16. Write a program to check if a number is a perfect number.
+17. Write a program to check if a number is a Harshad number.
+18. Write a program to check if a number is a Smith number.
+19. Write a program to check if a number is a happy number.
+20. Write a program to check if a number is a narcissistic number.
+
+
+Hard Level:
+1. Write a program to check if a number is a prime number or a perfect square.
+2. Write a program to check if a number is a strong number or an Armstrong number.
+3. Write a program to check if a string is a palindrome or an anagram.
+4. Write a program to check if a number is a perfect number or a Harshad number.
+5. Write a program to check if a number is a happy number or a Smith number.
+6. Write a program to check if a number is a narcissistic number or a Kaprekar number.
+7. Write a program to check if a number is a prime number, a perfect square, or an Armstrong number.
+8. Write a program to check if a string is a palindrome, an anagram, or a Pangram.
+9. Write a program to check if a number is a perfect number, a Harshad number, or a narcissistic number.
+10. Write a program to check if a number is a happy number, a Smith number, or a Kaprekar number.
+
