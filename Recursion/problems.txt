@@ -1,0 +1,44 @@
+Certainly! Here are 40 recursion-related problems that you can solve using C without involving data structures:
+
+1. Write a program to calculate the factorial of a number using recursion.
+2. Write a program to calculate the nth Fibonacci number using recursion.
+3. Write a program to calculate the sum of digits of a number using recursion.
+4. Write a program to reverse a string using recursion.
+5. Write a program to check if a string is a palindrome using recursion.
+6. Write a program to calculate the power of a number using recursion.
+7. Write a program to calculate the GCD (Greatest Common Divisor) of two numbers using recursion.
+8. Write a program to find the nth term of the geometric series using recursion.
+9. Write a program to convert a decimal number to its binary equivalent using recursion.
+10. Write a program to calculate the sum of all elements in an array using recursion.
+11. Write a program to find the maximum element in an array using recursion.
+12. Write a program to check if an array is sorted in ascending order using recursion.
+13. Write a program to print all permutations of a string using recursion.
+14. Write a program to solve the Towers of Hanoi puzzle using recursion.
+15. Write a program to calculate the sum of natural numbers up to a given number using recursion.
+16. Write a program to find the factorial of a number using tail recursion.
+17. Write a program to calculate the product of two numbers using recursion without using the * operator.
+18. Write a program to calculate the sum of the digits of a number using recursion without using loops.
+19. Write a program to find the length of a string using recursion without using loops.
+20. Write a program to check if a given number is prime using recursion.
+21. Write a program to calculate the number of digits in a decimal number using recursion.
+22. Write a program to calculate the sum of even numbers up to a given number using recursion.
+23. Write a program to calculate the sum of odd numbers up to a given number using recursion.
+24. Write a program to generate all possible combinations of a given set of numbers using recursion.
+25. Write a program to calculate the sum of a series using recursion.
+26. Write a program to find the GCD of multiple numbers using recursion.
+27. Write a program to calculate the sum of squares of the first n natural numbers using recursion.
+28. Write a program to check if a given string is an anagram using recursion.
+29. Write a program to find the number of occurrences of a given element in an array using recursion.
+30. Write a program to calculate the length of a linked list using recursion.
+31. Write a program to reverse a linked list using recursion.
+32. Write a program to check if a linked list is palindrome using recursion.
+33. Write a program to find the middle element of a linked list using recursion.
+34. Write a program to calculate the sum of elements in a binary tree using recursion.
+35. Write a program to count the number of leaf nodes in a binary tree using recursion.
+36. Write a program to find the height of a binary tree using recursion.
+37. Write a program to check if a binary tree is a binary search tree using recursion.
+38. Write a program to print all paths from the root to leaf nodes in a binary tree using recursion.
+39. Write a program to calculate the sum of elements in a matrix using recursion.
+40. Write a program to find the largest element in a matrix using recursion.
+
+These recursion-related problems will help you practice recursion concepts and problem-solving skills in C programming. Enjoy coding and good luck!
