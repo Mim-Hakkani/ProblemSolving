@@ -1,0 +1,19 @@
+Certainly! Here are 15 easy file-related problems that you can solve using C:
+
+1. Write a program to create a new text file and write some text into it.
+2. Write a program to read and display the contents of a text file.
+3. Write a program to copy the contents of one text file into another.
+4. Write a program to count the number of lines in a text file.
+5. Write a program to count the number of words in a text file.
+6. Write a program to find and replace a specific word in a text file.
+7. Write a program to append text to an existing text file.
+8. Write a program to delete a specific line from a text file.
+9. Write a program to check if a file exists or not.
+10. Write a program to create a new binary file and write some data into it.
+11. Write a program to read and display the contents of a binary file.
+12. Write a program to copy the contents of one binary file into another.
+13. Write a program to search for a specific record in a binary file.
+14. Write a program to update a specific record in a binary file.
+15. Write a program to delete a specific record from a binary file.
+
+These file-related problems will help you practice file handling operations in C programming. Good luck with your coding!
