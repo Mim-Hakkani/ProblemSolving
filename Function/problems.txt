@@ -1,0 +1,106 @@
+Sure! Here are 100 C programming function-related problems that you can solve:
+
+1. Write a function to find the factorial of a given number.
+2. Write a function to calculate the sum of two numbers.
+3. Write a function to find the maximum of three numbers.
+4. Write a function to check if a given number is prime.
+5. Write a function to check if a given string is a palindrome.
+6. Write a function to reverse a given string.
+7. Write a function to calculate the power of a given number.
+8. Write a function to calculate the sum of the digits of a given number.
+9. Write a function to calculate the average of a set of numbers.
+10. Write a function to convert a string to uppercase.
+11. Write a function to convert a string to lowercase.
+12. Write a function to count the number of vowels in a given string.
+13. Write a function to find the length of a string.
+14. Write a function to check if a given year is a leap year.
+15. Write a function to find the GCD (Greatest Common Divisor) of two numbers.
+16. Write a function to check if a given number is Armstrong.
+17. Write a function to find the square root of a given number.
+18. Write a function to check if a given string is a valid email address.
+19. Write a function to calculate the sum of all even numbers from 1 to N.
+20. Write a function to find the smallest element in an array.
+21. Write a function to check if a given number is a perfect number.
+22. Write a function to find the length of an array.
+23. Write a function to calculate the sum of the first N terms of a given series.
+24. Write a function to calculate the product of two numbers.
+25. Write a function to check if a given number is a perfect square.
+26. Write a function to find the second largest element in an array.
+27. Write a function to check if a given string is a substring of another string.
+28. Write a function to print the reverse of a given array.
+29. Write a function to calculate the sum of all odd numbers from 1 to N.
+30. Write a function to find the third smallest element in an array.
+31. Write a function to check if a given number is a perfect cube.
+32. Write a function to find the average of an array.
+33. Write a function to check if a given number is a prime palindrome.
+34. Write a function to find the sum of all prime numbers from 1 to N.
+35. Write a function to print a hollow square star pattern using nested loops.
+36. Write a function to calculate the sum of the cubes of all numbers from 1 to N.
+37. Write a function to find the fourth smallest element in an array.
+38. Write a function to check if a given number is a palindrome using bitwise operations.
+39. Write a function to find the largest and smallest elements in an array.
+40. Write a function to check if a given number is a palindrome using a stack.
+41. Write a function to calculate the sum of all numbers divisible by 3 or 5 from 1 to N.
+42. Write a function to check if a given string is an anagram using a for loop.
+43. Write a function to print the reverse of a given array using a while loop.
+44. Write a function to calculate the sum of the squares of all numbers from 1 to N.
+45. Write a function to find the fifth largest element in an array.
+46. Write a function to check if a given number is a palindrome using a recursive function.
+47. Write a function to print a mirrored right triangle pattern using nested loops.
+48. Write a function to calculate the sum of all numbers divisible by 3 and 5 from 1 to N.
+49. Write a function to check if a given string is a valid URL using a for loop.
+50. Write a function to print the reverse of a given string using recursion.
+51. Write a function to calculate the sum of all even Fibonacci numbers up to a given limit.
+52. Write a function to find the sum of all prime factors of a given number.
+53. Write a function to print a hollow mirrored right triangle pattern using nested loops.
+54. Write a function to calculate the product of the digits of a given number using recursion.
+55. Write a function to check if a given string is a palindrome ignoring case using a for loop.
+56. Write a function to print the reverse of a given array using recursion.
+57. Write a function to calculate the sum of the first N terms of the geometric sequence using recursion.
+58. Write a function to find the sixth largest element in an array.
+59. Write a function to check if a given number is a palindrome using bitwise operations and a recursive function.
+60. Write a function to print a mirrored right triangle pattern of alphabets using nested loops.
+61. Write a function to calculate the sum of all numbers divisible by 3 or 5 from 1 to N using a while loop.
+62. Write a function to check if a given string is a substring of another string using recursion.
+63. Write a function to print the reverse of a given string without using any loops.
+64. Write a function to calculate the sum of all prime numbers between two given numbers using a while loop.
+65. Write a function to check if a given number is a power of 2 using a for loop.
+66. Write a function to print a hollow mirrored right triangle pattern of alphabets using nested loops.
+67. Write a function to calculate the sum of the digits of a given number using bitwise operations and recursion.
+68. Write a function to check if a given string is a palindrome using a stack and a queue.
+69. Write a function to print the reverse of a given array without using recursion.
+70. Write a function to calculate the sum of the squares of all numbers from 1 to N using a while loop.
+71. Write a function to find the
+
+ seventh largest element in an array.
+72. Write a function to check if a given number is a palindrome using a recursive function and bitwise operations.
+73. Write a function to print a hollow square star pattern with diagonal using nested loops.
+74. Write a function to calculate the product of all even numbers from 1 to N using a while loop.
+75. Write a function to check if a given string is an anagram using recursion.
+76. Write a function to print the reverse of a given array without using any loops.
+77. Write a function to calculate the sum of the first N terms of the geometric sequence using recursion.
+78. Write a function to find the fifth largest element in an array.
+79. Write a function to check if a given number is a palindrome using bitwise operations.
+80. Write a function to print a hollow square star pattern with diagonal and borders using nested loops.
+81. Write a function to calculate the sum of all prime numbers between two given numbers using a while loop.
+82. Write a function to check if a given string is a valid URL using a for loop.
+83. Write a function to print the reverse of a given string without using recursion.
+84. Write a function to calculate the sum of the digits of a given number using bitwise operations.
+85. Write a function to check if a given number is a palindrome using a stack.
+86. Write a function to print the Floyd's triangle pattern using nested loops.
+87. Write a function to calculate the sum of all odd Fibonacci numbers up to a given limit using a while loop.
+88. Write a function to find the sum of all factors of a given number using a for loop.
+89. Write a function to print a hollow square star pattern with diagonal and borders using nested loops.
+90. Write a function to calculate the product of all odd numbers from 1 to N using a do-while loop.
+91. Write a function to check if a given string is a palindrome using a stack and a queue.
+92. Write a function to print the reverse of a given array without using recursion.
+93. Write a function to check if a given number is a palindrome using a recursive function and bitwise operations.
+94. Write a function to print the reverse of a given string without using any loops.
+95. Write a function to calculate the sum of all even Fibonacci numbers up to a given limit using recursion.
+96. Write a function to find the sum of all prime factors of a given number using recursion.
+97. Write a function to print a hollow square star pattern with diagonal and borders using nested loops.
+98. Write a function to calculate the product of the digits of a given number using recursion.
+99. Write a function to check if a given string is a palindrome ignoring case using a stack.
+100. Write a function to print the reverse of a given array using recursion.
+
+These function-related problems cover a wide range of topics and challenges. You can modify and expand upon them to further develop your programming skills. Happy coding!
