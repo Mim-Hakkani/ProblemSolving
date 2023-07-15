@@ -1,0 +1,39 @@
+Apologies for the confusion. Here are 40 switch-related problems categorized as easy, intermediate, and hard:
+
+Easy Level:
+1. Write a program to check if a given day number (1-7) corresponds to a weekday or a weekend.
+2. Write a program to display the name of a given fruit (apple, banana, orange) using a switch statement.
+3. Write a program to convert a given grade (A, B, C, D, F) to its corresponding GPA using a switch statement.
+4. Write a program to display the name of a given basic shape (circle, square, triangle) using a switch statement.
+5. Write a program to determine the type of a given vehicle (car, bike, truck) using a switch statement.
+6. Write a program to check if a given character is a vowel or a consonant using a switch statement.
+7. Write a program to convert a given month number (1-12) to its corresponding season using a switch statement.
+8. Write a program to display the name of a given color (red, green, blue) using a switch statement.
+9. Write a program to determine the type of a given animal (mammal, reptile, bird) using a switch statement.
+10. Write a program to convert a given time in hours (1-12) to its corresponding greeting (morning, afternoon, evening) using a switch statement.
+
+Intermediate Level:
+11. Write a program to check the eligibility of a given age for driving based on the country's legal driving age using a switch statement.
+12. Write a program to convert a given temperature unit (Celsius, Fahrenheit, Kelvin) to another unit using a switch statement.
+13. Write a program to display the name of a given day of the week (Monday, Tuesday, etc.) along with its abbreviation using a switch statement.
+14. Write a program to determine the type of a given shape (circle, square, triangle, rectangle) using a switch statement.
+15. Write a program to convert a given number to its corresponding Roman numeral using a switch statement.
+16. Write a program to display the name of a given country code (USA, UK, IND) using a switch statement.
+17. Write a program to determine the type of a given angle (acute, right, obtuse) based on its measurement using a switch statement.
+18. Write a program to check if a given character is an alphabet (uppercase or lowercase) or a digit using a switch statement.
+19. Write a program to convert a given day number (1-365) to its corresponding month using a switch statement.
+20. Write a program to determine the type of a given vehicle fuel (gasoline, diesel, electric) using a switch statement.
+
+Hard Level:
+21. Write a program to calculate the tax amount based on a given income and tax brackets using a switch statement.
+22. Write a program to determine the type of a given musical instrument (piano, guitar, drums) using a switch statement.
+23. Write a program to check the eligibility of a given age for retirement based on the country's retirement age using a switch statement.
+24. Write a program to determine the type of a given vehicle (car, bike, truck, bus) based on its fuel type using a switch statement.
+25. Write a program to calculate the total fare for a given distance traveled and transportation mode (bus, train, taxi) using a switch statement.
+26. Write a program to determine the type of a given shape (circle, square, triangle, rectangle) based on its dimensions using a switch statement.
+27. Write a program to convert a given number to its corresponding binary, octal, or hexadecimal representation using a switch statement.
+28. Write a program to display the name of a given city (New York, London, Tokyo) using a switch statement.
+29. Write a program to determine the type of a given food item (vegetarian, vegan, non-vegetarian) using a switch statement.
+30. Write a program to convert a given time in hours (0-23) to its corresponding greeting (morning, afternoon, evening, night) using a switch statement.
+
+These switch-related problems cover a range of difficulty levels and will help you practice using the switch statement in different scenarios. Good luck with your coding!
