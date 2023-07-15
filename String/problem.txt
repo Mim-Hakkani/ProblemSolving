@@ -1,0 +1,170 @@
+
+1. Write a program to calculate the length of a string.
+2. Write a program to concatenate two strings.
+3. Write a program to compare two strings and check if they are equal.
+4. Write a program to reverse a string.
+5. Write a program to check if a string is a palindrome.
+6. Write a program to convert a string to uppercase.
+7. Write a program to convert a string to lowercase.
+8. Write a program to count the number of vowels in a string.
+9. Write a program to count the number of words in a string.
+10. Write a program to remove all spaces from a string.
+11. Write a program to check if a string is an anagram.
+12. Write a program to find the first non-repeating character in a string.
+13. Write a program to remove all occurrences of a specific character from a string.
+14. Write a program to find the frequency of each character in a string.
+15. Write a program to find the longest common prefix among a set of strings.
+16. Write a program to reverse the order of words in a string.
+17. Write a program to find the second most frequent character in a string.
+18. Write a program to check if a string is a valid palindrome, considering only alphanumeric characters and ignoring cases.
+19. Write a program to remove duplicate characters from a string.
+20. Write a program to find the largest word in a string.
+21. Write a program to check if a string is a valid email address.
+22. Write a program to check if a string is a valid URL.
+23. Write a program to find the smallest window in a string containing all characters of another string.
+24. Write a program to check if a string is a valid IPv4 address.
+25. Write a program to remove all duplicates from a sorted string.
+26. Write a program to find the longest palindromic substring in a string.
+27. Write a program to find the longest common subsequence between two strings.
+28. Write a program to find the minimum number of operations required to convert one string to another.
+29. Write a program to find the longest repeating substring in a string.
+30. Write a program to find the longest word made of other words in a given list.
+31. Write a program to find the longest common substring among a set of strings.
+32. Write a program to generate all possible permutations of a string.
+33. Write a program to find the minimum window in a string containing all characters of another string.
+34. Write a program to find the shortest palindrome in a string.
+35. Write a program to find the minimum number of operations required to make a string palindrome.
+36. Write a program to find the length of the longest substring without repeating characters.
+37. Write a program to find the length of the longest substring with at most K distinct characters.
+38. Write a program to find the lexicographically smallest and largest substring of a given length in a string.
+39. Write a program to find the lexicographically smallest permutation of a string.
+40. Write a program to find the longest word in a dictionary that can be formed by deleting characters from a string.
+41. Write a program to find the length of the longest consecutive sequence of a character in a string.
+42. Write a program to find the lexicographically smallest string formed by swapping adjacent characters.
+43. Write a program to find the longest subarray of a string containing distinct characters.
+44. Write a program to find the length of the longest balanced substring in a string.
+45. Write a program to find the length of the longest substring with an equal number of 0s and 1s.
+46. Write a program to find the length of the longest substring with an equal number of vowels and consonants.
+47. Write a program to find the length of the longest substring with no repeating characters.
+48. Write a program to find the length of the longest common subsequence between three strings.
+49. Write a program to find the length of the longest palindromic subsequence in a string.
+50. Write a program to find the length of the longest word chain in a dictionary.
+51. Write a program to find the length of the longest substring with at least K repeating characters.
+52. Write a program to find the length of the longest substring with at most K distinct characters and at least L repeating characters.
+53. Write a program to check if a string is a valid IPv6 address.
+54. Write a program to find the length of the longest substring with an equal number of odd and even digits.
+55. Write a program to find the length of the longest substring with characters in alphabetical order.
+56. Write a program to find the length of the longest substring with characters in reverse alphabetical order.
+57. Write a program to find the length of the longest substring with alternating characters.
+58. Write a program to find the length of the longest substring with balanced parentheses.
+59. Write a program to find the length of the longest substring with characters in non-decreasing order of their ASCII values.
+60. Write a program to find the length of the longest substring with characters in non-increasing order of their ASCII values.
+61. Write a program to find the length of the longest substring with an equal number of vowels and consonants, considering both uppercase and lowercase letters.
+62. Write a program to find the length of the
+
+ longest substring with characters appearing an even number of times.
+63. Write a program to find the length of the longest substring with characters appearing an odd number of times.
+64. Write a program to find the length of the longest substring with characters repeating in a pattern.
+65. Write a program to find the length of the longest substring with characters repeating in a cyclic pattern.
+66. Write a program to find the length of the longest substring with the same number of 0s and 1s, allowing at most K replacements.
+67. Write a program to find the length of the longest substring with the same number of opening and closing parentheses, allowing at most K replacements.
+68. Write a program to find the length of the longest substring with the same number of opening and closing brackets, allowing at most K replacements.
+69. Write a program to find the length of the longest substring with the same number of opening and closing braces, allowing at most K replacements.
+70. Write a program to find the length of the longest substring with the same number of opening and closing parentheses, brackets, and braces, allowing at most K replacements.
+71. Write a program to find the length of the longest substring with characters occurring in consecutive blocks.
+72. Write a program to find the length of the longest substring with characters occurring in blocks of size K.
+73. Write a program to find the length of the longest substring with characters occurring in blocks of size K or more.
+74. Write a program to find the length of the longest substring with characters occurring in blocks of size K or less.
+75. Write a program to find the length of the longest substring with characters appearing in a pattern of consecutive blocks.
+76. Write a program to find the length of the longest substring with characters appearing in a pattern of blocks of size K.
+77. Write a program to find the length of the longest substring with characters appearing in a pattern of blocks of size K or more.
+78. Write a program to find the length of the longest substring with characters appearing in a pattern of blocks of size K or less.
+79. Write a program to find the length of the longest substring with the same number of vowels and consonants, considering only alphabetic characters.
+80. Write a program to find the length of the longest substring with characters appearing in a pattern of vowels and consonants.
+81. Write a program to find the length of the longest substring with characters appearing in a pattern of alternating vowels and consonants.
+82. Write a program to find the length of the longest substring with characters appearing in a pattern of non-alphabetic characters.
+83. Write a program to find the length of the longest substring with characters occurring in blocks of alphabetic characters.
+84. Write a program to find the length of the longest substring with characters occurring in blocks of non-alphabetic characters.
+85. Write a program to find the length of the longest substring with characters occurring in blocks of alphabetic or numeric characters.
+86. Write a program to find the length of the longest substring with characters occurring in blocks of alphabetic, numeric, or special characters.
+87. Write a program to find the length of the longest substring with characters occurring in blocks of a specific character.
+88. Write a program to find the length of the longest substring with characters occurring in blocks of a specific pattern.
+89. Write a program to find the length of the longest substring with characters occurring in blocks of a specific combination of characters.
+90. Write a program to find the length of the longest substring with characters occurring in blocks of a specific combination of patterns.
+91. Write a program to find the length of the longest substring with characters occurring in a specific order.
+92. Write a program to find the length of the longest substring with characters occurring in a specific reverse order.
+93. Write a program to find the length of the longest substring with characters occurring in a specific cyclic order.
+94. Write a program to find the length of the longest substring with characters occurring in a specific non-cyclic order.
+95. Write a program to find the length of the longest substring with characters occurring in a specific consecutive order.
+96. Write a program to find the length of the longest substring with characters occurring in a specific non-consecutive order.
+97. Write a program to find the length of the longest substring with characters occurring in a specific pattern of consecutive blocks.
+98. Write a program to find the length of the longest substring with characters occurring in a specific pattern of non-consecutive blocks.
+99. Write a program to find the length of the longest substring with characters occurring in a specific pattern of non-overlapping blocks.
+100. Write a program to find the length of the longest substring with characters occurring in a specific pattern of overlapping blocks.
+
+
+Label Wise String Problems : 
+
+Certainly! Here are 100 string-related problems in increasing order of difficulty, using C syntax:
+
+Easy Level:
+1. Write a program to calculate the length of a string.
+2. Write a program to concatenate two strings.
+3. Write a program to compare two strings and check if they are equal.
+4. Write a program to reverse a string.
+5. Write a program to check if a string is a palindrome.
+6. Write a program to convert a string to uppercase.
+7. Write a program to convert a string to lowercase.
+8. Write a program to count the number of vowels in a string.
+9. Write a program to count the number of words in a string.
+10. Write a program to remove all spaces from a string.
+
+Intermediate Level:
+11. Write a program to check if a string is an anagram.
+12. Write a program to find the first non-repeating character in a string.
+13. Write a program to remove all occurrences of a specific character from a string.
+14. Write a program to find the frequency of each character in a string.
+15. Write a program to find the longest common prefix among a set of strings.
+16. Write a program to reverse the order of words in a string.
+17. Write a program to find the second most frequent character in a string.
+18. Write a program to check if a string is a valid palindrome, considering only alphanumeric characters and ignoring cases.
+19. Write a program to remove duplicate characters from a string.
+20. Write a program to find the largest word in a string.
+
+Advanced Level:
+21. Write a program to check if a string is a valid email address.
+22. Write a program to check if a string is a valid URL.
+23. Write a program to find the smallest window in a string containing all characters of another string.
+24. Write a program to check if a string is a valid IPv4 address.
+25. Write a program to remove all duplicates from a sorted string.
+26. Write a program to find the longest palindromic substring in a string.
+27. Write a program to find the longest common subsequence between two strings.
+28. Write a program to find the minimum number of operations required to convert one string to another.
+29. Write a program to find the longest repeating substring in a string.
+30. Write a program to find the longest word made of other words in a given list.
+
+Expert Level:
+31. Write a program to find the longest common substring among a set of strings.
+32. Write a program to generate all possible permutations of a string.
+33. Write a program to find the minimum window in a string containing all characters of another string.
+34. Write a program to find the shortest palindrome in a string.
+35. Write a program to find the minimum number of operations required to make a string palindrome.
+36. Write a program to find the length of the longest substring without repeating characters.
+37. Write a program to find the length of the longest substring with at most K distinct characters.
+38. Write a program to find the lexicographically smallest and largest substring of a given length in a string.
+39. Write a program to find the lexicographically smallest permutation of a string.
+40. Write a program to find the longest word in a dictionary that can be formed by deleting characters from a string.
+
+Challenging Level:
+41. Write a program to find the length of the longest consecutive sequence of a character in a string.
+42. Write a program to find the lexicographically smallest string formed by swapping adjacent characters.
+43. Write a program to find the longest subarray of a string containing distinct characters.
+44. Write a program to find the length of the longest balanced substring in a string.
+45. Write a program to find the length of the longest substring with an equal number of 0s and 1s.
+46. Write a program to find the length of the longest substring with an equal number of vowels and consonants.
+47. Write a program to find the length of the longest substring with no repeating characters.
+48. Write a program to find the length of the longest common subsequence between three strings.
+49. Write a program to find the length of the longest palindromic subsequence in a string.
+50. Write a program to find the length of the longest word chain in a dictionary.
+
+These string-related problems cover a wide range of challenges and can help you improve your string manipulation skills using C syntax. Good luck with your programming journey!
