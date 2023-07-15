@@ -1,0 +1,34 @@
+Here are 30 pattern-related problems sorted by name:
+
+1. Arrow Star Pattern
+2. Cross Star Pattern
+3. Diamond Star Pattern
+4. Floyd's Triangle Pattern
+5. Heart Star Pattern
+6. Hollow Diamond Star Pattern
+7. Hollow Floyd's Triangle Pattern
+8. Hollow Heart Star Pattern
+9. Hollow Left Triangle Pattern
+10. Hollow Mirrored Right Triangle Star Pattern
+11. Hollow Number Pyramid Pattern
+12. Hollow Number Triangle Pattern
+13. Hollow Pyramid Star Pattern
+14. Hollow Right Triangle Pattern
+15. Hollow Square Pattern
+16. Hollow Star Pattern
+17. Hollow Triangle Pattern
+18. Inverted Mirrored Right Triangle Star Pattern
+19. Inverted Pyramid Star Pattern
+20. Inverted Right Triangle Star Pattern
+21. Inverted V Star Pattern
+22. Mirrored Right Triangle Star Pattern
+23. Number Pyramid Pattern
+24. Number Triangle Pattern
+25. Palindrome Pyramid Pattern
+26. Pyramid Star Pattern
+27. Right Diagonal Star Pattern
+28. Right Triangle Star Pattern
+29. Solid Square Pattern
+30. Solid Triangle Pattern
+
+These pattern-related problems involve various shapes and arrangements that you can create using loops and appropriate logic in C programming. Enjoy solving them!

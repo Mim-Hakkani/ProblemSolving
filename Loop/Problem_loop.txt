@@ -1,0 +1,161 @@
+
+
+1. Write a program that prints the numbers from 1 to 10 using a for loop.
+2. Write a program that prints the even numbers from 1 to 20 using a while loop.
+3. Write a program that calculates the sum of all numbers from 1 to 100 using a do-while loop.
+4. Write a program that prints the multiplication table of a given number using a for loop.
+5. Write a program that finds the factorial of a given number using a while loop.
+6. Write a program that checks if a given number is prime using a for loop.
+7. Write a program that prints the Fibonacci series up to a given limit using a while loop.
+8. Write a program that calculates the sum of the digits of a given number using a do-while loop.
+9. Write a program that generates and prints the first N terms of the geometric sequence using a for loop.
+10. Write a program that prints a pyramid pattern using nested for loops.
+11. Write a program that calculates the average of a set of numbers using a for loop.
+12. Write a program that reverses a given number using a while loop.
+13. Write a program that counts the number of vowels in a given string using a for loop.
+14. Write a program that checks if a given string is a palindrome using a while loop.
+15. Write a program that finds the largest element in an array using a for loop.
+16. Write a program that calculates the factorial of a given number using a for loop and a user-defined function.
+17. Write a program that calculates the sum of the first N terms of a given series using a while loop.
+18. Write a program that prints a hollow square pattern using nested for loops.
+19. Write a program that checks if a given number is Armstrong using a while loop.
+20. Write a program that finds the GCD (Greatest Common Divisor) of two numbers using a for loop.
+21. Write a program that counts the number of occurrences of a specific character in a given string using a while loop.
+22. Write a program that prints the Pascal's triangle using nested for loops.
+23. Write a program that checks if a given number is a perfect number using a for loop.
+24. Write a program that reverses a given string using a do-while loop.
+25. Write a program that calculates the sum of all even numbers from 1 to N using a for loop.
+26. Write a program that finds the smallest element in an array using a while loop.
+27. Write a program that checks if a given year is a leap year using a for loop.
+28. Write a program that prints a hollow diamond pattern using nested for loops.
+29. Write a program that generates and prints the first N terms of the arithmetic sequence using a while loop.
+30. Write a program that checks if a given string is a palindrome using a for loop.
+31. Write a program that calculates the sum of the digits of a given number using a recursive function.
+32. Write a program that prints the ASCII values of all uppercase letters using a for loop.
+33. Write a program that checks if a given number is a prime palindrome using a while loop.
+34. Write a program that finds the sum of all prime numbers from 1 to N using a for loop.
+35. Write a program that prints a right triangle pattern using nested for loops.
+36. Write a program that calculates the power of a given number using a while loop.
+37. Write a program that checks if a given string is an anagram using a for loop.
+38. Write a program that prints the reverse of a given array using a do-while loop.
+39. Write a program that calculates the sum of all odd numbers from 1 to N using a for loop.
+40. Write a program that finds the second largest element in an array using a while loop.
+41. Write a program that checks if a given number is a perfect square using a for loop.
+42. Write a program that prints a diamond pattern using nested for loops.
+43. Write a program that calculates the sum of the digits of a given number using recursion.
+44. Write a program that prints the ASCII values of all lowercase letters using a while loop.
+45. Write a program that checks if a given number is a palindrome using a do-while loop.
+46. Write a program that finds the sum of all even digits in a given number using a for loop.
+47. Write a program that prints a mirrored right triangle pattern using nested for loops.
+48. Write a program that calculates the sum of all numbers divisible by 3 or 5 from 1 to N using a while loop.
+49. Write a program that checks if a given string is a substring of another string using a for loop.
+50. Write a program that prints the reverse of a given string using recursion.
+51. Write a program that calculates the sum of all prime numbers from 1 to N using a do-while loop.
+52. Write a program that finds the largest and smallest elements in an array using a for loop.
+53. Write a program that checks if a given number is a perfect cube using a while loop.
+54. Write a program that prints a hollow mirrored right triangle pattern using nested for loops.
+55. Write a program that calculates the product of all digits in a given number using a for loop.
+56. Write a program that checks if a given string is a substring of another string using recursion.
+57. Write a program that prints the reverse of a given array using a while loop.
+58. Write a program that calculates the sum of the squares of all numbers from 1 to N using a for loop.
+59. Write a program that finds the second smallest element in an array using a do-while loop.
+60. Write a program that checks if a given number is a palindrome using recursion.
+61. Write a program that prints a mirrored right triangle pattern of alphabets using nested for loops.
+62. Write a program that calculates the sum of all numbers divisible by 3 and 5 from 1 to N using a while loop.
+63. Write a program that checks if a given string is a valid email address using a for loop.
+64. Write a program that prints the reverse of a given string using a recursive function.
+65. Write a program that calculates the sum of all even Fibonacci numbers up to a given limit using a for loop.
+66. Write a program that finds the sum of all prime factors of a given number using a while loop.
+67. Write a program that prints a hollow mirrored right triangle pattern of alphabets using nested for loops.
+68. Write a program that calculates the product of the digits of a given number using recursion.
+69. Write a program that checks if a given string is a palindrome ignoring case using a for loop.
+70. Write a program that prints the reverse of a given array using recursion.
+71. Write a program that calculates the sum of the cubes of all numbers from 1 to N using a while loop.
+72. Write a program that finds the third largest element in an array using a for loop.
+73. Write a program that checks if a given number is a palindrome using a recursive function.
+74. Write a program that prints a mirrored rhombus pattern using nested for loops.
+75. Write a program that calculates the sum of the series 1 - 2 + 3 - 4
+
+ + ... up to N using a while loop.
+76. Write a program that checks if a given string is a pangram using a for loop.
+77. Write a program that prints the reverse of a given string without using any loops.
+78. Write a program that calculates the sum of the first N prime numbers using recursion.
+79. Write a program that finds the fourth smallest element in an array using a while loop.
+80. Write a program that checks if a given number is a power of 2 using a for loop.
+81. Write a program that prints a hollow mirrored rhombus pattern using nested for loops.
+82. Write a program that calculates the product of all even numbers from 1 to N using a while loop.
+83. Write a program that checks if a given string is an anagram using recursion.
+84. Write a program that prints the reverse of a given array without using any loops.
+85. Write a program that calculates the sum of the first N terms of the geometric sequence using recursion.
+86. Write a program that finds the fifth largest element in an array using a for loop.
+87. Write a program that checks if a given number is a palindrome using bitwise operations.
+88. Write a program that prints a hollow square star pattern with diagonal using nested for loops.
+89. Write a program that calculates the sum of all prime numbers between two given numbers using a while loop.
+90. Write a program that checks if a given string is a valid URL using a for loop.
+91. Write a program that prints the reverse of a given string without using recursion.
+92. Write a program that calculates the sum of the digits of a given number using bitwise operations.
+93. Write a program that checks if a given number is a palindrome using a stack.
+94. Write a program that prints the Floyd's triangle pattern using nested for loops.
+95. Write a program that calculates the sum of all odd Fibonacci numbers up to a given limit using a while loop.
+96. Write a program that finds the sum of all factors of a given number using a for loop.
+97. Write a program that prints a hollow square star pattern with diagonal and borders using nested for loops.
+98. Write a program that calculates the product of all odd numbers from 1 to N using a do-while loop.
+99. Write a program that checks if a given string is a palindrome using a stack and a queue.
+100. Write a program that prints the reverse of a given array without using recursion.
+
+
+
+Extra : 
+Write a C program to print all natural numbers from 1 to n. – using while loop
+Write a C program to print all natural numbers in reverse (from n to 1). – using while loop
+Write a C program to print all alphabets from a to z. – using while loop
+Write a C program to print all even numbers between 1 to 100. – using while loop
+Write a C program to print all odd number between 1 to 100.
+Write a C program to find sum of all natural numbers between 1 to n.
+Write a C program to find sum of all even numbers between 1 to n.
+Write a C program to find sum of all odd numbers between 1 to n.
+Write a C program to print multiplication table of any number.
+Write a C program to count number of digits in a number.
+Write a C program to find first and last digit of a number.
+Write a C program to find sum of first and last digit of a number.
+Write a C program to swap first and last digits of a number.
+Write a C program to calculate sum of digits of a number.
+Write a C program to calculate product of digits of a number.
+Write a C program to enter a number and print its reverse.
+Write a C program to check whether a number is palindrome or not.
+Write a C program to find frequency of each digit in a given integer.
+Write a C program to enter a number and print it in words.
+Write a C program to print all ASCII character with their values.
+Write a C program to find power of a number using for loop.
+Write a C program to find all factors of a number.
+Write a C program to calculate factorial of a number.
+Write a C program to find HCF (GCD) of two numbers.
+Write a C program to find LCM of two numbers.
+Write a C program to check whether a number is Prime number or not.
+Write a C program to print all Prime numbers between 1 to n.
+Write a C program to find sum of all prime numbers between 1 to n.
+Write a C program to find all prime factors of a number.
+Write a C program to check whether a number is Armstrong number or not.
+Write a C program to print all Armstrong numbers between 1 to n.
+Write a C program to check whether a number is Perfect number or not.
+Write a C program to print all Perfect numbers between 1 to n.
+Write a C program to check whether a number is Strong number or not.
+Write a C program to print all Strong numbers between 1 to n.
+Write a C program to print Fibonacci series up to n terms.
+Write a C program to find one’s complement of a binary number.
+Write a C program to find two’s complement of a binary number.
+Write a C program to convert Binary to Octal number system.
+Write a C program to convert Binary to Decimal number system.
+Write a C program to convert Binary to Hexadecimal number system.
+Write a C program to convert Octal to Binary number system.
+Write a C program to convert Octal to Decimal number system.
+Write a C program to convert Octal to Hexadecimal number system.
+Write a C program to convert Decimal to Binary number system.
+Write a C program to convert Decimal to Octal number system.
+Write a C program to convert Decimal to Hexadecimal number system.
+Write a C program to convert Hexadecimal to Binary number system.
+Write a C program to convert Hexadecimal to Octal number system.
+Write a C program to convert Hexadecimal to Decimal number system.
+Write a C program to print Pascal triangle upto n rows.
+Star pattern programs – Write a C program to print the given star patterns.
+Number pattern programs – Write a C program to print the given number patterns.
