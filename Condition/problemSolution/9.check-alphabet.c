@@ -1,4 +1,4 @@
-// problem Name : Write a program to find the maximum among three leters.
+// problem Name : Write a program to check if a character is an alphabet or not.
 #include <stdio.h>
 int main()
 {
@@ -20,10 +20,10 @@ int main()
 
 /*
 input :
-Enter 5
+Enter a
 Enter 15
 
 output :
-nor Divisible
-Divisible
+alphabet
+not alphabet
 */

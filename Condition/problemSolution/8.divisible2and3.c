@@ -1,4 +1,4 @@
-// problem Name : Write a program to find the maximum among three numbers.
+// problem Name :  Write a program to check if a number is divisible by both 2 and 3.
 #include <stdio.h>
 int main()
 {
