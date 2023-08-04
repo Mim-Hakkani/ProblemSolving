@@ -7,16 +7,16 @@ int main(){
 }
 
 Intermediate Level:
-
-2. Write a program to check if a number is positive, negative, or zero.
-3. Write a program to check if a year is a leap year or not.
-4. Write a program to check if a character is a vowel or a consonant.
-5. Write a program to find the maximum among three numbers.
-6. Write a program to find the minimum among three numbers.
-7. Write a program to check if a number is divisible by both 2 and 3.
-8. Write a program to check if a number is divisible by either 2 or 3.
-9. Write a program to check if a character is an alphabet or not.
-10. Write a program to check if a number is a perfect square.
+1. Write a program to check if a number is even or odd.(solved)
+2. Write a program to check if a number is positive, negative, or zero.(solved)
+3. Write a program to check if a year is a leap year or not.(solved)
+4. Write a program to check if a character is a vowel or a consonant.(solved)
+5. Write a program to find the maximum among three numbers.(solved)
+6. Write a program to find the minimum among three numbers.(solved)
+7. Write a program to check if a number is divisible by both 2 and 3.(solved)
+8. Write a program to check if a number is divisible by either 2 or 3.(solved)
+9. Write a program to check if a character is an alphabet or not.(solved)
+10. Write a program to check if a number is a perfect square.(solved)
 
 Advanced Level:
 11. Write a program to check if a number is a prime number.
