@@ -20,16 +20,36 @@ Intermediate Level:
 
 Advanced Level:
 11. Write a program to check if a number is a prime number.
-12. Write a program to check if a number is a palindrome.
-13. Write a program to check if a string is a palindrome.
-14. Write a program to check if a number is an Armstrong number.
-15. Write a program to check if a number is a strong number.
-16. Write a program to check if a number is a perfect number.
-17. Write a program to check if a number is a Harshad number.
-18. Write a program to check if a number is a Smith number.
-19. Write a program to check if a number is a happy number.
-20. Write a program to check if a number is a narcissistic number.
+12. Write a program to check if a number is a palindrome. 121 input 
+13. Write a program to check if a string is a palindrome. mim is input 
 
+14. Write a program to check if a number is an Armstrong number.
+note : Armstrong number is a number that is equal to the sum of cubes of its digits
+
+15. Write a program to check if a number is a strong number.
+
+Strong number is a special number whose sum of the factorial of digits is equal to the original number. For Example: 145 is strong number. Since, 1! + 4! + 5!
+
+
+16. Write a program to check if a number is a perfect number.
+
+a perfect number is a positive integer that is equal to the sum of its positive divisors, excluding the number itself. For instance, 6 has divisors 1, 2 and 3 (excluding itself), and 1 + 2 + 3 = 6, so 6 is a perfect number.
+
+
+17. Write a program to check if a number is a Harshad number.
+
+ an integer that is divisible by the sum of its digits when written in that base 21/1+2 = 7 is the harsed number
+18. Write a program to check if a number is a Smith number.
+
+In number theory, a Smith number is a composite number for which, in a given number base, the sum of its digits is equal to the sum of the digits in its prime factorization in the same base. Wikipedia
+First terms: 4, 22, 27, 58, 85, 94, 12
+
+19. Write a program to check if a number is a happy number.
+
+In number theory, a happy number is a number which eventually reaches 1 when replaced by the sum of the square of each digit.
+
+20. Write a program to check if a number is a narcissistic number.
+is a number that is the sum of its own digits each raised to the power of the number of digits.
 
 Hard Level:
 1. Write a program to check if a number is a prime number or a perfect square.

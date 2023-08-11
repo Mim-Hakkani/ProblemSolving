@@ -19,7 +19,7 @@ int main(){
     
    }
 
-cout<<"Digit is : "<<sum<<"\n";
+cout<<"narcissistic number is : "<<sum<<"\n";
 
    
     return 0;
