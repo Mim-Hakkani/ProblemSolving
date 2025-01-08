@@ -1,0 +1,626 @@
+Day 1: Python Basics
+Python Syntax
+Data Types (Integers, Floats, Strings, Booleans)
+Variable Assignment
+Arithmetic Operations
+
+Day 2: More on Data Types
+Input/Output (input(), print())
+Lists: Indexing, Slicing, Adding/Removing Elements
+String Formatting
+
+Day 3: Conditional Statements
+if, elif, else statements
+Logical Operators (and, or, not)
+
+Day 4: Loops (For and While)
+for Loop
+while Loop
+Break and Continue Statements
+
+Day 5: Nested Loops
+Nested Loops
+Looping through Lists, Tuples, Strings
+
+Day 6: Functions – Basics
+Function Definition
+Function Parameters and Return Values
+Basic Recursion
+
+Day 7: More Functions
+Default Arguments
+Variable-Length Arguments
+Lambda Functions
+
+Day 8: Strings
+String Slicing and Indexing
+String Methods (replace(), split(), join(), lower(), upper())
+
+Day 9: Lists and Tuples
+List Operations (Indexing, Appending, Removing, Sorting)
+Tuple Basics
+
+Day 10: Dictionaries and Sets
+Dictionary Operations (Key-Value Pairs)
+Set Operations (Union, Intersection, Difference)
+
+
+Here’s the Day 11 to Day 20 Topics for your Python challenge:
+
+Day 11: File Handling
+Opening and Closing Files
+Reading from and Writing to Files
+File Modes (r, w, a)
+
+Day 12: Error Handling
+Try and Except Blocks
+Handling Multiple Exceptions
+Finally Block
+
+Day 13: Object-Oriented Programming (OOP) Basics
+Classes and Objects
+Attributes and Methods
+__init__ Constructor
+
+Day 14: More OOP Concepts
+Inheritance
+Method Overriding
+super() Function
+
+
+Day 15: OOP – Polymorphism & Encapsulation
+Polymorphism (Method Overloading and Overriding)
+Encapsulation (Private and Public Members)
+
+
+Day 16: More on Functions
+Higher-Order Functions
+Map, Filter, and Reduce
+Recursion
+
+
+Day 17: Working with External Libraries
+Installing Libraries using pip
+Using Popular Libraries (e.g., math, random, datetime)
+
+
+Day 18: Regular Expressions
+Pattern Matching
+re module basics (search, match, findall)
+Using Regular Expressions for Text Processing
+
+
+Day 19: Data Structures – Lists and Dictionaries Advanced
+List Comprehensions
+Dictionary Comprehensions
+Merging and Filtering Data Structures
+
+
+Day 20: Algorithms – Searching and Sorting
+Linear Search and Binary Search
+Bubble Sort and Insertion Sort
+Time Complexity and Big-O Notation
+
+
+
+Day 21: Data Structures – Stacks and Queues
+Stack Basics (LIFO)
+Queue Basics (FIFO)
+Implementing Stacks and Queues in Python
+
+
+Day 22: Linked Lists
+Linked List Structure (Node and Pointer)
+Single Linked Lists
+Traversing and Manipulating Linked Lists
+
+Day 23: Recursion – Advanced
+Advanced Recursion Concepts
+Tail Recursion
+Solving Problems Using Recursion (e.g., Towers of Hanoi)
+
+Day 24: Sorting Algorithms – Advanced
+Merge Sort
+Quick Sort
+Time Complexity of Sorting Algorithms
+
+Day 25: Dynamic Programming Basics
+Introduction to Dynamic Programming
+Solving Problems Using Memoization
+Fibonacci Sequence with DP
+
+
+Day 26: Trees – Introduction
+Binary Trees
+Tree Traversals (Preorder, Inorder, Postorder)
+Binary Search Trees (BST)
+
+
+Day 27: Graphs – Basics
+Graph Representations (Adjacency Matrix, Adjacency List)
+Graph Traversals (BFS, DFS)
+Directed and Undirected Graphs
+
+Day 28: Algorithms – Greedy Approach
+Greedy Algorithms Overview
+Solving Problems Using Greedy Approach (e.g., Coin Change Problem)
+
+Day 29: Algorithms – Backtracking
+Backtracking Concepts
+Solving Problems Using Backtracking (e.g., N-Queens, Sudoku Solver)
+
+Day 30: Introduction to Data Analysis with Python
+Using Pandas and NumPy for Data Manipulation
+Basic Data Structures in Pandas (DataFrames, Series)
+Simple Data Analysis Example (e.g., analyzing a CSV file)
+
+
+Day 31: Data Analysis – Pandas
+Pandas Basics: Series and DataFrame
+Importing Data (CSV, Excel)
+Indexing and Selecting Data
+Day 32: Data Analysis – Data Cleaning
+Handling Missing Data (NaN)
+Data Transformation (e.g., applying functions to columns)
+Removing Duplicates
+Day 33: Data Visualization – Introduction
+Using matplotlib for Plotting Graphs
+Basic Plot Types (Line, Bar, Scatter)
+Customizing Plots (Labels, Titles)
+Day 34: Data Visualization – Advanced
+Using seaborn for Statistical Plots
+Histograms, Boxplots, and Heatmaps
+Customizing Plots (Color, Style, Size)
+Day 35: Web Scraping Basics
+Introduction to Web Scraping
+Using requests to Fetch Web Pages
+Parsing HTML with BeautifulSoup
+Day 36: Web Scraping – Advanced
+Handling Dynamic Content with Selenium
+Scraping Data from Multiple Pages
+Storing Scraped Data in CSV/Database
+Day 37: Working with APIs
+Introduction to APIs
+Sending HTTP Requests with requests module
+Parsing JSON Data from APIs
+Day 38: Object-Oriented Design Patterns
+Introduction to Design Patterns
+Singleton, Factory, and Observer Patterns
+Implementing Simple Design Patterns in Python
+Day 39: Unit Testing and Debugging
+Introduction to Unit Testing with unittest
+Writing Test Cases
+Debugging Techniques in Python
+Day 40: Multithreading and Concurrency
+Introduction to Multithreading
+Using threading Module
+Understanding Thread Safety and Concurrency
+
+
+
+Got it! Here’s a Day 31 to Day 50 problem-solving plan for you, focusing purely on algorithms and problem-solving in Python:
+
+Day 31: Recursion – Basic Concepts
+Topics: Introduction to Recursion
+Problems:
+Print all numbers from 1 to N using recursion.
+Find the factorial of a number using recursion.
+Calculate the sum of digits of a number using recursion.
+Reverse a string using recursion.
+Day 32: Recursion – Advanced
+Topics: Advanced Recursion
+Problems:
+Solve the N-Queens problem (Backtracking).
+Find all subsets of a set (Power Set).
+Solve the subset sum problem.
+Implement a recursive function to find the greatest common divisor (GCD) of two numbers.
+Day 33: Dynamic Programming – Basic
+Topics: Introduction to Dynamic Programming, Memoization
+Problems:
+Fibonacci sequence using dynamic programming.
+Climbing stairs problem (ways to reach the top).
+Longest common subsequence (LCS).
+Coin change problem (minimum number of coins).
+Day 34: Dynamic Programming – Intermediate
+Topics: DP (Tabulation, Bottom-Up Approach)
+Problems:
+Longest Increasing Subsequence.
+0/1 Knapsack problem.
+Minimum path sum in a grid.
+Matrix Chain Multiplication.
+Day 35: Graph Algorithms – BFS/DFS
+Topics: Graph Traversal (Breadth-First Search, Depth-First Search)
+Problems:
+Implement BFS on a graph.
+Implement DFS on a graph (recursive and iterative).
+Find connected components in an undirected graph.
+Detect a cycle in a directed graph (DFS).
+Day 36: Graph Algorithms – Shortest Path
+Topics: Shortest Path Algorithms
+Problems:
+Find the shortest path in an unweighted graph using BFS.
+Dijkstra’s algorithm for shortest path (single source).
+Bellman-Ford algorithm for shortest path.
+Floyd-Warshall algorithm for all-pairs shortest path.
+Day 37: Sorting Algorithms – Basic
+Topics: Sorting Algorithms (Bubble Sort, Insertion Sort)
+Problems:
+Implement Bubble Sort.
+Implement Insertion Sort.
+Sort an array of strings based on their length.
+Find the k-th largest element in an unsorted array.
+Day 38: Sorting Algorithms – Advanced
+Topics: Advanced Sorting (Merge Sort, Quick Sort)
+Problems:
+Implement Merge Sort.
+Implement Quick Sort.
+Find the median of two sorted arrays.
+Sort an array using Heap Sort.
+Day 39: Greedy Algorithms
+Topics: Greedy Approach for Optimization Problems
+Problems:
+Activity selection problem.
+Job sequencing with deadlines.
+Fractional knapsack problem.
+Huffman coding (basic implementation).
+Day 40: Backtracking
+Topics: Backtracking Algorithms
+Problems:
+Solve the N-Queens problem using backtracking.
+Solve the Sudoku puzzle using backtracking.
+Generate all permutations of a string using backtracking.
+Solve the subset sum problem using backtracking.
+Day 41: Binary Search
+Topics: Binary Search Algorithms
+Problems:
+Implement binary search on a sorted array.
+Find the first and last position of an element in a sorted array.
+Search for an element in a rotated sorted array.
+Find the peak element in an array.
+Day 42: Bit Manipulation
+Topics: Bitwise Operators and Techniques
+Problems:
+Count the number of set bits in a number.
+Check if a number is a power of two.
+Find the XOR of all elements in an array.
+Swap two numbers without using a temporary variable.
+Day 43: String Algorithms
+Topics: String Manipulation and Searching
+Problems:
+Find the longest common prefix in an array of strings.
+Implement string matching (Knuth-Morris-Pratt algorithm).
+Check if a string is an anagram of another string.
+Find all occurrences of a substring in a string.
+Day 44: Two Pointers Technique
+Topics: Using Two Pointers for Optimized Algorithms
+Problems:
+Find the pair with the given sum in a sorted array.
+Merge two sorted arrays.
+Find the longest substring with at most two distinct characters.
+Remove duplicates from a sorted array.
+Day 45: Divide and Conquer
+Topics: Divide and Conquer Strategy
+Problems:
+Merge two sorted arrays using divide and conquer.
+Implement Quick Sort.
+Implement Binary Search.
+Find the majority element in an array (Divide and Conquer approach).
+Day 46: Advanced Dynamic Programming
+Topics: DP (Matrix Chain Multiplication, Edit Distance)
+Problems:
+Edit Distance (Levenshtein distance).
+Longest Palindromic Subsequence.
+Coin Change problem (number of ways).
+Word Break Problem.
+Day 47: Graph Algorithms – Advanced
+Topics: Advanced Graph Algorithms (Topological Sort, Strongly Connected Components)
+Problems:
+Topological sort of a directed acyclic graph (DAG).
+Find strongly connected components in a directed graph (Kosaraju’s algorithm).
+Check if a graph is bipartite.
+Detect a cycle in a directed graph using topological sorting.
+Day 48: Trie Data Structure
+Topics: Introduction to Trie (Prefix Tree)
+Problems:
+Implement a trie and perform insert, search, and delete operations.
+Find all words with a given prefix using a trie.
+Implement autocomplete using a trie.
+Implement a spell checker using a trie.
+Day 49: Sliding Window Technique
+Topics: Sliding Window Algorithms
+Problems:
+Find the maximum sum subarray of size K.
+Find the smallest subarray with a sum greater than or equal to a given value.
+Find the longest substring without repeating characters.
+Count the number of anagrams in a string.
+Day 50: Review and Miscellaneous Challenges
+Topics: Problem Review and Miscellaneous Algorithm Challenges
+Problems:
+Solve the "Largest Rectangle in Histogram" problem.
+Solve the "Trapping Rain Water" problem.
+Find the shortest substring containing all characters of a given string.
+Implement a custom implementation of LRU Cache.
+
+
+Day 51: Recursion – Basic & Intermediate
+Topics: Recursion and Divide & Conquer
+Problems:
+Solve the Fibonacci sequence with recursion.
+Solve the Tower of Hanoi problem.
+Generate all permutations of a string (backtracking).
+Find the sum of elements in a nested list using recursion.
+Day 52: Backtracking – Basic
+Topics: Backtracking
+Problems:
+Generate all subsets of a given set.
+Solve the N-Queens problem.
+Solve the Sudoku puzzle using backtracking.
+Find all valid combinations of a sum (e.g., 2-sum or 3-sum).
+Day 53: Dynamic Programming – Basic
+Topics: DP – Fibonacci, Climbing Stairs
+Problems:
+Fibonacci sequence with memoization.
+Climbing stairs problem (number of ways to climb to the top).
+Longest common subsequence.
+Coin change problem (minimum number of coins).
+Day 54: Dynamic Programming – Intermediate
+Topics: DP – Matrix and Grid Problems
+Problems:
+Minimum path sum in a grid.
+Unique paths in a grid.
+Longest increasing subsequence.
+Edit distance (Levenshtein distance).
+Day 55: Greedy Algorithms
+Topics: Greedy Approach (Optimal Choices)
+Problems:
+Activity selection problem.
+Job sequencing problem.
+Fractional knapsack problem.
+Huffman coding problem.
+Day 56: Graph Algorithms – BFS
+Topics: Graph Traversal – BFS (Breadth-First Search)
+Problems:
+Implement BFS on a graph.
+Find the shortest path in an unweighted graph.
+Find the connected components of a graph.
+Check if a graph is bipartite using BFS.
+Day 57: Graph Algorithms – DFS
+Topics: Graph Traversal – DFS (Depth-First Search)
+Problems:
+Implement DFS on a graph.
+Detect cycles in a graph using DFS.
+Topological sorting of a Directed Acyclic Graph (DAG).
+Find the strongly connected components in a directed graph.
+Day 58: Graph Algorithms – Shortest Path
+Topics: Dijkstra’s and Bellman-Ford Algorithms
+Problems:
+Implement Dijkstra’s algorithm (single-source shortest path).
+Implement Bellman-Ford algorithm.
+Solve the All-Pairs Shortest Path using Floyd-Warshall.
+Find the shortest path from source to destination in a weighted graph.
+Day 59: Divide and Conquer
+Topics: Divide and Conquer Algorithms
+Problems:
+Implement Merge Sort.
+Implement Quick Sort.
+Find the majority element in an array using Divide and Conquer.
+Closest pair of points in 2D space.
+Day 60: Advanced Sorting Algorithms
+Topics: Sorting Algorithms – Advanced
+Problems:
+Heap Sort implementation.
+Implement Quick Sort and analyze its time complexity.
+Kth largest element in an unsorted array.
+Sort an array of strings by length.
+Day 61: Sliding Window Technique
+Topics: Sliding Window Algorithms
+Problems:
+Find the longest substring without repeating characters.
+Find the maximum sum subarray of size K.
+Find the smallest subarray with a sum greater than or equal to a given value.
+Count the number of anagrams in a string.
+Day 62: Bit Manipulation
+Topics: Bitwise Operators and Techniques
+Problems:
+Count the number of set bits in a number.
+Check if a number is a power of two.
+Find the XOR of all elements in an array.
+Swap two numbers using bitwise XOR.
+Day 63: Two Pointers Technique
+Topics: Two Pointers for Optimization
+Problems:
+Find the pair with the given sum in a sorted array.
+Merge two sorted arrays.
+Remove duplicates from a sorted array.
+Find the longest subarray with at most two distinct characters.
+Day 64: Advanced Recursion
+Topics: Advanced Recursion Techniques
+Problems:
+Solve the N-Queens problem using backtracking.
+Solve the Sudoku puzzle using backtracking.
+Generate all combinations of numbers that sum to a target.
+Find the number of ways to reach the top of a staircase with variable step sizes.
+Day 65: Trie Data Structure
+Topics: Implementing a Trie
+Problems:
+Implement a Trie and perform insert, search, and delete operations.
+Implement autocomplete using a Trie.
+Implement a spell checker using a Trie.
+Find all words with a given prefix.
+Day 66: Matrix Algorithms
+Topics: Matrix Problems
+Problems:
+Rotate a matrix by 90 degrees.
+Find the largest square submatrix of 1s.
+Search in a 2D matrix (sorted rows and columns).
+Implement matrix multiplication.
+Day 67: Advanced Graph Problems
+Topics: Graph Algorithms – Advanced
+Problems:
+Implement Kruskal’s algorithm (minimum spanning tree).
+Implement Prim’s algorithm (minimum spanning tree).
+Find the shortest path using A* algorithm.
+Check if a graph is bipartite using DFS.
+Day 68: Advanced Dynamic Programming
+Topics: DP – Advanced
+Problems:
+Solve the Longest Palindromic Subsequence problem.
+Implement the Knapsack problem (fractional and 0/1).
+Solve the Word Break problem using dynamic programming.
+Find the maximum profit in a stock buy-sell problem.
+Day 69: String Matching Algorithms
+Topics: String Matching and Searching
+Problems:
+Implement the Knuth-Morris-Pratt (KMP) string matching algorithm.
+Implement the Rabin-Karp string matching algorithm.
+Find all occurrences of a substring in a string.
+Check if a string is a rotation of another string.
+Day 70: Miscellaneous Challenging Problems
+Topics: Miscellaneous Algorithms
+Problems:
+Solve the “Largest Rectangle in Histogram” problem.
+Solve the “Trapping Rain Water” problem.
+Find the intersection point of two linked lists.
+Implement an LRU (Least Recently Used) Cache.
+
+
+Day 71: Dynamic Programming – Subset Problems
+Topics: DP – Subset, Partition Problems
+Problems:
+Subset sum problem.
+Partition problem (can a set be partitioned into two subsets with equal sum).
+Find the number of subsets that sum to a target.
+Combination sum problem (find all combinations of numbers that sum up to a target).
+Day 72: Advanced Recursion & Backtracking
+Topics: Backtracking – Advanced
+Problems:
+Solve the Rat in a Maze problem using backtracking.
+Find all valid combinations of a set that sum up to a target (subset sum).
+Solve the Sudoku puzzle (advanced backtracking).
+Solve the Permutation Sum problem (generate permutations of numbers that sum up to a target).
+Day 73: Graph Algorithms – Advanced DFS/BFS
+Topics: Graph Algorithms – Advanced BFS & DFS
+Problems:
+Implement BFS to find the shortest path between two nodes in an unweighted graph.
+Detect a cycle in a directed graph using DFS.
+Find the connected components in a graph.
+Find bridges in a graph (edges whose removal would disconnect the graph).
+Day 74: Dynamic Programming – Sequence Problems
+Topics: DP – Sequence Matching
+Problems:
+Longest Palindromic Substring.
+Longest Common Substring.
+Longest Increasing Subsequence (LIS).
+Find the minimum number of edits to convert one string to another (Edit Distance).
+Day 75: Divide and Conquer
+Topics: Divide and Conquer Techniques
+Problems:
+Find the closest pair of points in a 2D space.
+Merge two sorted arrays.
+Quickselect algorithm (find the k-th smallest element).
+Implement Matrix Chain Multiplication.
+Day 76: Sliding Window & Greedy Algorithms
+Topics: Sliding Window and Greedy Strategies
+Problems:
+Find the maximum sum subarray of size K.
+Find the longest substring with at most K distinct characters.
+Greedy approach to maximize profit in stock buy-sell.
+Find the minimum length subarray whose sum is greater than or equal to a target.
+Day 77: Topological Sort and Advanced Graph Algorithms
+Topics: Advanced Graph Algorithms
+Problems:
+Topological sorting of a Directed Acyclic Graph (DAG).
+Detect strongly connected components in a graph (Kosaraju's or Tarjan's algorithm).
+Implement the Bellman-Ford algorithm.
+Solve the Shortest Path in a weighted graph using Dijkstra’s algorithm.
+Day 78: Dynamic Programming – Advanced Grid Problems
+Topics: DP – Grid Problems
+Problems:
+Unique paths in a grid (with obstacles).
+Maximum sum path in a grid.
+Minimum path sum in a 2D grid (dynamic programming).
+Count the number of unique paths from top-left to bottom-right in a grid.
+Day 79: Trie Data Structure and Applications
+Topics: Tries and Applications
+Problems:
+Implement a Trie for storing words.
+Autocomplete functionality using a Trie.
+Word search in a 2D grid (using Trie).
+Implement a spell checker using a Trie.
+Day 80: Bit Manipulation
+Topics: Bitwise Operators & Techniques
+Problems:
+Count the number of 1's in the binary representation of a number.
+Reverse the bits of an integer.
+Swap two numbers without using a temporary variable (using XOR).
+Find the single non-repeated element in an array using bitwise XOR.
+Day 81: Greedy Algorithms – Advanced
+Topics: Advanced Greedy Algorithms
+Problems:
+Activity Selection problem (with additional constraints).
+Job Sequencing Problem with Deadlines.
+Fractional Knapsack problem.
+Huffman coding algorithm.
+Day 82: Advanced Dynamic Programming – Interval DP
+Topics: DP – Interval DP Problems
+Problems:
+Maximum profit from job scheduling.
+Burst balloons (maximum coins you can collect).
+Longest Palindromic Subsequence (LPS).
+Count of subsets with sum divisible by K.
+Day 83: Graph Algorithms – Minimum Spanning Tree
+Topics: Minimum Spanning Tree Algorithms
+Problems:
+Implement Prim’s algorithm for finding the Minimum Spanning Tree.
+Implement Kruskal’s algorithm for finding the Minimum Spanning Tree.
+Find the MST of a graph with weighted edges.
+Find the number of connected components in an undirected graph.
+Day 84: Advanced String Algorithms
+Topics: Advanced String Matching
+Problems:
+Implement the Knuth-Morris-Pratt (KMP) string matching algorithm.
+Solve the longest common subsequence problem.
+Solve the longest palindromic substring problem using dynamic programming.
+Check if two strings are anagrams.
+Day 85: Network Flow Algorithms
+Topics: Flow Algorithms – Max Flow, Min Cut
+Problems:
+Implement Ford-Fulkerson algorithm for maximum flow.
+Implement Edmonds-Karp algorithm (BFS for max flow).
+Find the minimum cut in a flow network.
+Solve the Bipartite Matching problem.
+Day 86: Advanced DP – Multiple States
+Topics: DP with Multiple States
+Problems:
+Solve the 0/1 Knapsack problem with additional constraints (items with multiple properties).
+Solve the Coin Change problem with multiple coin types.
+DP problem for maximum points you can get with path constraints.
+Palindromic substring problem using DP.
+Day 87: Backtracking – Combinatorial Problems
+Topics: Combinatorial Backtracking
+Problems:
+Generate all combinations of a set.
+Generate all permutations of a string.
+Solve the N-Queens problem.
+Solve the Sudoku puzzle using backtracking.
+Day 88: Segment Trees & Binary Indexed Trees
+Topics: Segment Trees and Binary Indexed Trees (BIT)
+Problems:
+Implement a Segment Tree for range sum queries.
+Implement a Segment Tree for range minimum queries.
+Solve a range sum query problem using BIT.
+Solve range minimum query using a Segment Tree.
+Day 89: Advanced Recursion & DP
+Topics: Advanced Recursive DP Problems
+Problems:
+Solve the Matrix Chain Multiplication problem using DP.
+Solve the Rod Cutting problem using DP.
+Solve the Word Break problem using dynamic programming.
+Find the number of unique paths in a grid with obstacles.
+Day 90: Miscellaneous Advanced Challenges
+Topics: Mixed Algorithm Problems
+Problems:
+Implement the Least Recently Used (LRU) cache.
+Solve the "Largest Rectangle in Histogram" problem.
+Solve the "Trapping Rain Water" problem.
+Solve the "Maximum Subarray" problem using divide and conquer.

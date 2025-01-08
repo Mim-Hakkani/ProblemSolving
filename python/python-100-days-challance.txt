@@ -1,0 +1,321 @@
+দিন ১-১০: Python এর মুল বিষয়গুলো শিখুন
+দিন ১: Python এর পরিচিতি
+Python কী এবং এর ব্যবহার সম্পর্কে ধারণা।
+Python ইনস্টলেশন এবং আপনার প্রথম Python প্রোগ্রাম (Hello World)।
+দিন ২: ভেরিয়েবল এবং ডাটা টাইপস
+Integer, float, string, boolean ডাটা টাইপস সম্পর্কে জানুন।
+ভেরিয়েবল কীভাবে ব্যবহার করবেন এবং কীভাবে ডাটা টাইপে রূপান্তর করবেন।
+দিন ৩: কন্ডিশনাল স্টেটমেন্টস (If, else, elif)
+If, else এবং elif স্টেটমেন্টের ব্যবহার।
+বিভিন্ন শর্তে কীভাবে কোড execute হয় তা শিখুন।
+দিন ৪: লুপস (For, while)
+for এবং while লুপের ব্যবহার এবং সেগুলোর মধ্যে পার্থক্য।
+লুপের মাধ্যমে list, tuple বা dictionary এ iterate করা।
+দিন ৫: ফাংশন (Functions)
+ফাংশন কী, কীভাবে ফাংশন তৈরি করবেন এবং কীভাবে return values দিবেন।
+Lambda ফাংশন এবং অন্যান্য function রিলেটেড কনসেপ্ট শিখুন।
+দিন ৬: ডাটা স্ট্রাকচার (List, Tuple, Dictionary, Set)
+List, Tuple, Dictionary, এবং Set এর ব্যবহার এবং তাদের পার্থক্য।
+এগুলোর সাথে বিভিন্ন অপারেশন যেমন অ্যাড, রিমুভ, স্লাইসিং ইত্যাদি।
+দিন ৭: Error Handling (try, except, finally)
+Python এ error handling এবং exceptions সম্পর্কে জানুন।
+Custom exceptions তৈরি করুন।
+দিন ৮: ফাইল হ্যান্ডলিং
+ফাইল পড়া এবং লেখা (open(), read(), write())।
+JSON ফাইল হ্যান্ডলিং এবং তার সাথে কাজ করা।
+দিন ৯: OOP (Object-Oriented Programming)
+ক্লাস, অবজেক্ট, ইনহেরিটেন্স, এনক্যাপসুলেশন এবং পলিমরফিজম।
+একটি ছোট OOP প্রোগ্রাম লিখুন।
+দিন ১০: Recursion
+Recursion এর ধারণা এবং এর প্র্যাকটিস।
+ফ্যাক্টোরিয়াল, Fibonacci সংখ্যা ইত্যাদি সমাধান করুন।
+
+
+**************** 11-20 *******************************
+
+দিন ১১-২০: Python এর আরও গভীর বিষয় শিখুন
+দিন ১১: Advanced Functions (Map, Filter, Reduce)
+map(), filter(), এবং reduce() ফাংশন সম্পর্কে জানুন।
+লাম্বডা ফাংশন ব্যবহার করে এগুলোর সাথে কাজ করুন।
+দিন ১২: ডিকশনারি এবং সেট কম্প্রিহেনশন
+ডিকশনারি এবং সেট কম্প্রিহেনশন ব্যবহার করে এক্সপ্রেশন লেখা।
+দিন ১৩: ডেকোরেটর (Decorators)
+ফাংশন ডেকোরেটর কী এবং কীভাবে এটি কাজ করে তা শিখুন।
+সাধারন ডেকোরেটর তৈরি করুন।
+দিন ১৪: জেনারেটর এবং ইটারেটর
+জেনারেটর এবং ইটারেটর কী এবং এগুলো কীভাবে কাজ করে তা শিখুন।
+ছোট সমস্যা সমাধান করে প্র্যাকটিস করুন।
+দিন ১৫: Python মডিউল ও প্যাকেজ
+Python মডিউল এবং প্যাকেজ তৈরি এবং ব্যবহার।
+স্ট্যান্ডার্ড লাইব্রেরি থেকে মডিউলগুলি নিয়ে কাজ করুন (যেমন os, random, math ইত্যাদি)।
+দিন ১৬: RegEx (Regular Expressions)
+Python এ RegEx কী এবং কীভাবে এটি ব্যবহার করা হয় তা শিখুন।
+সাধারণ সমস্যা সমাধান করুন RegEx দিয়ে।
+দিন ১৭: Python এ ডাটা অ্যালগরিদম
+Sorting algorithm (Bubble sort, Merge sort) এবং searching algorithms (Binary search) শিখুন।
+Python এ এগুলো প্র্যাকটিস করুন।
+দিন ১৮: প্যাকেজ ম্যানেজমেন্ট
+Python এর প্যাকেজ ম্যানেজমেন্ট টুল pip ব্যবহার করে লাইব্রেরি ইনস্টল এবং আপডেট করুন।
+দিন ১৯: Unit Testing
+Python এ unit testing কী এবং কীভাবে করা হয় তা শিখুন।
+ছোট কোডের জন্য unit test লিখুন।
+দিন ২০: Python এর advanced topics
+Python এর কিছু advanced টপিক শিখুন (যেমন: Context managers, multi-threading)।
+
+************************ 21-30***************************************
+
+দিন ২১-৩০: Python এবং Django শিখুন
+দিন ২১: Django Intro এবং Setup
+Django কী এবং কেন ব্যবহার করা হয় তা শিখুন।
+Django ইনস্টলেশন এবং একটি নতুন Django প্রজেক্ট তৈরি করুন।
+Django এর ডিরেক্টরি স্ট্রাকচার ও ফাইলগুলো সম্পর্কে ধারণা নিন।
+দিন ২২: Django অ্যাপ তৈরি
+Django প্রজেক্টের মধ্যে একটি অ্যাপ তৈরি করুন (python manage.py startapp <app_name>).
+URL Routing, Views এবং Templates সম্পর্কে জানুন।
+দিন ২৩: Django Model এবং Database
+Django মডেল এবং ডাটাবেস সম্পর্কে শিখুন।
+models.py ফাইলে মডেল তৈরি করুন এবং মাইগ্রেশন ব্যবহার করে ডাটাবেস তৈরি করুন।
+Django ORM দিয়ে ডাটাবেসের সঙ্গে কাজ করুন।
+দিন ২৪: Django Forms
+Django Forms কী এবং কীভাবে ব্যবহার করা হয় তা শিখুন।
+ব্যবহারকারীর ইনপুট নেওয়ার জন্য Form তৈরি করুন।
+দিন ২৫: Django Admin Panel
+Django Admin Panel সম্পর্কে জানুন।
+Django অ্যাডমিন প্যানেলে মডেল রেজিস্টার করুন এবং কাস্টমাইজ করুন।
+দিন ২৬: Django Views এবং Templates
+Django Views কীভাবে কাজ করে তা শিখুন।
+Django Templates ব্যবহার করে ডায়নামিক HTML পেজ তৈরি করুন।
+Template inheritance এবং block usage শিখুন।
+দিন ২৭: Django Static files এবং Media files
+Static files (CSS, JavaScript, Images) এবং Media files (uploads) পরিচালনা করার জন্য Django কীভাবে কাজ করে তা শিখুন।
+দিন ২৮: Django Authentication এবং Authorization
+Django Authentication system ব্যবহার করে লগিন, রেজিস্টার, এবং লগআউট ফিচার তৈরি করুন।
+Authorization এবং permissions ব্যবস্থার সাথে পরিচিত হোন।
+দিন ২৯: Django REST Framework (DRF) Introduction
+Django REST Framework (DRF) সম্পর্কে একটি পরিচিতি।
+DRF দিয়ে API তৈরি এবং test করুন।
+দিন ৩০: Django তে CRUD Operations
+Django দিয়ে CRUD (Create, Read, Update, Delete) অপারেশন বাস্তবায়ন করুন।
+Django Admin Panel ব্যবহার করে এই অপারেশনগুলো পরিচালনা করুন।
+
+
+***************************** 31-40 *********************************
+
+দিন ৩১-৪০: Django এর আরো উন্নত বিষয় ও প্রকল্প তৈরি
+দিন ৩১: Django Template Filters এবং Tags
+Django তে custom template filters এবং tags তৈরি করুন।
+Template filter এবং tags ব্যবহার করে ডায়নামিক কন্টেন্ট রেন্ডারিং শিখুন।
+দিন ৩২: Django Model Relationships
+Django তে One-to-One, One-to-Many, Many-to-Many সম্পর্ক শিখুন।
+ForeignKey, OneToOneField, ManyToManyField এর সাথে কাজ করুন।
+দিন ৩৩: Django Signal
+Django Signals কী এবং কেন ব্যবহার করা হয় তা শিখুন।
+Signal ব্যবহার করে model events (save, delete) ট্র্যাক করুন।
+দিন ৩৪: Django Middleware
+Django Middleware কী এবং কীভাবে কাজ করে তা শিখুন।
+Custom middleware তৈরি এবং ব্যবহারের প্র্যাকটিস করুন।
+দিন ৩৫: Django Testing
+Django এ Unit Testing কীভাবে করা হয় তা শিখুন।
+Django Testing Framework ব্যবহার করে Views এবং Models এর জন্য test cases লিখুন।
+দিন ৩৬: Django Caching
+Django Caching কী এবং কীভাবে এটি কার্যকরভাবে ব্যবহার করা যায় তা শিখুন।
+cache ব্যবহার করে পেজ এবং ডাটা ক্যাশিং প্র্যাকটিস করুন।
+দিন ৩৭: Django Custom User Model
+Django তে Custom User Model তৈরি এবং সেটি কনফিগার করা।
+Authentication system কাস্টমাইজ করুন।
+দিন ৩৮: Django Class-Based Views (CBVs)
+Django তে Class-Based Views (CBVs) এবং তাদের সুবিধা শিখুন।
+Generic CBVs ব্যবহার করে CRUD অপারেশন তৈরি করুন।
+দিন ৩৯: Django Rest Framework - Serializers
+Django REST Framework এর serializers এবং তাদের কাজ শিখুন।
+Model Serializers এবং Form Serializers তৈরি করুন এবং API endpoints বানান।
+দিন ৪০: Django Rest Framework - ViewSets and Routers
+Django Rest Framework এর ViewSets এবং Routers এর কাজ শিখুন।
+API ভিউ তৈরি করুন এবং রাউটিং কনফিগার করুন।
+
+
+*********************************41 to 50 *****************************
+
+দিন ৪১-৫০: Django প্রকল্প এবং উন্নত বিষয়
+দিন ৪১: Django File Uploads এবং Image Handling
+Django তে ফাইল আপলোড এবং ইমেজ হ্যান্ডলিং শিখুন।
+Image upload ফিচার তৈরি করুন এবং সঠিকভাবে Media ফাইল ম্যানেজ করুন।
+দিন ৪২: Django Email System
+Django তে email পাঠানোর জন্য EmailMessage এবং send_mail ব্যবহার করুন।
+Email templates তৈরি এবং ব্যবহার করুন, যেমন password reset বা notification পাঠানো।
+দিন ৪৩: Django Payments Integration
+Django এ Payment Gateway (যেমন Stripe বা PayPal) ইন্টিগ্রেট করার প্রাথমিক ধারণা।
+Payment processing এবং transaction management ব্যবস্থা কিভাবে করতে হয় শিখুন।
+দিন ৪৪: Django Security Features
+Django তে security best practices শিখুন, যেমন CSRF protection, SQL injection প্রতিরোধ, এবং password hashing।
+HTTPS ব্যবহারের জন্য SSL এবং Django সেটআপ করুন।
+দিন ৪৫: Django Internationalization (i18n) এবং Localization (l10n)
+Django তে আন্তর্জাতিককরণ (i18n) এবং লোকালাইজেশন (l10n) কীভাবে কাজ করে তা শিখুন।
+মাল্টি-ল্যাংগুয়েজ ওয়েবসাইট তৈরি করুন।
+দিন ৪৬: Django Performance Optimization
+Django অ্যাপ্লিকেশনের পারফরম্যান্স উন্নতির জন্য Query optimization এবং indexing ব্যবহার করুন।
+Django settings এ performance tuning সেটিংস কনফিগার করুন।
+দিন ৪৭: Django Deployment Basics
+Django অ্যাপকে production environment এ ডিপ্লয় করার জন্য প্রয়োজনীয় সেটআপ শিখুন।
+WSGI (Gunicorn) এবং Nginx সেটআপ করুন এবং অ্যাপটি হোস্ট করুন (যেমন Heroku, DigitalOcean বা AWS এর মাধ্যমে)।
+দিন ৪৮: Dockerizing Django Application
+Django অ্যাপ Docker container এ রান করার জন্য Dockerfile তৈরি করুন।
+Django অ্যাপকে Dockerized environment এ রান করুন।
+দিন ৪৯: Django REST Framework - Authentication
+Django REST Framework তে Authentication System (Token Authentication, JWT) ব্যবহার করুন।
+API Authentication এবং Authorization কিভাবে কার্যকর করা যায় শিখুন।
+দিন ৫০: Django Project Final Touch
+Django অ্যাপটির কোড ক্লিন এবং well-organized রাখুন।
+Test cases লেখা এবং error handling সিস্টেম প্রস্তুত করুন।
+প্রজেক্টটির ফাইনাল version তৈরি করুন এবং ডিপ্লয় করার জন্য প্রস্তুত হন।
+এই ১০ দিন আপনাকে Django এর আরও advanced এবং প্রফেশনাল পর্যায়ের ফিচার এবং কৌশল শেখাবে, যেমন payments integration, security, performance tuning, email handling, এবং deployment। এতে আপনি production-ready Django অ্যাপ তৈরি করার জন্য দক্ষ হয়ে উঠবেন।
+
+
+********************** 51 to 60 *************************************
+দিন ৫০-৬০: Django প্রকল্প এবং উন্নত উন্নয়ন কৌশল
+দিন ৫০: Django Project Final Touch (continued)
+Django অ্যাপটির কোড ক্লিন এবং well-organized রাখুন।
+Test cases লেখা এবং error handling সিস্টেম প্রস্তুত করুন।
+প্রজেক্টটির ফাইনাল version তৈরি করুন এবং ডিপ্লয় করার জন্য প্রস্তুত হন।
+দিন ৫১: Django Admin Customization
+Django Admin Panel কাস্টমাইজ করুন: মডেল, ফিল্ড, এবং লিস্ট ভিউ কাস্টমাইজ করা শিখুন।
+Admin interface ব্যবহার করে অ্যাপ্লিকেশন ম্যানেজমেন্ট ও ডেটা দেখার প্রক্রিয়া শিখুন।
+দিন ৫২: Django Advanced Querying
+Django ORM এর মাধ্যমে complex queries যেমন subqueries, joins, aggregation ইত্যাদি শিখুন।
+annotate(), aggregate(), এবং prefetch_related() ব্যবহার করে ডেটা কোয়ারি অপটিমাইজ করুন।
+দিন ৫৩: Django WebSockets with Channels
+Django Channels এর সাহায্যে WebSocket ব্যবহার করে রিয়েল-টাইম ফিচার তৈরি করা শিখুন।
+Django Channels দিয়ে Chat application তৈরি করুন।
+দিন ৫৪: Django with Redis
+Django তে Redis ব্যবহার করার জন্য সেটআপ এবং কাজ করার প্রাথমিক ধারণা শিখুন।
+Redis ব্যবহার করে session management এবং caching করার প্র্যাকটিস করুন।
+দিন ৫৫: Django Celery for Asynchronous Tasks
+Django তে Celery ব্যবহার করে background tasks তৈরি করা শিখুন।
+Celery দিয়ে long-running tasks (যেমন email পাঠানো, ডাটা প্রক্রিয়া) asynchronusly পরিচালনা করুন।
+দিন ৫৬: Django REST Framework - ViewSets এবং Routers
+Django REST Framework তে ViewSets এবং Routers ব্যবহার করে API endpoints তৈরি করা শিখুন।
+CRUD API operations ব্যবহার করে একটি RESTful API সিস্টেম তৈরি করুন।
+দিন ৫৭: Django GraphQL Integration
+Django তে GraphQL ইন্টিগ্রেট করা এবং এর সুবিধা শিখুন।
+Django-Graphene ব্যবহার করে GraphQL API তৈরি করুন।
+দিন ৫৮: Django Logging and Monitoring
+Django তে logging এবং monitoring কনফিগার করা শিখুন।
+Django অ্যাপে logs বিশ্লেষণ এবং production errors ট্র্যাক করার জন্য সঠিক logging practices শিখুন।
+দিন ৫৯: Django with Frontend Framework
+Django তে Frontend Framework (যেমন React, Vue.js) ইন্টিগ্রেট করুন।
+Django Backend এবং React/Vue Frontend এর মধ্যে যোগাযোগের জন্য API ব্যবহার করুন।
+দিন ৬০: Django Project - Complete a Full Project
+Django তে একটি সম্পূর্ণ প্রকল্প তৈরি করুন (যেমন E-commerce, Blog বা Social Media Platform)।
+Model, Views, Templates, API Integration, এবং Admin Customization সহ সব ফিচার যুক্ত করুন।
+এই ১০ দিন আপনাকে Django এর আরো complex এবং production-level কৌশল শিখাবে, যেমন WebSocket, Redis, Celery, GraphQL, এবং logging। পাশাপাশি, আপনাকে একটি পূর্ণাঙ্গ Django অ্যাপ তৈরি করে, উন্নত level এর Django Developer হয়ে ওঠার পথে আরও একধাপ এগিয়ে নেবে।
+
+***************************61 to 70 *********************************
+
+দিন ৬১-৭০: Django Deployment, Testing এবং Scalability
+দিন ৬১: Django Deployment - Heroku
+Django অ্যাপ Heroku তে ডিপ্লয় করুন।
+Heroku CLI ইনস্টল এবং অ্যাপ ডিপ্লয় করার পদ্ধতি শিখুন।
+Database সেটআপ এবং configuration এর জন্য Heroku ব্যবহার করুন।
+দিন ৬২: Django Deployment - AWS (EC2, S3, RDS)
+AWS EC2 instance তে Django অ্যাপ ডিপ্লয় করা শিখুন।
+Django অ্যাপের জন্য AWS S3 ব্যবহার করে static এবং media ফাইল হোস্ট করুন।
+AWS RDS ব্যবহার করে Django অ্যাপের জন্য scalable ডেটাবেস সেটআপ করুন।
+দিন ৬৩: Dockerizing Django with Docker Compose
+Django অ্যাপ Dockerize করুন এবং Docker Compose ব্যবহার করে multi-container setup তৈরি করুন।
+Django, PostgreSQL এবং Redis সহ multi-container অ্যাপ তৈরি করুন।
+দিন ৬৪: Django CI/CD with GitHub Actions
+GitHub Actions ব্যবহার করে Django অ্যাপের জন্য Continuous Integration এবং Continuous Deployment সেটআপ করুন।
+অ্যাপের কোডে changes আসলে tựmatically test এবং deploy করার পদ্ধতি শিখুন।
+দিন ৬৫: Unit Testing in Django
+Django তে unit testing এবং test cases লেখার পদ্ধতি শিখুন।
+Django TestCase ব্যবহার করে মডেল, views, forms এবং serializers এর জন্য test cases তৈরি করুন।
+দিন ৬৬: Django Integration Testing
+Django তে integration testing শিখুন।
+API endpoints এবং full-stack integration test cases তৈরি করুন, যেমন authentication, data retrieval এবং manipulation।
+দিন ৬৭: Scalability Best Practices for Django
+Django অ্যাপ স্কেল করার জন্য best practices শিখুন।
+Horizontal scaling, load balancing এবং caching স্ট্রাটেজি নিয়ে আলোচনা করুন।
+দিন ৬৮: Caching in Django with Memcached and Redis
+Django তে caching mechanism ব্যবহার করে পারফরম্যান্স উন্নতি করুন।
+Memcached এবং Redis এর সাথে caching setup করুন এবং performance monitoring শিখুন।
+দিন ৬৯: Django Testing with Selenium for UI Testing
+Django অ্যাপের UI test করতে Selenium ব্যবহার করা শিখুন।
+ফর্ম সাবমিট, button clicks এবং dynamic content এর জন্য automated UI testing তৈরি করুন।
+দিন ৭০: Final Project - Integrating All Concepts
+Django তে একটি পূর্ণাঙ্গ প্রজেক্ট তৈরি করুন যেখানে আপনি শিখা সবকিছু (API, Frontend, Security, Testing, Deployment) একত্রে প্রয়োগ করুন।
+Project management tools (যেমন Trello, Jira) ব্যবহার করে project structure তৈরি করুন এবং complete করুন।
+এই ১০ দিন আপনাকে Django অ্যাপের ডিপ্লয়মেন্ট, testing, scalability, এবং CI/CD সম্পর্কে গভীর ধারণা দেবে। এর মাধ্যমে আপনি production-level অ্যাপস তৈরি করতে এবং efficient workflows তৈরি করতে শিখবেন।
+
+/**********************************71 to 80***************************
+
+দিন ৭১-৮০: Advanced Topics and Real-World Django Projects
+দিন ৭১: Django and RESTful APIs (Advanced)
+Django REST Framework এর advanced features শিখুন।
+Advanced API security, rate-limiting, JWT authentication ইত্যাদি শিখুন।
+RESTful design principles অনুসরণ করে complex API সিস্টেম তৈরি করুন।
+দিন ৭২: Django with Web Scraping
+Django তে Web Scraping integration শিখুন।
+BeautifulSoup বা Scrapy ব্যবহার করে external ওয়েবসাইট থেকে ডেটা scraping করুন এবং তা Django অ্যাপে integrate করুন।
+দিন ৭৩: Django with Elasticsearch
+Django তে Elasticsearch ইন্টিগ্রেট করা শিখুন।
+Large datasets নিয়ে কাজ করার জন্য Elasticsearch ব্যবহার করে ডেটার efficient search functionality তৈরি করুন।
+দিন ৭৪: Django and Payments Integration (Stripe, PayPal)
+Django অ্যাপে পেমেন্ট গেটওয়ে integration শিখুন।
+Stripe এবং PayPal ব্যবহার করে payment system তৈরি করুন, যেমন: পণ্যের জন্য পেমেন্ট, সাবস্ক্রিপশন ফিচার ইত্যাদি।
+দিন ৭৫: Django and WebSockets with Channels (Advanced)
+Django Channels ব্যবহার করে আরও complex WebSocket application তৈরি করুন।
+Real-time notifications, live chats, বা multiplayer features Django তে WebSockets দিয়ে বাস্তবায়ন করুন।
+দিন ৭৬: Django Security Best Practices
+Django অ্যাপের জন্য security best practices শিখুন।
+CSRF, XSS, SQL Injection, ও other vulnerabilities রোধ করতে Django এর সিকিউরিটি ফিচার ব্যবহার করুন।
+দিন ৭৭: Django Signals
+Django Signals এর সাহায্যে ডেটা changes বা অন্যান্য actions এর জন্য event-driven programming শিখুন।
+Model, pre-save, post-save, and other signals ব্যবহার করে কার্যকর অ্যাপ্লিকেশন তৈরি করুন।
+দিন ৭৮: Django with Celery - Advanced Task Management
+Celery তে complex tasks এবং periodic tasks পরিচালনা শিখুন।
+Django তে background jobs এবং asynchronous task scheduling আরও উন্নতভাবে manage করুন।
+দিন ৭৯: Django with Full-Text Search
+Django তে Full-text search functionality ইন্টিগ্রেট করা শিখুন।
+Django ORM এর মাধ্যমে full-text search setup করুন এবং performance tuning শিখুন।
+দিন ৮০: Final Project - Advanced Real-World Application
+Django তে একটি real-world প্রজেক্ট তৈরি করুন যেখানে বিভিন্ন advanced topics (API, WebSockets, Payments, Security) অন্তর্ভুক্ত থাকবে।
+Full-stack Django অ্যাপ তৈরি করুন এবং production-ready architecture design করুন।
+এই ১০ দিন আপনাকে Django এর advanced topics যেমন API security, Elasticsearch, payment integration, web scraping, এবং real-time features নিয়ে আরও গভীর ধারণা দেবে। শেষের দিকে, আপনি একটি পূর্ণাঙ্গ, production-ready Django অ্যাপ তৈরি করতে সক্ষম হবেন যা উন্নত ফিচার এবং স্কেলেবিলিটির সাথে আসবে।
+
+
+/********************** 81 to 90 ********************
+
+দিন ৮১-৯০: Mastering Advanced Django and Problem Solving
+দিন ৮১: Django with Microservices
+Django অ্যাপকে microservices আর্কিটেকচারে ডেভেলপ করার পদ্ধতি শিখুন।
+Django কে একাধিক independent microservices তে বিভক্ত করুন এবং API Gateway এর মাধ্যমে intercommunication তৈরি করুন।
+দিন ৮২: GraphQL with Django
+Django তে GraphQL ইন্টিগ্রেশন শিখুন।
+Django REST framework এর সাথে GraphQL ব্যবহার করে complex queries এবং mutations পরিচালনা করুন।
+Graphene-Django ব্যবহার করে Django মডেলগুলির জন্য schema তৈরি করুন।
+দিন ৮৩: Django Admin Customization (Advanced)
+Django Admin প্যানেল কাস্টমাইজ করার advanced techniques শিখুন।
+নিজস্ব মডেল এবং ফিচারের জন্য Django Admin-এর ইন্টারফেস এবং UI কাস্টমাইজ করুন।
+দিন ৮৪: Django Caching (Advanced)
+Django তে Redis এবং Memcached ব্যবহার করে caching এর advanced ব্যবহার শিখুন।
+Performance optimization এর জন্য views, templates এবং queryset caching implement করুন।
+দিন ৮৫: Full-Text Search with Elasticsearch in Django
+Django এবং Elasticsearch এর মধ্যে সম্পূর্ণ text search functionality ইন্টিগ্রেট করা শিখুন।
+Elasticsearch ব্যবহার করে large scale dataset-এ high performance search system তৈরি করুন।
+দিন ৮৬: Django with Kubernetes (Advanced Deployment)
+Django অ্যাপ Kubernetes ক্লাস্টারে deploy করার পদ্ধতি শিখুন।
+Container orchestration ব্যবহার করে scalable এবং resilient Django অ্যাপ তৈরি করুন।
+দিন ৮৭: Asynchronous Views in Django
+Django তে asynchronous views এবং tasks ব্যবহার করার পদ্ধতি শিখুন।
+async/await syntax ব্যবহার করে Django অ্যাপকে non-blocking architecture তে রূপান্তরিত করুন।
+দিন ৮৮: Advanced Problem Solving with Python
+Python তে algorithmic problem solving শিখুন, যেমন sorting, searching, dynamic programming।
+LeetCode বা Codeforces এর problem solving অনুশীলন করুন।
+Python এর মাধ্যমে complex data structures এবং algorithms বাস্তবায়ন শিখুন।
+দিন ৮৯: Django Best Practices
+Django অ্যাপের জন্য best practices শিখুন।
+Code structure, code quality, naming conventions, design patterns ইত্যাদি নিয়ে আলোচনা করুন।
+দিন ৯০: Final Full-Stack Django Project and Review
+Django অ্যাপের মাধ্যমে একটি পূর্ণাঙ্গ full-stack project তৈরি করুন, যেখানে frontend এবং backend সব কিছু একত্রে থাকবে।
+সকল শিখা বিষয় নিয়ে comprehensive project তৈরি করুন এবং code review করে final polish দিন।
+এই ১০ দিন আপনাকে advanced Django concepts, microservices, GraphQL, Kubernetes, async programming, এবং problem solving নিয়ে ব্যাপক অভিজ্ঞতা দেবে। এর মাধ্যমে আপনি Django অ্যাপের সর্বোচ্চ স্তরে পৌঁছাতে পারবেন এবং real-world challenges সমাধান করার সক্ষমতা অর্জন করবেন।
