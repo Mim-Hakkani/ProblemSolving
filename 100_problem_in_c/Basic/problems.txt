@@ -1,0 +1,75 @@
+Day 1 Homework: 10 Basic Problems
+Here are 10 problems based on the topics: Introduction, "Hello, World!" program, and data types/variables.
+
+1. Print "Hello, World!"
+Write a program to print "Hello, World!" on the screen.
+
+2. Display Personal Information
+Write a program to display your name, age, and country.
+
+3. Add Two Numbers
+Write a program to take two integers as input and print their sum.
+
+4. Circle Area Calculation
+Write a program to calculate the area of a circle. Take the radius as input and use the formula:
+
+Area
+=
+𝜋
+×
+radius
+2
+Area=π×radius 
+2
+ 
+Assume 
+𝜋
+=
+3.1416
+π=3.1416.
+
+5. Celsius to Fahrenheit
+Write a program to convert temperature from Celsius to Fahrenheit using the formula:
+
+𝐹
+=
+𝐶
+×
+9
+5
++
+32
+F=C× 
+5
+9
+​
+ +32
+6. Print ASCII Value
+Write a program to take a character as input and print its ASCII value.
+
+7. Swap Two Variables
+Write a program to swap the values of two variables using a third variable.
+
+8. Simple Interest Calculator
+Write a program to calculate simple interest using the formula:
+
+Interest
+=
+Principal
+×
+Rate
+×
+Time
+100
+Interest= 
+100
+Principal×Rate×Time
+​
+ 
+Take principal, rate, and time as input.
+
+9. Data Type Size
+Write a program to display the sizes of basic data types (int, float, char, double) using sizeof.
+
+10. Check Even or Odd
+Write a program to check whether a given integer is even or odd.
