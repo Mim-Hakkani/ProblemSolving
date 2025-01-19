@@ -1,0 +1,78 @@
+Easy Problems:
+1.Even or Odd Number
+
+2.Write a program to check if a number entered by the user is even or odd using an if-else condition.
+Positive or Negative Number
+
+3.Write a program to check if a number is positive, negative, or zero using if-else.
+Grade Evaluation
+
+4.Write a program to evaluate the grade of a student based on marks (using if-else if):
+If marks are between 90-100, print "A".
+If marks are between 80-89, print "B".
+If marks are between 70-79, print "C".
+Else print "Fail".
+Largest of Two Numbers
+
+5.Write a program to find the larger of two numbers using if-else.
+Character Case Check
+
+6.Write a program that checks if a character is a lowercase or uppercase letter using if-else.
+Medium Problems:
+Leap Year Check
+
+7.Write a program to check whether a given year is a leap year or not using if-else if:
+A year is a leap year if it is divisible by 4, but not divisible by 100, unless it's divisible by 400.
+Divisibility Check
+
+8.Write a program to check if a number is divisible by 3, 5, or both using if-else.
+Switch Case for Days of the Week
+
+9.Write a program to print the day of the week based on a number entered by the user (1 for Monday, 2 for Tuesday, etc.) using the switch statement.
+Quadrant of a Point
+
+10.Write a program to determine the quadrant of a point (x, y) in a coordinate system:
+First quadrant: x > 0, y > 0
+Second quadrant: x < 0, y > 0
+Third quadrant: x < 0, y < 0
+Fourth quadrant: x > 0, y < 0
+Vowel or Consonant
+
+11.Write a program that checks if a given character is a vowel or consonant using switch.
+Hard Problems:
+Find the Largest of Three Numbers
+
+12.Write a program to find the largest number among three numbers using if-else if conditions.
+Menu-Based Calculator
+
+13.Write a program that presents the user with a menu of choices:
+Add
+Subtract
+Multiply
+Divide
+The program should take input based on the user’s choice and perform the corresponding operation using the switch statement.
+
+14. Quadrant of a Point (Using if-else if)
+Problem: Write a program to determine the quadrant of a point (x, y) in a coordinate system.
+
+Conditions:
+
+First quadrant: x > 0, y > 0
+Second quadrant: x < 0, y > 0
+Third quadrant: x < 0, y < 0
+Fourth quadrant: x > 0, y < 0
+
+15.
+
+ Menu-Based Calculator (Using switch)
+Problem: Write a program that presents the user with a menu of choices:
+
+Add
+Subtract
+Multiply
+Divide
+
+16. 
+ 1. factial
+ 2. finonacci 
+ 3. prime 
