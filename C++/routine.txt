@@ -1,0 +1,79 @@
+🔹 ১ম মাস: Basic to Intermediate Concepts
+📅 সপ্তাহ ১: C++ বেসিক (দিনে ১ ঘণ্টা)
+✅ দিন ১: C++ Setup, Hello World, cin, cout, Comments
+✅ দিন ২: Variables, Data Types (int, float, char, string, bool)
+✅ দিন ৩: Operators (Arithmetic, Relational, Logical, Bitwise)
+✅ দিন ৪: If-Else, Switch Case
+✅ দিন ৫: Loops (for, while, do-while)
+✅ দিন ৬: Arrays & Strings (Basic Operations)
+✅ দিন ৭: ১০টি Basic Problem Solve (Prime, Factorial, Reverse String)
+
+🎯 প্র্যাকটিস: Codeforces 800 রেটিংয়ের প্রবলেম
+
+📅 সপ্তাহ ২: Functions, Pointers & Memory
+✅ দিন ৮: Functions (Parameter Pass by Value & Reference)
+✅ দিন ৯: Recursion Basics (Factorial, Fibonacci, GCD)
+✅ দিন ১০: Pointers (*, &, new, delete)
+✅ দিন ১১: Arrays with Pointers, Dynamic Memory Allocation
+✅ দিন ১২: String Functions (strlen, strcpy, strcmp)
+✅ দিন ১৩: ২D Arrays & Matrix Operations
+✅ দিন ১৪: Problem Solving (Codeforces 900-1000 Rating)
+
+📅 সপ্তাহ ৩: Object-Oriented Programming (OOP)
+✅ দিন ১৫: OOP Introduction, Classes & Objects
+✅ দিন ১৬: Constructor, Destructor
+✅ দিন ১৭: Inheritance (Single, Multiple, Multilevel)
+✅ দিন ১৮: Polymorphism (Function Overloading, Overriding)
+✅ দিন ১৯: Encapsulation & Abstraction
+✅ দিন ২০: File Handling (Read & Write to File)
+✅ দিন ২১: Mini Project: Student Management System
+
+🎯 প্র্যাকটিস: Codeforces 1000-1100 রেটিংয়ের প্রবলেম
+
+📅 সপ্তাহ ৪: STL (Standard Template Library) & Sorting
+✅ দিন ২২: vector, pair, set, map
+✅ দিন ২৩: stack, queue, priority_queue
+✅ দিন ২৪: Sorting (sort(), binary_search(), lower_bound())
+✅ দিন ২৫: Custom Comparator in Sorting
+✅ দিন ২৬: Problem Solving with STL
+✅ দিন ২৭: Practice Session (Solve 5-10 Problems)
+✅ দিন ২৮: Mock Contest (Codeforces Div-4 বা AtCoder Beginner)
+
+🔹 ২য় মাস: Competitive Programming & Advanced Topics
+📅 সপ্তাহ ৫: Recursion & Dynamic Programming (DP)
+✅ দিন ২৯: Recursion Advanced (Backtracking, Subset Sum)
+✅ দিন ৩০: Dynamic Programming (DP Introduction)
+✅ দিন ৩১: DP on Arrays (Fibonacci, Coin Change)
+✅ দিন ৩২: DP on Strings (LCS, Edit Distance)
+✅ দিন ৩৩: Problem Solving (Codeforces 1200-1300)
+✅ দিন ৩৪: Advanced DP (Knapsack, LIS)
+✅ দিন ৩৫: DP Practice Session
+
+📅 সপ্তাহ ৬: Graph Theory Basics
+✅ দিন ৩৬: Graph Representation (Adjacency Matrix & List)
+✅ দিন ৩৭: BFS (Breadth-First Search)
+✅ দিন ৩৮: DFS (Depth-First Search)
+✅ দিন ৩৯: Dijkstra Algorithm (Shortest Path)
+✅ দিন ৪০: Floyd-Warshall, Bellman-Ford Algorithm
+✅ দিন ৪১: Problem Solving (Graph Traversal)
+✅ দিন ৪২: Mock Contest (Graph Focused Problems)
+
+🎯 প্র্যাকটিস: Codeforces 1300-1400 রেটিংয়ের প্রবলেম
+
+📅 সপ্তাহ ৭: Advanced Concepts & Bit Manipulation
+✅ দিন ৪৩: Bit Manipulation Basics
+✅ দিন ৪৪: Binary Search on Answer
+✅ দিন ৪৫: Segment Tree Basics
+✅ দিন ৪৬: Fenwick Tree (Binary Indexed Tree)
+✅ দিন ৪৭: String Matching Algorithms (KMP, Rabin-Karp)
+✅ দিন ৪৮: Game Theory Basics
+✅ দিন ৪৯: Practice Session (Solve 5-10 Advanced Problems)
+
+📅 সপ্তাহ ৮: Final Revision & Competitive Practice
+✅ দিন ৫০: Codeforces 1500+ রেটিং প্রবলেম সলভ
+✅ দিন ৫১: Advanced Sorting (Quick Sort, Merge Sort)
+✅ দিন ৫২: Full Mock Contest (Codeforces/AtCoder)
+✅ দিন ৫৩: কোন টপিক দুর্বল? সেটার রিভিশন করো
+✅ দিন ৫৪: Graph + DP একসাথে কিভাবে ব্যবহার করা যায়?
+✅ দিন ৫৫: Hard Level Problem Solving
+✅ দিন ৫৬: Final Contest & Performance Analysis

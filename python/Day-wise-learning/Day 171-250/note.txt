@@ -1,0 +1,41 @@
+অতিরিক্ত শেখার বিষয়সমূহ:
+১. System Design & Architecture
+Scalable architecture design
+
+Microservices architecture
+
+Load balancing ও caching strategies
+
+Database sharding & replication
+
+CAP theorem, Consistency, Availability, Partition tolerance
+
+২. Message Brokers & Event-Driven Architecture
+RabbitMQ, Apache Kafka
+
+Event sourcing & CQRS patterns
+
+Asynchronous processing ও Background Jobs
+
+৩. Performance Optimization & Profiling
+Code profiling ও bottleneck analysis
+
+Query optimization
+
+Memory management ও CPU profiling
+
+৪. Cloud Services & DevOps Basics
+AWS/GCP/Azure core services
+
+Infrastructure as Code (Terraform, Ansible)
+
+Monitoring tools (Prometheus, Grafana)
+
+৫. Soft Skills
+Effective communication
+
+Problem-solving mindset
+
+Team collaboration ও time management
+
+Agile/Scrum process দক্ষতা
